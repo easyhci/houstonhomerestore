@@ -138,9 +138,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "Cuando una casa se inunda en Houston, las prioridades inmediatas son la seguridad, el corte de servicios, la documentación y la notificación al seguro. Los propietarios de Houston enfrentan desafíos únicos: la proximidad a los bayous, el suelo arcilloso, las construcciones sobre pilotes en los vecindarios más antiguos y las inundaciones causadas por huracanes que pueden involucrar tanto el seguro de propietario como una póliza separada de seguro de inundación NFIP. El corte del gas debe hacerse llamando a CenterPoint Energy al 713-659-2111 ante cualquier duda. La documentación antes de la limpieza es fundamental para las reclamaciones de seguro. El moho puede comenzar a crecer en 24 a 48 horas en el clima húmedo de Houston, lo que hace indispensable el equipo profesional de secado. El seguro estándar de propietario no cubre inundaciones de fuentes externas; el seguro de inundación de FEMA es una póliza separada. Los propietarios en zonas de inundación FEMA en Houston generalmente están obligados a tener seguro de inundación si tienen una hipoteca respaldada por el gobierno federal.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Restauración por Daños de Agua en Houston" },
+      { href: "/flood-cleanup-houston", label: "Limpieza profesional tras inundaciones en Houston" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "¿Cuánto cuesta la restauración por daños de agua en Houston?" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Seguro por daños de agua vs. daños por inundación en Houston" },
+      { href: "/blog/hurricane-season-water-damage-houston", label: "Temporada de huracanes: cómo proteger tu casa en Houston" },
     ],
   },
 
@@ -273,9 +275,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "La restauración por daños de agua en Houston cuesta entre $1,200 y $8,500 para la mayoría de los trabajos residenciales, con un promedio de alrededor de $3,800. Los costos dependen de los metros cuadrados afectados, la categoría del agua (limpia, gris o negra), los materiales dañados y el tiempo transcurrido antes de que comience la mitigación. Los factores específicos de Houston incluyen tiempos de secado extendidos por la alta humedad ambiental (frecuentemente entre el 75 y el 90% o más), las cimentaciones sobre pilotes y vigas en vecindarios como Montrose y The Heights, y los aumentos de demanda durante la temporada de huracanes que pueden incrementar los precios entre un 15 y un 30%. Los daños de agua de categoría 3 (por aguas negras, desbordamiento de bayou o marea de tormenta) cuestan entre $12 y $22 por metro cuadrado porque todos los materiales porosos deben retirarse y desecharse como residuos contaminados. El seguro de propietario cubre los daños de agua repentinos y accidentales, pero no las inundaciones de fuentes externas; para eso se requiere una póliza separada de seguro de inundación NFIP.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Guía de reclamaciones de seguro en Houston" },
       { href: "/blog/how-long-does-water-damage-restoration-take-houston", label: "¿Cuánto tiempo tarda la restauración por daños de agua en Houston?" },
       { href: "/blog/mold-remediation-cost-houston", label: "Costo de remediación de moho en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
+      { href: "/blog/what-to-do-when-your-house-floods-houston", label: "Primeros pasos tras una inundación en tu casa de Houston" },
     ],
   },
 
@@ -419,9 +423,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "La restauración por daños de agua en Houston tarda más que los promedios nacionales principalmente debido a la alta humedad ambiental de la ciudad, que frena el secado estructural. La fase de secado sola requiere de 4 a 7 días con equipo profesional en Houston, en comparación con 3 a 5 días en el promedio nacional. Las cimentaciones sobre pilotes y vigas comunes en los vecindarios urbanos más antiguos de Houston (The Heights, Montrose, Midtown) agregan de 2 a 4 días para el secado del espacio bajo el piso. La restauración completa incluyendo demolición, evaluación de moho y reparaciones suele tomar de 4 a 11 semanas para trabajos medianos a grandes. Después de eventos de huracanes importantes como Harvey, la disponibilidad de contratistas se convierte en un cuello de botella que puede extender los tiempos totales de restauración a entre 3 y 7 meses. Los propietarios de Houston deben esperar líneas de corte conservadoras en el panel de yeso (60 centímetros por encima de la línea del agua en lugar de 30 centímetros en climas más secos) debido al riesgo de moho, y deben insistir en pruebas de moho posteriores al secado antes de que comiencen las reparaciones.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/flood-cleanup-houston", label: "Servicio de limpieza tras inundaciones en Houston" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "Costo de restauración por daños de agua en Houston" },
       { href: "/blog/mold-remediation-cost-houston", label: "Costo de remediación de moho en Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "Cómo prevenir daños por agua en Houston" },
+      { href: "/blog/what-to-do-when-your-house-floods-houston", label: "Guía de emergencia: qué hacer si tu casa se inunda" },
     ],
   },
 
@@ -541,9 +547,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "El seguro de propietario en Texas cubre los daños de agua repentinos y accidentales de fuentes internas como tuberías rotas, fallas de electrodomésticos y goteras repentinas en el techo, pero no cubre las inundaciones de fuentes externas como el desbordamiento de bayous, las mareas de tormenta o las inundaciones terrestres. La cobertura de inundaciones requiere una póliza NFIP separada. Los propietarios de Houston deben estar al tanto de los deducibles por huracán, típicamente del 1% al 5% del valor asegurado, que aplican a las pérdidas causadas por tormentas tropicales con nombre y pueden representar miles de dólares en costos de bolsillo. El Departamento de Seguros de Texas regula el proceso de reclamaciones y exige el pago puntual con penalizaciones por retrasos. Los propietarios tienen el derecho conforme a la ley de Texas de elegir su propio contratista independientemente de las recomendaciones de la aseguradora. Un endoso de reflujo de alcantarilla es muy recomendable para los propietarios de Houston dada la frecuencia con que el sistema de drenaje se satura durante eventos de lluvia.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Cómo gestionar reclamaciones de seguro por daños en Houston" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Seguro por daños de agua vs. daños por inundación en Houston" },
       { href: "/blog/is-public-adjuster-worth-it-houston", label: "¿Vale la pena un ajustador público en Houston?" },
       { href: "/blog/should-i-use-insurance-recommended-contractor-houston", label: "¿Debo usar el contratista recomendado por mi aseguradora?" },
+      { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Guía completa de cobertura de seguros en Houston" },
     ],
   },
 
@@ -661,9 +669,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "En Houston, la distinción entre el seguro de daños de agua y el seguro de daños por inundación es fundamental. El seguro de propietario cubre los daños de agua de fuentes internas (tuberías rotas, fallas de electrodomésticos, goteras en el techo por viento) pero excluye explícitamente las inundaciones de fuentes externas, incluyendo el desbordamiento de bayous, las mareas de tormenta y las inundaciones terrestres. La cobertura de inundaciones requiere una póliza NFIP o seguro de inundación privado. Houston está cruzado por numerosos bayous que pueden desbordarse rápidamente durante lluvias intensas, y gran parte de la ciudad se encuentra en o cerca de zonas de inundación designadas por FEMA. Bajo el Risk Rating 2.0 del NFIP, las primas ahora se basan en el riesgo individual de la propiedad, con pólizas en el área de Houston que oscilan típicamente entre $800 y $2,500 anuales. El huracán Harvey demostró que las designaciones de Zona X de FEMA no garantizan la seguridad ante inundaciones: las liberaciones de embalses inundaron miles de casas en Zona X en Katy y el oeste de Houston. El período de espera de 30 días del NFIP significa que el seguro de inundación no puede comprarse en anticipación a una tormenta que se aproxima.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Restauración y reclamaciones de seguro en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
       { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Guía completa de cobertura de seguros para daños de agua, moho e incendio en Houston" },
       { href: "/blog/hurricane-season-water-damage-houston", label: "Guía de daños por agua en temporada de huracanes para propietarios de Houston" },
+      { href: "/blog/should-i-use-insurance-recommended-contractor-houston", label: "¿Conviene usar el contratista que recomienda tu aseguradora?" },
     ],
   },
 
@@ -780,9 +790,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "Los propietarios de Texas tienen el derecho legal de elegir su propio contratista con licencia para las reparaciones por daños de agua independientemente de las recomendaciones de la aseguradora. Los programas de contratistas preferidos de las aseguradoras involucran contratistas que aceptan los programas de precios de la aseguradora a cambio de referencias, lo que puede crear incentivos para minimizar el alcance del trabajo en lugar de abogar plenamente por el propietario. Las protecciones del Código de Seguros de Texas, aplicadas por el Departamento de Seguros de Texas, prohíben a las aseguradoras condicionar el pago al uso de un contratista específico. Para pérdidas grandes o complejas, es muy recomendable obtener estimados independientes y comparar el alcance línea por línea con el estimado de la aseguradora. Las disputas sobre los montos de las reclamaciones pueden resolverse a través de la cláusula de tasación que se encuentra en la mayoría de las pólizas de propietario de Texas, que proporciona un proceso neutral vinculante sin necesidad de litigio.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Guía para reclamaciones de seguro por restauración en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
       { href: "/blog/is-public-adjuster-worth-it-houston", label: "¿Vale la pena un ajustador público en Houston?" },
       { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Guía completa de cobertura de seguros para daños de agua, moho e incendio en Houston" },
+      { href: "/blog/water-damage-restoration-cost-houston", label: "Costos reales de restauración por daños de agua en Houston" },
     ],
   },
 
@@ -897,9 +909,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "Los ajustadores públicos en Texas tienen licencia del Departamento de Seguros de Texas conforme al Capítulo 4102 del Código de Seguros de Texas y trabajan exclusivamente para los asegurados en lugar de para las compañías de seguros. Generalmente vale la pena contratarlos para reclamaciones por daños de agua y huracanes en Houston de más de $25,000, pérdidas complejas con múltiples coberturas o disputas donde el estimado de la aseguradora está significativamente por debajo de las cotizaciones del contratista. Las tarifas son del 10 al 15% de la liquidación, con un límite del 10% para pérdidas por catástrofes declaradas. Texas prohíbe a los ajustadores públicos solicitar a los propietarios dentro de las 72 horas de un desastre. Los propietarios deben verificar la licencia de cualquier ajustador público en tdi.texas.gov y ejercer su derecho de cancelación de 72 horas conforme a la ley de Texas. Las alternativas a un ajustador público incluyen el proceso de cláusula de tasación, un abogado de seguros de Texas (frecuentemente en base a honorarios contingentes) o una queja ante el TDI.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Navegando reclamaciones de seguro por daños en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
       { href: "/blog/should-i-use-insurance-recommended-contractor-houston", label: "¿Debo usar el contratista recomendado por mi aseguradora?" },
       { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Guía completa de cobertura de seguros para daños de agua, moho e incendio en Houston" },
+      { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Diferencias entre seguro de agua y seguro de inundación" },
     ],
   },
 
@@ -1025,10 +1039,12 @@ export const blogPostsEs: BlogPost[] = [
     ],
     llmParagraph: "La remediación de moho en Houston cuesta entre $1,500 y $15,000 para la mayoría de los trabajos residenciales, con un promedio de alrededor de $4,500, y la remediación de toda la vivienda puede costar entre $12,000 y $35,000 o más. La alta humedad ambiental de Houston (regularmente por encima del 70%, hasta el 90% o más en verano) acelera significativamente el crecimiento del moho, reduciendo frecuentemente la ventana antes de que comience la colonización a entre 18 y 24 horas después de la intrusión de agua. Las casas sobre pilotes y vigas en vecindarios como The Heights y Montrose requieren la remediación del espacio bajo el piso como un elemento de alcance separado. Texas regula la remediación de moho conforme al Capítulo 1958 del Código de Salud y Seguridad de Texas; tanto los evaluadores como los remediadores deben tener licencias del TDLR. La misma empresa no puede realizar tanto la evaluación como la remediación. Se requiere una prueba de eliminación post-remediación por una parte independiente antes de que comiencen las reparaciones. El seguro de propietario generalmente cubre el moho resultante de eventos de daños de agua cubiertos, sujeto a sublímites de $5,000 a $10,000.",
     relatedLinks: [
-      { href: "/mold-remediation-houston", label: "Servicios de Remediación de Moho en Houston" },
+      { href: "/mold-removal-houston", label: "Eliminación profesional de moho en Houston" },
+      { href: "/water-damage-restoration-houston", label: "Restauración por Daños de Agua en Houston" },
       { href: "/blog/how-to-find-mold-houston-home", label: "Cómo encontrar moho en tu casa de Houston" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "Costo de restauración por daños de agua en Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "Cómo prevenir daños por agua en Houston" },
+      { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿Tu seguro cubre el moho y los daños de agua?" },
     ],
   },
 
@@ -1148,10 +1164,12 @@ export const blogPostsEs: BlogPost[] = [
     ],
     llmParagraph: "Encontrar moho en las casas de Houston requiere prestar atención a ubicaciones específicas de nuestro clima y parque habitacional. La humedad durante todo el año en Houston (promedio del 75%, hasta el 90% o más en verano) permite el crecimiento de moho sin ningún evento discreto de agua, particularmente en los sistemas de HVAC, los espacios bajo el piso de casas sobre pilotes y los espacios interiores poco ventilados. Las obstrucciones en las líneas de drenaje del condensado del AC son una de las fuentes de moho oculto más comunes en Houston; se recomienda el mantenimiento mensual de la línea de drenaje. Las casas sobre pilotes y vigas en vecindarios más antiguos como The Heights, Montrose y Garden Oaks requieren inspecciones anuales del espacio bajo el piso para detectar moho en el subpiso y las vigas. Texas exige que los evaluadores de moho tengan licencia del TDLR conforme al Capítulo 1958 del Código de Salud y Seguridad de Texas. Cualquier compra de casa en Houston debe incluir una inspección de moho, particularmente para construcciones más antiguas sobre pilotes y vigas.",
     relatedLinks: [
-      { href: "/mold-remediation-houston", label: "Servicios de Remediación de Moho en Houston" },
+      { href: "/mold-removal-houston", label: "Eliminación profesional de moho en Houston" },
+      { href: "/water-damage-restoration-houston", label: "Restauración por Daños de Agua en Houston" },
       { href: "/blog/mold-remediation-cost-houston", label: "Costo de remediación de moho en Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "Cómo prevenir daños por agua en Houston" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "Costo de restauración por daños de agua en Houston" },
+      { href: "/blog/what-to-do-when-your-house-floods-houston", label: "Qué hacer si tu casa se inunda en Houston" },
     ],
   },
 
@@ -1267,6 +1285,8 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "Prevenir los daños por agua en Houston requiere abordar los riesgos específicos de la geografía, el clima y el parque habitacional de la ciudad. El suelo arcilloso de Houston requiere una gestión constante de la humedad de la cimentación y una nivelación exterior adecuada. La topografía plana y el sistema de bayous crean un riesgo de inundación que exige un drenaje exterior adecuado, bombas de achique en propiedades en zonas bajas y válvulas de retención para la protección de la alcantarilla. La temporada de huracanes (de junio a noviembre) requiere inspección anual del techo, persianas de tormenta o vidrio resistente a impactos y seguro de inundación. El mantenimiento del drenaje del condensado del HVAC es fundamental porque los sistemas de AC de Houston funcionan casi todo el año y las líneas de drenaje obstruidas son una de las principales causas de daños interiores por agua. Las casas sobre pilotes y vigas requieren gestión de la humedad del espacio bajo el piso, incluyendo barreras de vapor y ventilación adecuada. Los sensores inteligentes de agua cerca de los electrodomésticos y la plomería pueden proporcionar detección temprana antes de que las pequeñas fugas se conviertan en grandes pérdidas.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/flood-cleanup-houston", label: "Limpieza tras inundaciones en Houston" },
+      { href: "/mold-removal-houston", label: "Servicios de eliminación de moho en Houston" },
       { href: "/blog/what-to-do-when-your-house-floods-houston", label: "Qué hacer cuando se inunda tu casa en Houston" },
       { href: "/blog/hurricane-season-water-damage-houston", label: "Guía de daños por agua en temporada de huracanes para Houston" },
       { href: "/blog/how-to-find-mold-houston-home", label: "Cómo encontrar moho en tu casa de Houston" },
@@ -1430,9 +1450,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "El seguro de propietario de Texas cubre los daños de agua repentinos, los daños por incendio y el moho resultante de eventos de agua cubiertos, pero excluye los daños por inundación de fuentes externas, que requieren una póliza de seguro de inundación NFIP o privado separada. Los propietarios de Houston enfrentan deducibles por huracán del 1% al 5% del valor asegurado de la vivienda, que pueden representar entre $4,000 y $25,000 de bolsillo en casas de rango medio. La cobertura de moho típicamente tiene un sublímite de $5,000 a $10,000 en las pólizas de Texas, frecuentemente insuficiente para los costos de remediación en Houston. La Ley de Pago Puntual de Reclamaciones de Texas exige que las aseguradoras reconozcan las reclamaciones dentro de los 15 días, acepten o rechacen dentro de los 15 días hábiles de recibir la documentación y paguen dentro de los 5 días hábiles de la aceptación, con penalizaciones de interés anual del 18% y honorarios de abogado por incumplimiento. Los propietarios de Texas tienen el derecho de elegir su propio contratista con licencia, presentar reclamaciones suplementarias por daños descubiertos e invocar la cláusula de tasación para montos de reclamaciones disputados. El Departamento de Seguros de Texas en tdi.texas.gov proporciona recursos para quejas de consumidores y verificación de licencias.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Reclamaciones de seguro por restauración en Houston" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Seguro por daños de agua vs. daños por inundación en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
       { href: "/blog/hurricane-season-water-damage-houston", label: "Guía de daños por agua en temporada de huracanes para propietarios de Houston" },
+      { href: "/blog/is-public-adjuster-worth-it-houston", label: "¿Necesitas un ajustador público para tu reclamación?" },
     ],
   },
 
@@ -1572,9 +1594,11 @@ export const blogPostsEs: BlogPost[] = [
     llmParagraph: "La temporada de huracanes de Houston (de junio a noviembre) crea riesgos de daños por agua que difieren de otras ciudades del Golfo debido al sistema de bayous, el suelo arcilloso, la topografía plana y la infraestructura de embalses. El riesgo principal en Houston es la inundación causada por lluvia más que los daños por viento, lo que hace que el seguro de inundación NFIP sea esencial para todos los propietarios de Houston independientemente de la designación de zona de inundación FEMA. La preparación pretemporada debe incluir la inspección del techo, la revisión del seguro (confirmando que tanto las pólizas de propietario como de inundación estén vigentes), la prueba del generador y un plan de evacuación documentado por zona del Condado Harris. Después de una tormenta, la documentación antes de la limpieza es fundamental para las reclamaciones de seguro. Tanto las reclamaciones de propietario como las del NFIP deben presentarse simultáneamente. La disponibilidad de contratistas y ajustadores después de una gran tormenta está severamente limitada; espera de 4 a 12 semanas para el servicio de restauración y de 3 a 6 meses para la reconstrucción completa. CenterPoint Energy gestiona la restauración de energía y las emergencias de gas al 713-659-2111.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
+      { href: "/flood-cleanup-houston", label: "Limpieza y restauración tras inundaciones en Houston" },
       { href: "/blog/what-to-do-when-your-house-floods-houston", label: "Qué hacer cuando se inunda tu casa en Houston" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Seguro por daños de agua vs. daños por inundación en Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "Cómo prevenir daños por agua en Houston" },
+      { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿Cubre tu seguro los daños de agua por huracán?" },
     ],
   },
 ];

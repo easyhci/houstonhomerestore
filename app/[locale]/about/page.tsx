@@ -162,16 +162,25 @@ export default async function AboutPage({ params }: Props) {
                 In 2015, I bought a 1960s bungalow in The Heights, one of Houston&apos;s most beloved historic neighborhoods. It was a house with character: original hardwood floors, high ceilings, a front porch that actually got used. I was a software engineer who had worked for years and wanted to put down roots in Houston.
               </p>
               <p>
-                I had no experience with home maintenance. I had never dealt with serious water damage. I didn&apos;t understand FEMA flood zones or flood insurance. I simply assumed my homeowner&apos;s policy would cover anything that happened.
+                I had no experience with home maintenance. I had never dealt with serious{" "}
+                <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 font-medium hover:underline">water damage</Link>.
+                I didn&apos;t understand FEMA flood zones or{" "}
+                <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 font-medium hover:underline">flood insurance</Link>.
+                I simply assumed my homeowner&apos;s policy would cover anything that happened.
               </p>
               <p>
-                Hurricane Harvey arrived in August 2017. In the first 36 hours, nearly three feet of rain fell on Houston. Buffalo Bayou overflowed. Water came in through the doors. By the time I could return to my house, there had been nearly a foot of standing water inside for hours.
+                <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 font-medium hover:underline">Hurricane Harvey</Link>{" "}
+                arrived in August 2017. In the first 36 hours, nearly three feet of rain fell on Houston. Buffalo Bayou overflowed. Water came in through the doors. By the time I could return to my house, there had been nearly a foot of standing water inside for hours.
               </p>
               <p>
-                The damage was devastating. Drywall to 4 feet in every room. Hardwood floors destroyed. HVAC system ruined. Entire kitchen gutted. Mold begins growing within 48 hours in Houston&apos;s climate. The total damage came to $47,000.
+                The damage was devastating. Drywall to 4 feet in every room. Hardwood floors destroyed. HVAC system ruined. Entire kitchen gutted.{" "}
+                <Link href={localePath("/mold-removal-houston", locale)} className="text-amber-700 font-medium hover:underline">Mold</Link>{" "}
+                begins growing within 48 hours in Houston&apos;s climate. The total damage came to $47,000.
               </p>
               <p>
-                I called my insurance company. They sent an adjuster. The first offer was $9,200. Nine thousand two hundred dollars for $47,000 in damage. I started researching. I learned about the total loss process. I hired a public adjuster. I appealed. I disputed every line of the estimate. After 8 months, insurance paid $19,000. Still $28,000 out of my own pocket.
+                I called my{" "}
+                <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 font-medium hover:underline">insurance company</Link>.
+                They sent an adjuster. The first offer was $9,200. Nine thousand two hundred dollars for $47,000 in damage. I started researching. I learned about the total loss process. I hired a public adjuster. I appealed. I disputed every line of the estimate. After 8 months, insurance paid $19,000. Still $28,000 out of my own pocket.
               </p>
               <p>
                 I also hired the wrong contractor for the initial restoration. He promised fast timelines, charged upfront, and disappeared with the work half done. I had to find a second contractor. I learned what to ask, what contracts to sign, how to document everything.

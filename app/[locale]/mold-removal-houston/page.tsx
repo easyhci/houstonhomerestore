@@ -171,13 +171,13 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
       <section className="mt-8 mb-10">
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
-            ? "Después del huracán Harvey, encontré moho negro detrás del drywall en tres habitaciones de mi casa en The Heights. Lo que pensé que sería un problema de $2,000 se convirtió en una remediación de $18,000 porque esperé demasiado y porque el espacio de rastreo debajo de mi casa también estaba infestado. Esta guía le ofrece lo que me hubiera gustado saber en su momento."
-            : "After Hurricane Harvey, I found black mold behind drywall in three rooms of my Heights home. What I thought would be a $2,000 problem turned into an $18,000 remediation because I waited too long and because the crawlspace beneath my house was also infested. This guide gives you what I wish I'd known."}
+            ? <>Después del huracán Harvey, encontré moho negro detrás del drywall en tres habitaciones de mi casa en The Heights. Lo que pensé que sería un problema de $2,000 se convirtió en una remediación de $18,000 porque esperé demasiado y porque el espacio de rastreo debajo de mi casa también estaba infestado. El <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">daño de agua no tratado correctamente</Link> fue la causa directa. Esta guía le ofrece lo que me hubiera gustado saber en su momento.</>
+            : <>After Hurricane Harvey, I found black mold behind drywall in three rooms of my Heights home. What I thought would be a $2,000 problem turned into an $18,000 remediation because I waited too long and because the crawlspace beneath my house was also infested. <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">Improperly treated water damage</Link> was the direct cause. This guide gives you what I wish I had known.</>}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
-            ? "Houston es excepcionalmente propensa al moho. La combinación de calor extremo, humedad que supera el 90% en verano, temporada de huracanes activa y el parque de viviendas antiguas con espacios de rastreo crea condiciones de laboratorio para el crecimiento de moho. Lo que en otros lugares sería un problema menor aquí puede convertirse en una infestación de toda la casa en semanas."
-            : "Houston is exceptionally mold-prone. The combination of extreme heat, humidity exceeding 90% in summer, an active hurricane season, and an older housing stock with crawlspaces creates laboratory conditions for mold growth. What would be a minor problem elsewhere can become a whole-home infestation within weeks here."}
+            ? <>Houston es excepcionalmente propensa al moho. La combinación de calor extremo, humedad que supera el 90% en verano, <Link href={localePath("/blog/hurricane-season-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">temporada de huracanes activa</Link> y el parque de viviendas antiguas con espacios de rastreo crea condiciones de laboratorio para el crecimiento de moho. Lo que en otros lugares sería un problema menor aquí puede convertirse en una infestación de toda la casa en semanas.</>
+            : <>Houston is exceptionally mold-prone. The combination of extreme heat, humidity exceeding 90% in summer, an <Link href={localePath("/blog/hurricane-season-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">active hurricane season</Link>, and an older housing stock with crawlspaces creates laboratory conditions for mold growth. What would be a minor problem elsewhere can become a whole-home infestation within weeks here.</>}
         </p>
       </section>
 
@@ -206,8 +206,8 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
               step: "3",
               title: isEs ? "Documente y llame a su aseguradora" : "Document and Call Your Insurer",
               body: isEs
-                ? "Tome fotos de todo el moho visible. Si el moho resultó de un evento cubierto (tubería reventada, no inundación), llame a su aseguradora antes de hacer cualquier trabajo. La remoción prematura puede invalidar su reclamo."
-                : "Photograph all visible mold. If the mold resulted from a covered event (burst pipe, not flooding), call your insurer before doing any work. Premature removal can invalidate your claim.",
+                ? "Tome fotos de todo el moho visible. Si el moho resultó de un evento cubierto (tubería reventada, no inundación), llame a su aseguradora antes de hacer cualquier trabajo. La remoción prematura puede invalidar su reclamo. Consulte nuestra guía de reclamos de seguro por restauración en Houston para más detalles sobre el proceso."
+                : "Photograph all visible mold. If the mold resulted from a covered event (burst pipe, not flooding), call your insurer before doing any work. Premature removal can invalidate your claim. See our insurance claim restoration guide for Houston for more on the claims process.",
             },
           ].map((card) => (
             <div key={card.step} className="bg-amber-50 border border-amber-200 rounded-xl p-5">
@@ -263,8 +263,8 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
             </h3>
             <p className="text-gray-700 leading-relaxed">
               {isEs
-                ? "El huracán Harvey en 2017 inundó más de 200,000 estructuras en el área de Houston. Las casas que no fueron remediadas correctamente en las primeras 2 a 3 semanas post-inundación frecuentemente desarrollaron moho severo. Incluso casas que 'parecían bien' externamente tenían moho activo creciendo detrás del drywall que no se detectó hasta meses después cuando los residentes comenzaron a experimentar síntomas de salud. Cada vez que pasa una tormenta tropical significativa, revise el espacio de rastreo dentro de los 7 días."
-                : "Hurricane Harvey in 2017 flooded more than 200,000 structures in the Houston area. Homes not properly remediated within the first 2 to 3 weeks post-flooding frequently developed severe mold. Even homes that 'looked fine' externally had active mold growing behind drywall that wasn't detected until months later when residents began experiencing health symptoms. After any significant tropical storm, check the crawlspace within 7 days."}
+                ? <>El huracán Harvey en 2017 inundó más de 200,000 estructuras en el área de Houston. Las casas que no recibieron una <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 underline hover:text-amber-900">limpieza de inundación adecuada</Link> en las primeras 2 a 3 semanas frecuentemente desarrollaron moho severo. Incluso casas que &apos;parecían bien&apos; externamente tenían moho activo creciendo detrás del drywall que no se detectó hasta meses después cuando los residentes comenzaron a experimentar síntomas de salud. Cada vez que pasa una tormenta tropical significativa, revise el espacio de rastreo dentro de los 7 días.</>
+                : <>Hurricane Harvey in 2017 flooded more than 200,000 structures in the Houston area. Homes that did not receive <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 underline hover:text-amber-900">proper flood cleanup</Link> within the first 2 to 3 weeks frequently developed severe mold. Even homes that &apos;looked fine&apos; externally had active mold growing behind drywall that was not detected until months later when residents began experiencing health symptoms. After any significant tropical storm, check the crawlspace within 7 days.</>}
             </p>
           </div>
         </div>
@@ -275,6 +275,11 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           {isEs ? "Cómo Identificar el Moho en Su Casa de Houston" : "How to Identify Mold in Your Houston Home"}
         </h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          {isEs
+            ? <>Identificar el moho temprano es clave para reducir los costos de remediación. Para una guía paso a paso más detallada, lea nuestro artículo sobre <Link href={localePath("/blog/how-to-find-mold-houston-home", locale)} className="text-amber-700 underline hover:text-amber-900">cómo encontrar moho en su casa de Houston</Link>.</>
+            : <>Identifying mold early is key to reducing remediation costs. For a more detailed step-by-step guide, read our article on <Link href={localePath("/blog/how-to-find-mold-houston-home", locale)} className="text-amber-700 underline hover:text-amber-900">how to find mold in your Houston home</Link>.</>}
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {[
             {
@@ -413,6 +418,11 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           {isEs ? "Costos de Remediación de Moho en Houston" : "Mold Remediation Costs in Houston"}
         </h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          {isEs
+            ? <>Estos costos reflejan precios del mercado de Houston para 2025-2026. Para un desglose más detallado de factores que afectan el precio, consulte nuestro artículo sobre <Link href={localePath("/blog/mold-remediation-cost-houston", locale)} className="text-amber-700 underline hover:text-amber-900">costos de remediación de moho en Houston</Link>.</>
+            : <>These costs reflect Houston market pricing for 2025-2026. For a more detailed breakdown of factors that affect pricing, see our article on <Link href={localePath("/blog/mold-remediation-cost-houston", locale)} className="text-amber-700 underline hover:text-amber-900">mold remediation costs in Houston</Link>.</>}
+        </p>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse text-sm">
             <thead>
@@ -547,8 +557,8 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "Prevenir el moho al 100% en Houston no es posible, pero puede reducir significativamente el riesgo con el mantenimiento adecuado."
-            : "Preventing mold in Houston isn't 100% achievable, but you can significantly reduce risk with the right maintenance."}
+            ? <>Prevenir el moho al 100% en Houston no es posible, pero puede reducir significativamente el riesgo con el mantenimiento adecuado. Dado que el daño de agua es la causa principal del moho, consulte también nuestra guía sobre <Link href={localePath("/blog/how-to-prevent-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">cómo prevenir el daño por agua en Houston</Link>.</>
+            : <>Preventing mold in Houston is not 100% achievable, but you can significantly reduce risk with the right maintenance. Since water damage is the leading cause of mold, also see our guide on <Link href={localePath("/blog/how-to-prevent-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">how to prevent water damage in Houston</Link>.</>}
         </p>
         <div className="space-y-3">
           {(isEs

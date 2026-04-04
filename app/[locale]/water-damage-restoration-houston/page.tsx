@@ -171,13 +171,13 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
       <section className="mt-8 mb-10">
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
-            ? "Crecí en Houston y perdí $47,000 en daños después del huracán Harvey. La mayor parte no fue el agua en sí, sino los errores que cometí en las primeras 72 horas: no documentar correctamente, esperar demasiado para secar, y no entender qué cubría mi seguro. Esta guía existe para que usted no cometa los mismos errores."
-            : "I grew up in Houston and lost $47,000 in damages after Hurricane Harvey. Most of it wasn't the water itself. It was the mistakes I made in the first 72 hours: not documenting correctly, waiting too long to dry, and not understanding what my insurance actually covered. This guide exists so you don't make the same mistakes."}
+            ? <>Crecí en Houston y perdí $47,000 en daños después del huracán Harvey. La mayor parte no fue el agua en sí, sino los errores que cometí en las primeras 72 horas: no documentar correctamente, esperar demasiado para secar, y no entender qué cubría mi <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">seguro</Link>. Esta guía existe para que usted no cometa los mismos errores.</>
+            : <>I grew up in Houston and lost $47,000 in damages after Hurricane Harvey. Most of it was not the water itself. It was the mistakes I made in the first 72 hours: not documenting correctly, waiting too long to dry, and not understanding what my <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">insurance actually covered</Link>. This guide exists so you do not make the same mistakes.</>}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
-            ? "Houston no es Denver ni Phoenix. Nuestro clima húmedo subtropical, el suelo arcilloso, los bayous que se desbordan y la temporada de huracanes crean condiciones únicas que hacen que el daño de agua sea más severo y la restauración más complicada que en casi cualquier otro lugar de los EE. UU."
-            : "Houston is not Denver or Phoenix. Our humid subtropical climate, clay soil, overflowing bayous, and hurricane season create unique conditions that make water damage more severe and restoration more complicated than almost anywhere else in the US."}
+            ? <>Houston no es Denver ni Phoenix. Nuestro clima húmedo subtropical, el suelo arcilloso, los bayous que se desbordan y la temporada de huracanes crean condiciones únicas que hacen que el daño de agua sea más severo y la restauración más complicada que en casi cualquier otro lugar de los EE. UU. Si no se actúa rápidamente, el <Link href={localePath("/mold-removal-houston", locale)} className="text-amber-700 underline hover:text-amber-900">moho puede aparecer en tan solo 24 horas</Link>.</>
+            : <>Houston is not Denver or Phoenix. Our humid subtropical climate, clay soil, overflowing bayous, and hurricane season create unique conditions that make water damage more severe and restoration more complicated than almost anywhere else in the US. If not addressed quickly, <Link href={localePath("/mold-removal-houston", locale)} className="text-amber-700 underline hover:text-amber-900">mold can appear within 24 hours</Link>.</>}
         </p>
       </section>
 
@@ -231,8 +231,8 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "En Houston, la fase de secado es la más crítica y la más difícil. Con una humedad relativa exterior que frecuentemente supera el 80%, los equipos de secado tienen que trabajar contra el ambiente mismo. Un trabajo de secado que tomaría 3 días en Arizona puede tomar 5 a 7 días en Houston durante el verano."
-            : "In Houston, the drying phase is the most critical and the most difficult. With outdoor relative humidity frequently exceeding 80%, drying equipment is literally fighting the environment. A drying job that would take 3 days in Arizona can take 5 to 7 days in Houston during summer."}
+            ? <>En Houston, la fase de secado es la más crítica y la más difícil. Con una humedad relativa exterior que frecuentemente supera el 80%, los equipos de secado tienen que trabajar contra el ambiente mismo. Un trabajo de secado que tomaría 3 días en Arizona puede tomar 5 a 7 días en Houston durante el verano. Conozca más sobre los plazos realistas en nuestra guía sobre <Link href={localePath("/blog/how-long-does-water-damage-restoration-take-houston", locale)} className="text-amber-700 underline hover:text-amber-900">cuánto tarda la restauración por daño de agua</Link>.</>
+            : <>In Houston, the drying phase is the most critical and the most difficult. With outdoor relative humidity frequently exceeding 80%, drying equipment is literally fighting the environment. A drying job that would take 3 days in Arizona can take 5 to 7 days in Houston during summer. Learn more about realistic timelines in our guide on <Link href={localePath("/blog/how-long-does-water-damage-restoration-take-houston", locale)} className="text-amber-700 underline hover:text-amber-900">how long water damage restoration takes</Link>.</>}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
@@ -287,8 +287,8 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
             </h3>
             <p className="text-gray-700 leading-relaxed">
               {isEs
-                ? "Houston tiene más de 2,500 millas de bayous y canales. El Bayou Brays, el Bayou Buffalo, el Bayou White Oak y el Bayou Greens se desbordan durante lluvias intensas. El agua de bayou es Categoría 3: agua negra que contiene bacteria E. coli, contaminantes industriales y desechos. Cualquier material poroso que entre en contacto con agua de bayou, incluyendo drywall, aislamiento, madera y alfombras, debe ser removido, no simplemente secado."
-                : "Houston has more than 2,500 miles of bayous and channels. Brays Bayou, Buffalo Bayou, White Oak Bayou, and Greens Bayou overflow during heavy rainfall. Bayou water is Category 3: black water containing E. coli bacteria, industrial contaminants, and sewage. Any porous material that contacts bayou water, including drywall, insulation, wood framing, and carpet, must be removed, not just dried."}
+                ? <>Houston tiene más de 2,500 millas de bayous y canales. El Bayou Brays, el Bayou Buffalo, el Bayou White Oak y el Bayou Greens se desbordan durante lluvias intensas. El agua de bayou es Categoría 3: agua negra que contiene bacteria E. coli, contaminantes industriales y desechos. Cualquier material poroso que entre en contacto con agua de bayou, incluyendo drywall, aislamiento, madera y alfombras, debe ser removido, no simplemente secado. Consulte nuestra <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 underline hover:text-amber-900">guía completa de limpieza de inundaciones en Houston</Link> para el protocolo detallado.</>
+                : <>Houston has more than 2,500 miles of bayous and channels. Brays Bayou, Buffalo Bayou, White Oak Bayou, and Greens Bayou overflow during heavy rainfall. Bayou water is Category 3: black water containing E. coli bacteria, industrial contaminants, and sewage. Any porous material that contacts bayou water, including drywall, insulation, wood framing, and carpet, must be removed, not just dried. See our <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 underline hover:text-amber-900">complete flood cleanup guide for Houston</Link> for the detailed protocol.</>}
             </p>
           </div>
         </div>
@@ -369,8 +369,8 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         </h2>
         <p className="text-gray-700 mb-4">
           {isEs
-            ? "Estos rangos reflejan precios reales de Xactimate en el área de Houston para 2025-2026. Los precios de Houston suelen ser 8 a 12% más altos que los promedios nacionales debido a la demanda después de tormentas y los costos laborales locales."
-            : "These ranges reflect real Xactimate pricing in the Houston area for 2025-2026. Houston prices tend to run 8 to 12% above national averages due to post-storm demand and local labor costs."}
+            ? <>Estos rangos reflejan precios reales de Xactimate en el área de Houston para 2025-2026. Los precios de Houston suelen ser 8 a 12% más altos que los promedios nacionales debido a la demanda después de tormentas y los costos laborales locales. Para un desglose más detallado, lea nuestra guía sobre <Link href={localePath("/blog/water-damage-restoration-cost-houston", locale)} className="text-amber-700 underline hover:text-amber-900">costos de restauración por daño de agua en Houston</Link>.</>
+            : <>These ranges reflect real Xactimate pricing in the Houston area for 2025-2026. Houston prices tend to run 8 to 12% above national averages due to post-storm demand and local labor costs. For a more detailed breakdown, read our guide on <Link href={localePath("/blog/water-damage-restoration-cost-houston", locale)} className="text-amber-700 underline hover:text-amber-900">water damage restoration costs in Houston</Link>.</>}
         </p>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse text-sm">
@@ -654,28 +654,36 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         </h2>
         <div className="space-y-2">
           <Link
-            href={localePath("/blog/what-to-do-when-your-house-floods-houston", locale)}
+            href={localePath("/blog/water-damage-restoration-cost-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Qué hacer cuando su casa se inunda en Houston (primeras 24 horas)"
-              : "What to Do When Your House Floods in Houston (First 24 Hours)"}
+              ? "¿Cuánto Cuesta la Restauración por Daño de Agua en Houston?"
+              : "How Much Does Water Damage Restoration Cost in Houston?"}
           </Link>
           <Link
-            href={localePath("/blog/burst-pipe-water-damage-houston", locale)}
+            href={localePath("/blog/how-long-does-water-damage-restoration-take-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Daño por Tubería Reventada en Houston: Guía de Emergencia"
-              : "Burst Pipe Water Damage Houston: Emergency Guide"}
+              ? "¿Cuánto Tiempo Tarda la Restauración por Daño de Agua en Houston?"
+              : "How Long Does Water Damage Restoration Take in Houston?"}
           </Link>
           <Link
-            href={localePath("/blog/houston-water-damage-insurance-claim-mistakes", locale)}
+            href={localePath("/blog/how-to-prevent-water-damage-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "7 Errores de Reclamo de Seguro por Daño de Agua que Cometen los Propietarios de Houston"
-              : "7 Water Damage Insurance Claim Mistakes Houston Homeowners Make"}
+              ? "Cómo Prevenir el Daño por Agua en Su Casa de Houston"
+              : "How to Prevent Water Damage in Your Houston Home"}
+          </Link>
+          <Link
+            href={localePath("/blog/does-homeowners-insurance-cover-water-damage-houston", locale)}
+            className="block text-amber-700 underline hover:text-amber-900 text-sm"
+          >
+            {isEs
+              ? "¿El Seguro de Propietario Cubre el Daño por Agua en Houston?"
+              : "Does Homeowners Insurance Cover Water Damage in Houston?"}
           </Link>
         </div>
       </section>

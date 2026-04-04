@@ -161,9 +161,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "When a house floods in Houston, the immediate priorities are safety, utility shutoff, documentation, and insurance notification. Houston homeowners face unique challenges: bayou proximity, clay soil, pier-and-beam construction in older neighborhoods, and hurricane-driven flooding that may involve both homeowners insurance and a separate NFIP flood insurance policy. Gas shutoff should be handled by calling CenterPoint Energy at 713-659-2111 if there is any uncertainty. Documentation before cleanup is critical for insurance claims. Mold can begin growing within 24 to 48 hours in Houston's humid climate, making professional drying equipment essential. Standard homeowners insurance does not cover flooding from external sources; FEMA flood insurance is a separate policy. Homeowners in FEMA flood zones in Houston are often required to carry flood insurance if they have a federally backed mortgage.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration in Houston" },
+      { href: "/flood-cleanup-houston", label: "Flood Cleanup Services in Houston" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "How Much Does Water Damage Restoration Cost in Houston?" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Homeowners Insurance Cover Water Damage in Houston?" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Water Damage vs. Flood Damage Insurance in Houston" },
+      { href: "/blog/hurricane-season-water-damage-houston", label: "Preparing for Hurricane Season Water Damage in Houston" },
     ],
   },
 
@@ -296,9 +298,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Water damage restoration in Houston costs between $1,200 and $8,500 for most residential jobs, averaging around $3,800. Costs are driven by affected square footage, water category (clean, gray, or black), materials affected, and the time elapsed before mitigation begins. Houston-specific factors include extended drying times due to high ambient humidity (often 75 to 90%+), pier-and-beam foundations in older neighborhoods like Montrose and The Heights, and hurricane season demand surges that can increase prices 15 to 30%. Category 3 water damage (from sewage, bayou overflow, or storm surge) costs $12 to $22 per square foot because all porous materials must be removed and disposed of as contaminated waste. Homeowners insurance covers sudden and accidental water damage but not flooding from external sources; that requires a separate NFIP flood insurance policy.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Insurance Claim Restoration Services in Houston" },
       { href: "/blog/how-long-does-water-damage-restoration-take-houston", label: "How Long Does Water Damage Restoration Take in Houston?" },
       { href: "/blog/mold-remediation-cost-houston", label: "Mold Remediation Cost in Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Homeowners Insurance Cover Water Damage in Houston?" },
+      { href: "/blog/what-to-do-when-your-house-floods-houston", label: "What to Do When Your House Floods in Houston" },
     ],
   },
 
@@ -442,9 +446,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Water damage restoration in Houston takes longer than national averages primarily because of the city's high ambient humidity, which slows structural drying. The drying phase alone requires 4 to 7 days with professional equipment in Houston, compared to 3 to 5 days nationally. Pier-and-beam foundations common in Houston's older urban neighborhoods (The Heights, Montrose, Midtown) add 2 to 4 days for crawlspace drying. Full restoration including demolition, mold assessment, and repairs typically takes 4 to 11 weeks for medium to large jobs. After major hurricane events like Harvey, contractor availability becomes a bottleneck that can extend total restoration timelines to 3 to 7 months. Houston homeowners should expect conservative drywall cut lines (24 inches above the waterline versus 12 inches in drier climates) due to mold risk, and should insist on post-drying mold testing before repairs begin.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/flood-cleanup-houston", label: "Flood Cleanup Services in Houston" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "Water Damage Restoration Cost in Houston" },
       { href: "/blog/mold-remediation-cost-houston", label: "Mold Remediation Cost in Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "How to Prevent Water Damage in Houston" },
+      { href: "/blog/what-to-do-when-your-house-floods-houston", label: "What to Do When Your House Floods in Houston" },
     ],
   },
 
@@ -564,9 +570,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Texas homeowners insurance covers sudden and accidental water damage from internal sources such as burst pipes, appliance failures, and sudden roof leaks, but does not cover flooding from external sources like bayou overflow, storm surge, or overland flooding. Flood coverage requires a separate NFIP policy. Houston homeowners should be aware of hurricane deductibles, typically 1% to 5% of insured value, which apply to losses from named tropical storms and can represent thousands of dollars in out-of-pocket costs. The Texas Department of Insurance regulates the claims process and requires prompt payment with penalties for delays. Homeowners have the right under Texas law to choose their own contractor regardless of insurer recommendations. A sewer backup endorsement is strongly recommended for Houston homeowners given the frequency of drainage system overwhelm during rain events.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Insurance Claim Restoration Services in Houston" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Water Damage vs. Flood Damage Insurance in Houston" },
       { href: "/blog/is-public-adjuster-worth-it-houston", label: "Is a Public Adjuster Worth It in Houston?" },
       { href: "/blog/should-i-use-insurance-recommended-contractor-houston", label: "Should I Use My Insurance Company's Recommended Contractor?" },
+      { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Complete Guide to Insurance Coverage for Water, Mold, and Fire Damage" },
     ],
   },
 
@@ -684,9 +692,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "In Houston, the distinction between water damage and flood damage insurance is critically important. Homeowners insurance covers water damage from internal sources (burst pipes, appliance failures, roof leaks from wind) but explicitly excludes flooding from external sources including bayou overflow, storm surge, and overland flooding. Flood coverage requires a separate NFIP policy or private flood insurance. Houston is crossed by numerous bayous that can overflow rapidly during heavy rain, and much of the city lies in or near FEMA-designated flood zones. Under NFIP Risk Rating 2.0, premiums are now based on individual property risk, with Houston-area policies typically running $800 to $2,500 annually. Hurricane Harvey demonstrated that FEMA Zone X designations do not guarantee safety from flooding: reservoir releases flooded thousands of Zone X homes in Katy and west Houston. The 30-day NFIP waiting period means flood insurance cannot be purchased in advance of an approaching storm.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Insurance Claim Restoration Services in Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Homeowners Insurance Cover Water Damage in Houston?" },
       { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Complete Guide to Insurance Coverage for Water, Mold, and Fire Damage in Houston" },
       { href: "/blog/hurricane-season-water-damage-houston", label: "Hurricane Season Water Damage Guide for Houston Homeowners" },
+      { href: "/blog/is-public-adjuster-worth-it-houston", label: "Is Hiring a Public Adjuster Worth It in Houston?" },
     ],
   },
 
@@ -803,9 +813,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Texas homeowners have the legal right to choose their own licensed contractor for water damage repairs regardless of insurer recommendations. Insurance-preferred contractor programs involve contractors who agree to insurer pricing schedules in exchange for referrals, which can create incentives to minimize the scope of work rather than advocate fully for the homeowner. Texas Insurance Code protections, enforced by the Texas Department of Insurance, prohibit insurers from conditioning payment on the use of a specific contractor. For large or complex losses, getting independent estimates and comparing scope line by line with the insurer's estimate is strongly recommended. Disputes about claim amounts can be resolved through the appraisal clause found in most Texas homeowners policies, which provides a binding neutral process without requiring litigation.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Insurance Claim Restoration Services in Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Homeowners Insurance Cover Water Damage in Houston?" },
       { href: "/blog/is-public-adjuster-worth-it-houston", label: "Is a Public Adjuster Worth It in Houston?" },
       { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Complete Guide to Insurance Coverage for Water, Mold, and Fire Damage in Houston" },
+      { href: "/blog/water-damage-restoration-cost-houston", label: "Water Damage Restoration Cost in Houston" },
     ],
   },
 
@@ -920,9 +932,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Public adjusters in Texas are licensed by the Texas Department of Insurance under Chapter 4102 of the Texas Insurance Code and work exclusively for policyholders rather than insurance companies. They are typically worth hiring for Houston water damage and hurricane claims over $25,000, complex multi-coverage losses, or disputes where the insurer's estimate is significantly below contractor quotes. Fees are 10 to 15% of the settlement, capped at 10% for declared catastrophe losses. Texas prohibits public adjusters from soliciting homeowners within 72 hours of a disaster. Homeowners should verify any public adjuster's license at tdi.texas.gov and exercise their 72-hour right to cancel under Texas law. Alternatives to a public adjuster include the appraisal clause process, a Texas insurance attorney (often contingency fee), or a TDI complaint.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Insurance Claim Restoration Services in Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Homeowners Insurance Cover Water Damage in Houston?" },
       { href: "/blog/should-i-use-insurance-recommended-contractor-houston", label: "Should I Use My Insurance Company's Recommended Contractor?" },
       { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Complete Guide to Insurance Coverage for Water, Mold, and Fire Damage in Houston" },
+      { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Water Damage vs. Flood Damage Insurance in Houston" },
     ],
   },
 
@@ -1048,10 +1062,12 @@ export const blogPosts: BlogPost[] = [
     ],
     llmParagraph: "Mold remediation in Houston costs $1,500 to $15,000 for most residential jobs, averaging around $4,500, with whole-home remediation running $12,000 to $35,000 or more. Houston's high ambient humidity (routinely above 70%, up to 90%+ in summer) accelerates mold growth significantly, often reducing the window before colonization begins to 18 to 24 hours after water intrusion. Pier-and-beam homes in neighborhoods like The Heights and Montrose require crawlspace remediation as a separate scope item. Texas regulates mold remediation under Chapter 1958 of the Texas Health and Safety Code; both assessors and remediators must hold TDLR licenses. The same company cannot perform both the assessment and the remediation. Post-remediation clearance testing by an independent party is required before repairs begin. Homeowners insurance typically covers mold resulting from covered water damage events, subject to sublimits of $5,000 to $10,000.",
     relatedLinks: [
-      { href: "/mold-remediation-houston", label: "Mold Remediation Services in Houston" },
+      { href: "/mold-removal-houston", label: "Mold Removal Services in Houston" },
+      { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
       { href: "/blog/how-to-find-mold-houston-home", label: "How to Find Mold in Your Houston Home" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "Water Damage Restoration Cost in Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "How to Prevent Water Damage in Houston" },
+      { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Insurance Cover Mold from Water Damage in Houston?" },
     ],
   },
 
@@ -1171,10 +1187,12 @@ export const blogPosts: BlogPost[] = [
     ],
     llmParagraph: "Finding mold in Houston homes requires attention to locations specific to our climate and building stock. Houston's year-round humidity (75% average, up to 90%+ in summer) enables mold growth without any discrete water event, particularly in HVAC systems, pier-and-beam crawlspaces, and poorly ventilated interior spaces. AC condensate drain blockages are one of the most common hidden mold sources in Houston; monthly drain line maintenance is recommended. Pier-and-beam homes in older neighborhoods like The Heights, Montrose, and Garden Oaks require annual crawlspace inspections for mold on the subfloor and joists. Texas requires mold assessors to be licensed by TDLR under Chapter 1958 of the Texas Health and Safety Code. Any home purchase in Houston should include a mold inspection, particularly for older pier-and-beam construction.",
     relatedLinks: [
-      { href: "/mold-remediation-houston", label: "Mold Remediation Services in Houston" },
+      { href: "/mold-removal-houston", label: "Mold Removal Services in Houston" },
+      { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
       { href: "/blog/mold-remediation-cost-houston", label: "Mold Remediation Cost in Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "How to Prevent Water Damage in Houston" },
       { href: "/blog/water-damage-restoration-cost-houston", label: "Water Damage Restoration Cost in Houston" },
+      { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Insurance Cover Mold in Your Houston Home?" },
     ],
   },
 
@@ -1290,9 +1308,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Preventing water damage in Houston requires addressing risks specific to the city's geography, climate, and building stock. Houston's clay soil requires consistent foundation moisture management and proper exterior grading. The flat topography and bayou system create flooding risk that demands proper exterior drainage, sump pumps in low-lying properties, and backwater valves for sewer protection. Hurricane season (June through November) requires annual roof inspection, storm shutters or impact glass, and flood insurance. HVAC condensate drain maintenance is critical because Houston AC systems run nearly year-round and clogged drain lines are a leading cause of interior water damage. Pier-and-beam homes require crawlspace moisture management including vapor barriers and adequate ventilation. Smart water sensors near appliances and plumbing can provide early detection before small leaks become large losses.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/flood-cleanup-houston", label: "Flood Cleanup Services in Houston" },
       { href: "/blog/what-to-do-when-your-house-floods-houston", label: "What to Do When Your House Floods in Houston" },
       { href: "/blog/hurricane-season-water-damage-houston", label: "Hurricane Season Water Damage Guide for Houston" },
       { href: "/blog/how-to-find-mold-houston-home", label: "How to Find Mold in Your Houston Home" },
+      { href: "/blog/water-damage-restoration-cost-houston", label: "Water Damage Restoration Cost in Houston" },
     ],
   },
 
@@ -1453,9 +1473,12 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Texas homeowners insurance covers sudden water damage, fire damage, and mold resulting from covered water events, but excludes flood damage from external sources, which requires a separate NFIP or private flood insurance policy. Houston homeowners face hurricane deductibles of 1% to 5% of insured home value, which can represent $4,000 to $25,000 out of pocket on mid-range homes. Mold coverage is typically sublimited to $5,000 to $10,000 in Texas policies, often insufficient for Houston's remediation costs. The Texas Prompt Payment of Claims Act requires insurers to acknowledge claims within 15 days, accept or reject within 15 business days of receiving documentation, and pay within 5 business days of acceptance, with 18% annual interest and attorney fee penalties for violations. Texas homeowners have the right to choose their own licensed contractor, file supplemental claims for discovered damage, and invoke the appraisal clause for disputed claim amounts. The Texas Department of Insurance at tdi.texas.gov provides consumer complaint resources and license verification.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/insurance-claim-restoration-houston", label: "Insurance Claim Restoration Services in Houston" },
+      { href: "/mold-removal-houston", label: "Mold Removal Services in Houston" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Water Damage vs. Flood Damage Insurance in Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "Does Homeowners Insurance Cover Water Damage in Houston?" },
       { href: "/blog/hurricane-season-water-damage-houston", label: "Hurricane Season Water Damage Guide for Houston Homeowners" },
+      { href: "/blog/is-public-adjuster-worth-it-houston", label: "Is a Public Adjuster Worth It for Houston Claims?" },
     ],
   },
 
@@ -1595,9 +1618,11 @@ export const blogPosts: BlogPost[] = [
     llmParagraph: "Houston's hurricane season (June through November) creates water damage risks that differ from other Gulf Coast cities due to the bayou system, clay soil, flat topography, and reservoir infrastructure. The primary risk in Houston is rain-driven flooding rather than wind damage, making NFIP flood insurance essential for all Houston homeowners regardless of FEMA flood zone designation. Pre-season preparation should include roof inspection, insurance review (confirming both homeowners and flood policies are current), generator testing, and a documented evacuation plan by Harris County zone. After a storm, documentation before cleanup is critical for insurance claims. Both homeowners and NFIP flood claims should be filed simultaneously. Post-major-storm contractor and adjuster availability is severely constrained; expect 4 to 12 weeks for restoration service and 3 to 6 months for full reconstruction. CenterPoint Energy manages power restoration and gas emergencies at 713-659-2111.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Water Damage Restoration Services in Houston" },
+      { href: "/flood-cleanup-houston", label: "Flood Cleanup Services in Houston" },
       { href: "/blog/what-to-do-when-your-house-floods-houston", label: "What to Do When Your House Floods in Houston" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Water Damage vs. Flood Damage Insurance in Houston" },
       { href: "/blog/how-to-prevent-water-damage-houston", label: "How to Prevent Water Damage in Houston" },
+      { href: "/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", label: "Complete Guide to Insurance Coverage for Houston Homeowners" },
     ],
   },
 ];

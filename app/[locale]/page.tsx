@@ -282,8 +282,8 @@ export default async function HomePage({ params }: Props) {
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">
               {isEs
-                ? "Lo que aprend\u00ed despu\u00e9s de $47,000 en da\u00f1os y 8 meses de peleas con el seguro"
-                : "What I learned after $47,000 in damage and 8 months of insurance fights"}
+                ? <>Lo que aprend\u00ed despu\u00e9s de $47,000 en da\u00f1os y 8 meses de <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="underline hover:text-amber-200">peleas con el seguro</Link></>
+                : <>What I learned after $47,000 in damage and 8 months of <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="underline hover:text-amber-200">insurance fights</Link></>}
             </p>
             <Link
               href={localePath("/blog/what-to-do-when-your-house-floods-houston", locale)}
@@ -311,10 +311,16 @@ export default async function HomePage({ params }: Props) {
               {isEs ? (
                 <>
                   <p className="text-gray-700 mb-3">
-                    Soy Marcus Chen, ingeniero de software. En 2015 compr\u00e9 un bungal\u00f3 de los a\u00f1os 60 en The Heights, uno de los barrios m\u00e1s antiguos y queridos de Houston. Dos a\u00f1os despu\u00e9s, el Hurac\u00e1n Harvey lleg\u00f3 con 3 pies de agua.
+                    Soy Marcus Chen, ingeniero de software. En 2015 compr\u00e9 un bungal\u00f3 de los a\u00f1os 60 en The Heights, uno de los barrios m\u00e1s antiguos y queridos de Houston. Dos a\u00f1os despu\u00e9s, el{" "}
+                    <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 font-medium hover:underline">Hurac\u00e1n Harvey</Link>{" "}
+                    lleg\u00f3 con 3 pies de agua.
                   </p>
                   <p className="text-gray-700 mb-3">
-                    El da\u00f1o total fue de $47,000. El seguro cubri\u00f3 $19,000, despu\u00e9s de 8 meses de pelea. Contrat\u00e9 contratistas que no estaban calificados, firm\u00e9 contratos que no entend\u00eda, y pas\u00e9 noches leyendo foros sobre reclamos de seguro para entender mis derechos.
+                    El{" "}
+                    <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 font-medium hover:underline">da\u00f1o por agua</Link>{" "}
+                    total fue de $47,000. El{" "}
+                    <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 font-medium hover:underline">seguro</Link>{" "}
+                    cubri\u00f3 $19,000, despu\u00e9s de 8 meses de pelea. Contrat\u00e9 contratistas que no estaban calificados, firm\u00e9 contratos que no entend\u00eda, y pas\u00e9 noches leyendo foros sobre reclamos de seguro para entender mis derechos.
                   </p>
                   <p className="text-gray-700">
                     Este sitio existe para que usted no tenga que pasar por lo mismo. No es un directorio de contratistas. No vendemos datos de contacto. Es lo que hubiera querido tener en agosto de 2017.
@@ -323,10 +329,16 @@ export default async function HomePage({ params }: Props) {
               ) : (
                 <>
                   <p className="text-gray-700 mb-3">
-                    I&apos;m Marcus Chen, a software engineer. In 2015 I bought a 1960s bungalow in The Heights, one of Houston&apos;s oldest and most beloved neighborhoods. Two years later, Hurricane Harvey arrived with 3 feet of water.
+                    I&apos;m Marcus Chen, a software engineer. In 2015 I bought a 1960s bungalow in The Heights, one of Houston&apos;s oldest and most beloved neighborhoods. Two years later,{" "}
+                    <Link href={localePath("/flood-cleanup-houston", locale)} className="text-amber-700 font-medium hover:underline">Hurricane Harvey</Link>{" "}
+                    arrived with 3 feet of water.
                   </p>
                   <p className="text-gray-700 mb-3">
-                    The total damage came to $47,000. Insurance covered $19,000, after 8 months of fighting. I hired contractors who weren&apos;t qualified, signed contracts I didn&apos;t understand, and spent nights reading insurance claim forums trying to understand my rights.
+                    The total{" "}
+                    <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 font-medium hover:underline">water damage</Link>{" "}
+                    came to $47,000.{" "}
+                    <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 font-medium hover:underline">Insurance</Link>{" "}
+                    covered $19,000, after 8 months of fighting. I hired contractors who weren&apos;t qualified, signed contracts I didn&apos;t understand, and spent nights reading insurance claim forums trying to understand my rights.
                   </p>
                   <p className="text-gray-700">
                     This site exists so you don&apos;t have to do the same. It is not a contractor directory. We don&apos;t sell leads. It is what I wish I had in August 2017.
