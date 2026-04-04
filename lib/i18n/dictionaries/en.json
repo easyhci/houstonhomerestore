@@ -1,0 +1,47 @@
+{
+  "emergencyBar": {
+    "text": "Houston water damage knowledge center · Expert guides from a Harvey survivor · Updated April 2026"
+  },
+  "header": {
+    "waterDamage": "Water Damage",
+    "mold": "Mold",
+    "flood": "Flood Cleanup",
+    "insurance": "Insurance",
+    "blog": "Blog",
+    "about": "About"
+  },
+  "footer": {
+    "about": "Houston homeowner education resource for water damage, mold, and flood recovery. Built by a Harvey survivor so other homeowners don't navigate this blind.",
+    "guides": "Guides",
+    "waterDamage": "Water Damage",
+    "moldRemoval": "Mold Removal",
+    "floodCleanup": "Flood Cleanup",
+    "insuranceClaims": "Insurance Claims",
+    "siteLinks": "Site",
+    "aboutHoustonHomeRestore": "About",
+    "blog": "Blog",
+    "resources": "Resources",
+    "restorationBlog": "Restoration Blog",
+    "insuranceGuide": "Insurance Claims Guide",
+    "waterCostGuide": "Water Damage Cost Guide",
+    "moldCostGuide": "Mold Remediation Cost Guide",
+    "copyright": "\u00a9 {year} HoustonHomeRestore. All rights reserved.",
+    "editorialNote": "This site is an educational resource. We do not rank contractors or generate leads.",
+    "editorialPolicy": "Editorial Policy"
+  },
+  "quickAnswer": {
+    "label": "Quick Answer:"
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "This page doesn't exist. Use the navigation to find what you're looking for.",
+    "goHome": "Go to Homepage"
+  },
+  "languageToggle": {
+    "switchToEs": "ES",
+    "switchToEn": "EN"
+  }
+}

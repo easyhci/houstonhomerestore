@@ -1,0 +1,47 @@
+{
+  "emergencyBar": {
+    "text": "Centro de conocimiento sobre da\u00f1o por agua en Houston \u00b7 Gu\u00edas expertas de un sobreviviente de Harvey \u00b7 Actualizado abril 2026"
+  },
+  "header": {
+    "waterDamage": "Da\u00f1o por Agua",
+    "mold": "Moho",
+    "flood": "Inundaciones",
+    "insurance": "Seguros",
+    "blog": "Blog",
+    "about": "Acerca de"
+  },
+  "footer": {
+    "about": "Recurso educativo para propietarios de Houston sobre da\u00f1o por agua, moho y recuperaci\u00f3n de inundaciones. Creado por un sobreviviente de Harvey para que otros propietarios no naveguen a ciegas.",
+    "guides": "Gu\u00edas",
+    "waterDamage": "Da\u00f1o por Agua",
+    "moldRemoval": "Eliminaci\u00f3n de Moho",
+    "floodCleanup": "Limpieza de Inundaciones",
+    "insuranceClaims": "Reclamos de Seguro",
+    "siteLinks": "Sitio",
+    "aboutHoustonHomeRestore": "Acerca de",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "restorationBlog": "Blog de Restauraci\u00f3n",
+    "insuranceGuide": "Gu\u00eda de Reclamos de Seguro",
+    "waterCostGuide": "Gu\u00eda de Costos de Da\u00f1o por Agua",
+    "moldCostGuide": "Gu\u00eda de Costos de Eliminaci\u00f3n de Moho",
+    "copyright": "\u00a9 {year} HoustonHomeRestore. Todos los derechos reservados.",
+    "editorialNote": "Este sitio es un recurso educativo. No clasificamos contratistas ni generamos prospectos.",
+    "editorialPolicy": "Pol\u00edtica Editorial"
+  },
+  "quickAnswer": {
+    "label": "Respuesta R\u00e1pida:"
+  },
+  "faq": {
+    "heading": "Preguntas Frecuentes"
+  },
+  "notFound": {
+    "title": "P\u00e1gina No Encontrada",
+    "message": "Esta p\u00e1gina no existe. Use la navegaci\u00f3n para encontrar lo que busca.",
+    "goHome": "Ir al Inicio"
+  },
+  "languageToggle": {
+    "switchToEs": "ES",
+    "switchToEn": "EN"
+  }
+}

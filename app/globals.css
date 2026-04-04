@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF8F4;
+  --foreground: #1C1008;
+  --primary: #B45309;
+  --primary-dark: #92400E;
+  --accent: #D4931A;
+  --featured-bg: #1C1008;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.quick-answer {
+  background: #FEF3C7;
+  border-left: 4px solid #B45309;
+  padding: 1rem 1.25rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.llm-paragraph {
+  background: #FAF8F4;
+  border: 1px solid #E7E0D4;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.emergency-bar {
+  background: #1C1008;
+  color: #FDE68A;
+  letter-spacing: 0.02em;
+}
+
+@keyframes vr-fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes vr-fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
