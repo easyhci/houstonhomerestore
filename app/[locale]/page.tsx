@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
@@ -257,6 +258,24 @@ export default async function HomePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
+
+      {/* Hero Image */}
+      <div className="w-full">
+        <div className="relative w-full aspect-[16/9]">
+          <Image
+            src="/images/hero-houston.jpg"
+            alt={
+              isEs
+                ? "Panorama de Houston a lo largo del bayou"
+                : "Houston skyline along the bayou"
+            }
+            fill
+            className="object-cover rounded-b-xl"
+            priority
+            sizes="100vw"
+          />
+        </div>
+      </div>
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[#1C1008] to-[#3D2010] text-white py-20 px-4">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
@@ -138,6 +139,14 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* Hero */}
+      <Image
+        src="/images/water-damage-hero.jpg"
+        alt={isEs ? "Restauración por daño de agua en una casa de Houston" : "Water damage restoration in a Houston home"}
+        width={1280}
+        height={720}
+        className="w-full rounded-xl mb-8 object-cover max-h-[400px]"
+        priority
+      />
       <h1 className="text-4xl font-extrabold text-gray-900 mb-3">
         {isEs
           ? "Restauración por Daño de Agua en Houston: Guía Completa"

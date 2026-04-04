@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
@@ -138,6 +139,14 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* Hero */}
+      <Image
+        src="/images/insurance-claim-hero.jpg"
+        alt={isEs ? "Documentos de reclamo de seguro para restauración del hogar" : "Insurance claim documents for home restoration"}
+        width={1280}
+        height={720}
+        className="w-full rounded-xl mb-8 object-cover max-h-[400px]"
+        priority
+      />
       <h1 className="text-4xl font-extrabold text-gray-900 mb-3">
         {isEs
           ? "Reclamos de Seguro por Restauración en Houston: La Guía Completa"

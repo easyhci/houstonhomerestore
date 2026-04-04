@@ -34,6 +34,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
     category: "Emergency Guide",
     author: "Marcus Chen",
+    image: "/images/blog-house-floods.jpg",
     quickAnswer: "Shut off gas at the meter (call CenterPoint Energy at 713-659-2111 if unsure), cut power at the breaker only if you can reach it safely without standing in water, get everyone out, then document everything before touching anything. Do not re-enter until authorities confirm it is safe.",
     intro: "I bought my bungalow in The Heights in 2015. Two years later, Hurricane Harvey hit. I watched 18 inches of water pour through my front door over the course of a single night. I had no idea what to do. I made mistakes that cost me time, money, and a lot of stress I could have avoided. This guide is what I wish someone had handed me at 2 a.m. on August 27, 2017. Houston floods differently than most cities. Our bayou system, flat topography, and clay soil mean water rises fast and drains slowly. Whether you are dealing with a Harvey-scale hurricane flood, a bayou overflow in Meyerland, or a burst pipe in a Pearland subdivision, the first steps are the same. Here is exactly what to do.",
     sections: [
@@ -176,6 +177,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
     category: "Cost Guide",
     author: "Marcus Chen",
+    image: "/images/blog-water-damage-cost.jpg",
     quickAnswer: "Water damage restoration in Houston costs between $1,200 and $8,500 for most residential jobs, with an average around $3,800. Costs vary based on square footage, water category, affected materials, and timing. Hurricane season (June through November) can add 15 to 30% due to demand surges.",
     intro: "After Hurricane Harvey flooded tens of thousands of Houston homes, I watched restoration prices climb 40% within days. Contractors drove in from across the country. Prices that were reasonable in July became extravagant by September. Understanding what water damage restoration actually costs, and what drives those costs, is the best way to protect yourself from overpaying. I have spent time gathering real pricing data from Houston restoration jobs, cross-referencing with industry sources, and talking to homeowners in The Heights, Katy, Pearland, and Clear Lake about what they actually paid. Here is what I found.",
     sections: [
@@ -310,6 +312,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 min read",
     category: "Guide",
     author: "Marcus Chen",
+    image: "/images/blog-restoration-timeline.jpg",
     quickAnswer: "The drying phase of water damage restoration in Houston takes 3 to 7 days with professional equipment, longer than the national average because of our high ambient humidity. Full restoration including demolition and repairs typically takes 2 to 8 weeks depending on the extent of damage and materials involved.",
     intro: "One of the most common questions I hear from Houston homeowners dealing with water damage is some version of: when can I get my life back to normal? It is a fair question, and the honest answer is more complicated than most contractors will tell you upfront. In Houston, water damage restoration takes longer than in most other U.S. cities. Our humidity slows drying. Our older pier-and-beam neighborhoods create additional moisture challenges under the floor structure. And the sheer scale of events like Hurricane Harvey or Tropical Storm Imelda means that even after your home is professionally dried, getting contractors in for repairs can involve weeks of waiting. This guide breaks down every phase of the restoration process with realistic Houston-specific timelines.",
     sections: [
@@ -455,6 +458,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     category: "Insurance Guide",
     author: "Marcus Chen",
+    image: "/images/blog-insurance-water-damage.jpg",
     quickAnswer: "Yes, homeowners insurance in Texas covers sudden and accidental water damage from internal sources like burst pipes, appliance failures, and sudden roof leaks. It does not cover flooding from external sources (bayous, storm surge, overland flooding), gradual leaks, or maintenance-related damage. Separate flood insurance through FEMA's NFIP is required for flood coverage.",
     intro: "Before Hurricane Harvey, I thought my homeowners insurance covered flood damage. It did not. I learned that lesson in the most expensive way possible. The distinction between water damage and flood damage is not just semantics; it determines whether your claim is paid at all. Texas has its own insurance code, its own regulator (the Texas Department of Insurance, or TDI), and Houston homeowners face unique exposures including hurricane deductibles and mandatory flood insurance requirements in FEMA-designated flood zones. This guide explains exactly what your homeowners policy covers, what it does not cover, and what you need to know before your next rain event.",
     sections: [
@@ -576,6 +580,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     category: "Insurance Guide",
     author: "Marcus Chen",
+    image: "/images/blog-water-vs-flood-insurance.jpg",
     quickAnswer: "Water damage (from internal sources like burst pipes) is covered by homeowners insurance. Flood damage (from external sources like bayou overflow or storm surge) requires a separate NFIP flood insurance policy. In Houston, where bayou flooding and hurricane-driven inundation are constant risks, this distinction is one of the most important financial facts a homeowner can know.",
     intro: "I am going to say something blunt: the confusion between water damage and flood damage insurance is the single most costly financial mistake Houston homeowners make. After Harvey, an estimated 80% of flooded Houston-area homes had no flood insurance. None. Those homeowners had homeowners insurance, but that policy did not cover what happened to them. They were left with tens of thousands of dollars in damage and no coverage. The line between these two types of coverage is not obvious, it is not well-publicized by the insurance industry, and it has enormous real-world consequences. This guide exists to make sure you understand it completely.",
     sections: [
@@ -695,6 +700,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     category: "Insurance Guide",
     author: "Marcus Chen",
+    image: "/images/blog-insurance-contractor.jpg",
     quickAnswer: "You are not required to use your insurance company's recommended contractor. Texas law gives you the right to choose your own licensed contractor. Insurer-recommended contractors may have financial arrangements with the insurance company that create conflicts of interest. Getting independent estimates is always in your best interest.",
     intro: "After a flood or water damage event, your insurance company may suggest or strongly recommend a specific contractor. This suggestion often comes with assurances that using their preferred contractor will make the process faster and smoother. That may be true in some cases. But there are things you should know about how these relationships work before you sign anything. In Texas, you have the right to choose your own contractor. Full stop. Understanding why that right exists and when exercising it matters most can save you from incomplete repairs and disputed claims.",
     sections: [
@@ -813,6 +819,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     category: "Insurance Guide",
     author: "Marcus Chen",
+    image: "/images/blog-public-adjuster.jpg",
     quickAnswer: "A public adjuster is worth it in Houston for complex claims over $25,000, disputed claims where the insurer's estimate is significantly below contractor quotes, and multi-coverage hurricane losses. Their fee (10 to 15% of the settlement) is offset by higher settlements in many cases. Texas requires public adjusters to be licensed by TDI.",
     intro: "After Harvey, public adjusters were everywhere in Houston. Some were legitimate professionals who helped homeowners recover significantly more than the initial insurer offer. Others were opportunists who signed up homeowners to contracts during the chaos and delivered little beyond a delayed process. Understanding what a public adjuster actually does, when they add value, and what the Texas regulatory framework looks like will help you make a clear-headed decision rather than one made in post-flood stress.",
     sections: [
@@ -929,6 +936,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     category: "Cost Guide",
     author: "Marcus Chen",
+    image: "/images/blog-mold-cost.jpg",
     quickAnswer: "Mold remediation in Houston costs between $1,500 and $15,000 for most residential jobs, with an average around $4,500. Houston's high humidity means mold grows faster, spreads further, and requires more aggressive treatment than in drier climates. Costs are driven by affected square footage, mold type, materials affected, and accessibility.",
     intro: "Houston and mold have a complicated relationship. Our humidity, which routinely exceeds 70% year-round and spikes above 90% in summer, creates conditions that mold absolutely loves. In most U.S. cities, you might have 24 to 48 hours after a water intrusion before mold begins to establish. In Houston, that window is shorter. I have seen mold colonize drywall within 18 hours during a summer job in Montrose. Understanding mold remediation costs in Houston requires understanding this context. You are not just paying for the work of removing mold. You are paying for work that must be done more aggressively because the biology is more aggressive here.",
     sections: [
@@ -1057,6 +1065,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     category: "Mold Guide",
     author: "Marcus Chen",
+    image: "/images/blog-find-mold.jpg",
     quickAnswer: "In Houston, mold most commonly hides in HVAC systems and ducts, behind walls near AC supply and return vents, under sinks and around toilets, in pier-and-beam crawlspaces, and behind baseboards in rooms that have experienced flooding. Year-round humidity means mold can establish without any visible water event.",
     intro: "Finding mold in a Houston home is different from finding mold in Denver or Phoenix. In dry climates, mold almost always follows a visible water event. In Houston, mold can establish from nothing more than our ambient humidity, particularly in poorly ventilated spaces, inside HVAC systems, and in the crawlspaces beneath pier-and-beam homes. I found mold behind the baseboards of my Heights bungalow two years after Harvey. No visible water intrusion. Just years of humidity cycling through an older home's wall assembly. This guide tells you where to look, what to look for, and when a DIY inspection needs to escalate to a professional assessment.",
     sections: [
@@ -1179,6 +1188,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     category: "Prevention",
     author: "Marcus Chen",
+    image: "/images/blog-prevent-water-damage.jpg",
     quickAnswer: "The most effective water damage prevention steps for Houston homeowners are: maintain gutters and downspouts, improve grading away from the foundation, install a sump pump if you have a low-lying property, prepare an emergency hurricane kit and drainage plan, and maintain your HVAC condensate drain. Houston's clay soil and flat topography require specific drainage strategies.",
     intro: "After my Harvey experience, I became mildly obsessed with water damage prevention. I spent the next year making changes to my Heights bungalow: re-grading the yard, extending downspouts, adding a backwater valve to the sewer line, improving the crawlspace vapor barrier. None of these things were glamorous. None of them would have made for interesting Instagram content. But in the three years since, I have had zero water intrusion events in a house that used to take on water in every significant rain. Houston's water damage prevention needs are different from those in most cities. Our clay soil, flat topography, bayou proximity, and hurricane exposure create a specific set of vulnerabilities that require targeted strategies.",
     sections: [
@@ -1296,6 +1306,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "14 min read",
     category: "Insurance Guide",
     author: "Marcus Chen",
+    image: "/images/blog-insurance-complete-guide.jpg",
     quickAnswer: "Texas homeowners insurance covers sudden water damage, mold resulting from covered water damage, and fire damage. It does not cover flooding from external sources (requires NFIP flood insurance), gradual leaks, or pre-existing mold. Hurricane deductibles of 1 to 5% of insured value apply to storm losses. The Texas Department of Insurance enforces strict prompt payment requirements that protect policyholders.",
     intro: "Navigating insurance claims in Houston is more complicated than in most American cities. We have two separate flood events per year on average. We are in hurricane territory. Our humidity means mold follows water damage faster than anywhere else. And our legal framework, the Texas Insurance Code and TDI oversight, gives us specific rights and protections that differ from other states. This guide covers everything: water damage coverage, flood insurance, mold coverage, fire damage, hurricane deductibles, and the claims process under Texas law. It is long because the subject is complex and getting it wrong is expensive. I would rather you spend 14 minutes reading this than spend $40,000 discovering what you are not covered for.",
     sections: [
@@ -1458,6 +1469,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     category: "Seasonal Guide",
     author: "Marcus Chen",
+    image: "/images/blog-hurricane-season.jpg",
     quickAnswer: "Hurricane season in Houston runs June through November. Preparation before a storm, knowing your evacuation zone, and having both homeowners and flood insurance current are the most important steps. After a storm, document everything before cleanup, file both insurance claims promptly, and expect extended restoration timelines due to contractor demand.",
     intro: "I have lived in Houston through Harvey in 2017, Imelda in 2019, and more unnamed tropical rain events than I can count. Each one taught me something. Harvey taught me about flood insurance and documentation. Imelda taught me about how fast bayous rise and how quickly the insurance adjuster queue fills up. The tropical rain events in between taught me that you do not need a named storm to suffer serious water damage in this city. This guide is organized around the hurricane season timeline: what to do before a storm threatens, what to do when a storm arrives, and what to do in the weeks and months after. Houston's flood patterns and infrastructure are specific enough that general hurricane guides often leave out critical details.",
     sections: [

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
 import { getBlogPosts } from "@/lib/i18n/getBlogPosts";
@@ -81,6 +82,15 @@ export default async function BlogIndexPage({ params }: Props) {
               href={localePath(`/blog/${post.slug}`, locale)}
               className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md hover:border-amber-300 transition-all"
             >
+              {post.image && (
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={640}
+                  height={360}
+                  className="w-full rounded-lg mb-3 object-cover aspect-video"
+                />
+              )}
               <span className="text-xs bg-amber-50 text-amber-700 font-medium px-2 py-0.5 rounded">
                 {post.category}
               </span>
@@ -121,15 +131,15 @@ export default async function BlogIndexPage({ params }: Props) {
                 </h3>
                 <p className="text-gray-600 text-sm truncate">{post.description}</p>
               </div>
-              <div className="text-right text-xs text-gray-400 whitespace-nowrap flex-shrink-0">
-                <p>
-                  {new Date(post.publishDate).toLocaleDateString(
-                    locale === "es" ? "es-US" : "en-US",
-                    { month: "short", day: "numeric", year: "numeric" }
-                  )}
-                </p>
-                <p className="mt-1">{post.readTime}</p>
-              </div>
+              {post.image && (
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={120}
+                  height={68}
+                  className="rounded-lg object-cover w-[120px] h-[68px] flex-shrink-0"
+                />
+              )}
             </Link>
           ))}
         </div>

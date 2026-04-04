@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
 import { getBlogPosts } from "@/lib/i18n/getBlogPosts";
@@ -196,6 +197,18 @@ export default async function BlogPostPage({ params }: Props) {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 py-10">
+        {/* Hero Image */}
+        {post.image && (
+          <Image
+            src={post.image}
+            alt={post.title}
+            width={1280}
+            height={720}
+            className="w-full rounded-xl mb-8 object-cover max-h-[400px]"
+            priority
+          />
+        )}
+
         {/* Quick Answer */}
         <QuickAnswer answer={post.quickAnswer} />
 
