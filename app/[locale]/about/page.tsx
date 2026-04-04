@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -70,6 +71,15 @@ export default async function AboutPage({ params }: Props) {
     },
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: isEs ? "Inicio" : "Home", item: "https://houstonhomerestore.com" },
+      { "@type": "ListItem", position: 2, name: isEs ? "Acerca de" : "About", item: "https://houstonhomerestore.com/about" },
+    ],
+  };
+
   const relatedResources = isEs
     ? [
         { label: "Da\u00f1o por Agua", href: localePath("/water-damage-restoration-houston", locale) },
@@ -91,6 +101,10 @@ export default async function AboutPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       {/* Hero */}
@@ -125,6 +139,13 @@ export default async function AboutPage({ params }: Props) {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 py-12">
+
+        <Breadcrumbs
+          items={[
+            { label: isEs ? "Acerca de" : "About" },
+          ]}
+          locale={locale}
+        />
 
         {/* Full Harvey Story */}
         <section className="mb-14">

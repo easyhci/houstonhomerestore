@@ -6,6 +6,7 @@ import { localePath } from "@/lib/i18n/localePath";
 import QuickAnswer from "@/components/QuickAnswer";
 import FAQ from "@/components/FAQ";
 import AuthorBio from "@/components/AuthorBio";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -136,8 +137,57 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
 
   const faqItems = isEs ? faqItemsEs : faqItemsEn;
 
+  const description = isEs
+    ? "Guía definitiva sobre restauración por daño de agua en Houston. Categorías de daño, costos reales, arcilla expansiva, riesgos de bayou, y cómo manejar reclamos de seguro en Texas."
+    : "Complete guide to water damage restoration in Houston. Damage categories, real costs, clay soil risks, bayou flooding, and how to handle Texas insurance claims. Updated 2026.";
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: isEs
+      ? "Restauración por Daño de Agua en Houston: Guía Completa"
+      : "Water Damage Restoration Houston: The Complete Homeowner Guide",
+    description,
+    author: { "@type": "Person", name: "Marcus Chen" },
+    publisher: { "@type": "Organization", name: "HoustonHomeRestore" },
+    datePublished: "2026-04-01",
+    dateModified: "2026-04-04",
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((faq: { question: string; answer: string }) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: isEs ? "Inicio" : "Home", item: "https://houstonhomerestore.com" },
+      { "@type": "ListItem", position: 2, name: isEs ? "Restauración por Daño de Agua" : "Water Damage Restoration", item: "https://houstonhomerestore.com/water-damage-restoration-houston" },
+    ],
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       {/* Hero */}
       <Image
         src="/images/water-damage-hero.jpg"
@@ -147,6 +197,14 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         className="w-full rounded-xl mb-8 object-cover max-h-[400px]"
         priority
       />
+
+      <Breadcrumbs
+        items={[
+          { label: isEs ? "Restauración por Daño de Agua" : "Water Damage Restoration" },
+        ]}
+        locale={locale}
+      />
+
       <h1 className="text-4xl font-extrabold text-gray-900 mb-3">
         {isEs
           ? "Restauración por Daño de Agua en Houston: Guía Completa"

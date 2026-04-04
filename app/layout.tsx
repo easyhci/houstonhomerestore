@@ -2,20 +2,33 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
+const BASE = "https://houstonhomerestore.com";
+
 export const metadata: Metadata = {
   title: {
     default: "HoustonHomeRestore, Houston Water Damage Guide From a Harvey Survivor (2026)",
     template: "%s | HoustonHomeRestore",
   },
   description: "Houston water damage, mold, and flood recovery guides written by a Hurricane Harvey survivor. Real costs, insurance strategies, and lessons learned the hard way.",
-  metadataBase: new URL("https://houstonhomerestore.com"),
+  metadataBase: new URL(BASE),
   openGraph: {
     siteName: "HoustonHomeRestore",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: `${BASE}/images/hero-houston.jpg`,
+        width: 1280,
+        height: 720,
+        alt: "Houston skyline along the bayou",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    title: "HoustonHomeRestore",
+    description: "Houston water damage, mold, and flood recovery guides from a Harvey survivor.",
+    images: [`${BASE}/images/hero-houston.jpg`],
   },
   other: {
     "geo.region": "US-TX",
@@ -25,13 +38,18 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale?: string }>;
 }>) {
+  const { locale } = await params;
+  const lang = locale === "es" ? "es" : "en";
+
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={lang} suppressHydrationWarning>
       <body className="antialiased">
         {children}
         <Analytics />

@@ -6,6 +6,7 @@ import { localePath } from "@/lib/i18n/localePath";
 import QuickAnswer from "@/components/QuickAnswer";
 import FAQ from "@/components/FAQ";
 import AuthorBio from "@/components/AuthorBio";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -136,8 +137,57 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
 
   const faqItems = isEs ? faqItemsEs : faqItemsEn;
 
+  const description = isEs
+    ? "Guía definitiva sobre limpieza de inundaciones en Houston. Historia de inundaciones de Harvey, zonas FEMA, seguro NFIP, proceso de limpieza, costos reales, suelo arcilloso y bayous."
+    : "Complete guide to flood cleanup in Houston. Harvey flood history, FEMA flood zones, NFIP insurance, cleanup process, real costs, clay soil, and bayou drainage issues. Updated 2026.";
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: isEs
+      ? "Limpieza de Inundaciones en Houston: La Guía Completa"
+      : "Flood Cleanup Houston: The Complete Guide",
+    description,
+    author: { "@type": "Person", name: "Marcus Chen" },
+    publisher: { "@type": "Organization", name: "HoustonHomeRestore" },
+    datePublished: "2026-04-01",
+    dateModified: "2026-04-04",
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((faq: { question: string; answer: string }) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: isEs ? "Inicio" : "Home", item: "https://houstonhomerestore.com" },
+      { "@type": "ListItem", position: 2, name: isEs ? "Limpieza de Inundaciones" : "Flood Cleanup", item: "https://houstonhomerestore.com/flood-cleanup-houston" },
+    ],
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       {/* Hero */}
       <Image
         src="/images/flood-cleanup-hero.jpg"
@@ -147,6 +197,14 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         className="w-full rounded-xl mb-8 object-cover max-h-[400px]"
         priority
       />
+
+      <Breadcrumbs
+        items={[
+          { label: isEs ? "Limpieza de Inundaciones" : "Flood Cleanup" },
+        ]}
+        locale={locale}
+      />
+
       <h1 className="text-4xl font-extrabold text-gray-900 mb-3">
         {isEs
           ? "Limpieza de Inundaciones en Houston: La Guía Completa"

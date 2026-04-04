@@ -4,6 +4,7 @@ import Image from "next/image";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
 import { getBlogPosts } from "@/lib/i18n/getBlogPosts";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -66,8 +67,29 @@ export default async function BlogIndexPage({ params }: Props) {
     ctaButtonHref: localePath("/blog/what-to-do-when-your-house-floods-houston", locale),
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: isEs ? "Inicio" : "Home", item: "https://houstonhomerestore.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://houstonhomerestore.com/blog" },
+    ],
+  };
+
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Breadcrumbs
+        items={[
+          { label: "Blog" },
+        ]}
+        locale={locale}
+      />
+
       <h1 className="text-4xl font-extrabold text-gray-900 mb-2">{ui.h1}</h1>
       <p className="text-xl text-gray-600 mb-4">{ui.intro}</p>
       <p className="text-gray-600 mb-10 max-w-3xl">{ui.editorialIntro}</p>

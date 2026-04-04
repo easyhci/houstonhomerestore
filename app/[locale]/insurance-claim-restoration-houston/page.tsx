@@ -6,6 +6,7 @@ import { localePath } from "@/lib/i18n/localePath";
 import QuickAnswer from "@/components/QuickAnswer";
 import FAQ from "@/components/FAQ";
 import AuthorBio from "@/components/AuthorBio";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -136,8 +137,57 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
 
   const faqItems = isEs ? faqItemsEs : faqItemsEn;
 
+  const description = isEs
+    ? "Guía definitiva sobre reclamos de seguro por restauración en Houston. Código de Seguros de Texas, deducibles de huracán, NFIP, ajustadores públicos, denegaciones y el proceso del TDI."
+    : "Complete guide to restoration insurance claims in Houston. Texas Insurance Code, hurricane deductibles, NFIP, public adjusters, claim denials, and the TDI complaint process. Updated 2026.";
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: isEs
+      ? "Reclamos de Seguro por Restauración en Houston: La Guía Completa"
+      : "Insurance Claims for Restoration in Houston: The Complete Guide",
+    description,
+    author: { "@type": "Person", name: "Marcus Chen" },
+    publisher: { "@type": "Organization", name: "HoustonHomeRestore" },
+    datePublished: "2026-04-01",
+    dateModified: "2026-04-04",
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((faq: { question: string; answer: string }) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: isEs ? "Inicio" : "Home", item: "https://houstonhomerestore.com" },
+      { "@type": "ListItem", position: 2, name: isEs ? "Reclamos de Seguro" : "Insurance Claims", item: "https://houstonhomerestore.com/insurance-claim-restoration-houston" },
+    ],
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       {/* Hero */}
       <Image
         src="/images/insurance-claim-hero.jpg"
@@ -147,6 +197,14 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         className="w-full rounded-xl mb-8 object-cover max-h-[400px]"
         priority
       />
+
+      <Breadcrumbs
+        items={[
+          { label: isEs ? "Reclamos de Seguro" : "Insurance Claims" },
+        ]}
+        locale={locale}
+      />
+
       <h1 className="text-4xl font-extrabold text-gray-900 mb-3">
         {isEs
           ? "Reclamos de Seguro por Restauración en Houston: La Guía Completa"
