@@ -259,53 +259,41 @@ export default async function HomePage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
 
-      {/* Hero Image */}
-      <div className="w-full">
-        <div className="relative w-full aspect-[16/9]">
-          <Image
-            src="/images/hero-houston.jpg"
-            alt={
-              isEs
-                ? "Panorama de Houston a lo largo del bayou"
-                : "Houston skyline along the bayou"
-            }
-            fill
-            className="object-cover rounded-b-xl"
-            priority
-            sizes="100vw"
-          />
-        </div>
-      </div>
-
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[#1C1008] to-[#3D2010] text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block bg-amber-800 text-amber-100 text-xs font-semibold px-3 py-1 rounded-full mb-6 uppercase tracking-wide">
-            {isEs ? "Base de Conocimiento" : "Knowledge Hub"}
+      {/* Hero */}
+      <section className="relative w-full aspect-[16/9] min-h-[400px] max-h-[600px]">
+        <Image
+          src="/images/hero-houston.jpg"
+          alt={
+            isEs
+              ? "Panorama de Houston a lo largo del bayou"
+              : "Houston skyline along the bayou"
+          }
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 flex items-center justify-center px-4">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4 text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
+              {isEs
+                ? "Gu\u00eda de Da\u00f1o por Agua en Houston, De un Sobreviviente de Harvey"
+                : "Houston Water Damage Guide, From a Harvey Survivor"}
+            </h1>
+            <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">
+              {isEs
+                ? "Lo que aprend\u00ed despu\u00e9s de $47,000 en da\u00f1os y 8 meses de peleas con el seguro"
+                : "What I learned after $47,000 in damage and 8 months of insurance fights"}
+            </p>
+            <Link
+              href={localePath("/blog/what-to-do-when-your-house-floods-houston", locale)}
+              className="inline-block bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-lg"
+            >
+              {isEs
+                ? "Leer la Gu\u00eda de Emergencia por Inundaci\u00f3n"
+                : "Read the Emergency Flood Guide"}
+            </Link>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-            {isEs
-              ? "Gu\u00eda de Da\u00f1o por Agua en Houston, De un Sobreviviente de Harvey"
-              : "Houston Water Damage Guide, From a Harvey Survivor"}
-          </h1>
-          <p className="text-xl text-amber-100 mb-8 max-w-2xl mx-auto">
-            {isEs
-              ? "Lo que aprend\u00ed despu\u00e9s de $47,000 en da\u00f1os y 8 meses de peleas con el seguro"
-              : "What I learned after $47,000 in damage and 8 months of insurance fights"}
-          </p>
-          <Link
-            href={localePath("/blog/what-to-do-when-your-house-floods-houston", locale)}
-            className="inline-block bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors"
-          >
-            {isEs
-              ? "Leer la Gu\u00eda de Emergencia por Inundaci\u00f3n"
-              : "Read the Emergency Flood Guide"}
-          </Link>
-          <p className="text-amber-300 text-sm mt-4">
-            {isEs
-              ? "Gu\u00edas educativas gratuitas. Sin formularios de contratistas. Sin venta de datos."
-              : "Free educational guides. No contractor forms. No lead generation."}
-          </p>
         </div>
       </section>
 
