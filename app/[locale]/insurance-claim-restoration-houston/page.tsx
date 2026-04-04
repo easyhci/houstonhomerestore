@@ -94,22 +94,22 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
     {
       question: "¿Qué es un deducible de huracán y cómo afecta mi reclamo en Houston?",
       answer:
-        "Un deducible de huracán es un deducible especial que aplica cuando una tormenta con nombre causa tu daño. A diferencia de un deducible en dólares fijos, los deducibles de huracán de Texas se calculan como un porcentaje del valor asegurado de tu casa, típicamente del 1% al 5%. En una casa de $400,000, un deducible de huracán del 2% significa que pagas los primeros $8,000 de tu bolsillo. Verifica el porcentaje en tu declaración de póliza.",
+        "Un deducible de huracán es un deducible especial que aplica cuando una tormenta con nombre causa el daño. A diferencia de un deducible en dólares fijos, los deducibles de huracán de Texas se calculan como un porcentaje del valor asegurado de su casa, típicamente del 1% al 5%. En una casa de $400,000, un deducible de huracán del 2% significa que usted paga los primeros $8,000 de su bolsillo. Verifique el porcentaje en su declaración de póliza.",
     },
     {
       question: "¿Cuánto tiempo le da la ley de Texas a mi aseguradora para pagar mi reclamo?",
       answer:
-        "Bajo la Sección 542 del Código de Seguros de Texas, tu aseguradora debe acusar recibo de tu reclamo dentro de 15 días hábiles. Debe aceptar o rechazar el reclamo dentro de 15 días hábiles adicionales. Una vez que aceptan el reclamo, deben pagar dentro de 5 días hábiles. Si no cumplen estos plazos sin causa justificada, te deben intereses al 18% anual más honorarios de abogado.",
+        "Bajo la Sección 542 del Código de Seguros de Texas, su aseguradora debe acusar recibo de su reclamo dentro de 15 días hábiles. Debe aceptar o rechazar el reclamo dentro de 15 días hábiles adicionales. Una vez que aceptan el reclamo, deben pagar dentro de 5 días hábiles. Si no cumplen estos plazos sin causa justificada, le deben intereses al 18% anual más honorarios de abogado.",
     },
     {
       question: "¿Qué debo hacer si mi aseguradora deniega mi reclamo de daño por agua o inundación?",
       answer:
-        "Primero, obtén la denegación por escrito y pide el lenguaje específico de la póliza en que se basaron. Luego solicita tu expediente de reclamo completo. Considera contratar un ajustador público para re-inspeccionar el daño. También puedes presentar una queja ante el Departamento de Seguros de Texas (TDI) en tdi.texas.gov.",
+        "Primero, obtenga la denegación por escrito y solicite el lenguaje específico de la póliza en que se basaron. Luego solicite su expediente de reclamo completo. Considere contratar un ajustador público para reinspeccionar el daño. También puede presentar una queja ante el Departamento de Seguros de Texas (TDI) en tdi.texas.gov.",
     },
     {
       question: "¿Qué es un ajustador público y cuándo debo contratar uno en Houston?",
       answer:
-        "Un ajustador público es un profesional de seguros con licencia que trabaja para ti (no para la aseguradora) para documentar y negociar tu reclamo. En Texas, los ajustadores públicos son licenciados por el TDI y típicamente cobran del 10% al 15% del acuerdo del reclamo. Son más valiosos cuando la oferta inicial de liquidación parece demasiado baja o cuando el asegurador disputa la causa del daño.",
+        "Un ajustador público es un profesional de seguros con licencia que trabaja para usted (no para la aseguradora) para documentar y negociar su reclamo. En Texas, los ajustadores públicos están licenciados por el TDI y típicamente cobran del 10% al 15% del acuerdo del reclamo. Son más valiosos cuando la oferta inicial de liquidación parece demasiado baja o cuando la aseguradora disputa la causa del daño.",
     },
     {
       question: "¿El seguro de propietario cubre el moho después de un reclamo de daño por agua?",
@@ -124,12 +124,12 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
     {
       question: "¿Cómo documento mi propiedad en Houston para un reclamo de seguro?",
       answer:
-        "La mejor práctica es documentar ANTES de cualquier daño. Crea un video de inventario del hogar recorriendo cada habitación, abriendo cada gabinete, grabando números de modelo y serie de los electrodomésticos. Guárdalo en almacenamiento en la nube. Después del daño, fotografía todo desde múltiples ángulos antes de tocar nada.",
+        "La mejor práctica es documentar ANTES de cualquier daño. Grabe un video de inventario del hogar recorriendo cada habitación, abriendo cada gabinete y registrando números de modelo y serie de los electrodomésticos. Guárdelo en almacenamiento en la nube. Después del daño, fotografíe todo desde múltiples ángulos antes de tocar nada.",
     },
     {
       question: "¿Qué es el Departamento de Seguros de Texas y cómo puede ayudarme?",
       answer:
-        "El Departamento de Seguros de Texas (TDI) regula todas las compañías de seguros que operan en Texas. Si tu aseguradora está actuando de mala fe, retrasando tu reclamo o crees que te pagaron de menos, presenta una queja en tdi.texas.gov. El TDI también tiene una línea de ayuda al consumidor gratuita al 1-800-252-3439.",
+        "El Departamento de Seguros de Texas (TDI) regula todas las compañías de seguros que operan en Texas. Si su aseguradora está actuando de mala fe, retrasando su reclamo o usted cree que le pagaron de menos, presente una queja en tdi.texas.gov. El TDI también tiene una línea de ayuda al consumidor gratuita al 1-800-252-3439.",
     },
   ];
 
@@ -151,7 +151,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         label={isEs ? "Respuesta Rápida:" : "Quick Answer:"}
         answer={
           isEs
-            ? "En Texas, las aseguradoras deben reconocer tu reclamo en 15 días y pagar en 5 días tras aceptarlo. Los deducibles de huracán son porcentuales (1-5% del valor de la casa), no una cantidad fija. El seguro estándar de propietario NO cubre inundaciones externas; necesitas el NFIP por separado. Si te niegan un reclamo, el TDI puede investigar y tienes derechos de apelación."
+            ? "En Texas, las aseguradoras deben reconocer su reclamo en 15 días y pagar en 5 días tras aceptarlo. Los deducibles de huracán son porcentuales (1-5% del valor de la casa), no una cantidad fija. El seguro estándar de propietario NO cubre inundaciones externas; necesita el NFIP por separado. Si le niegan un reclamo, el TDI puede investigar y usted tiene derechos de apelación."
             : "In Texas, insurers must acknowledge your claim within 15 days and pay within 5 days of acceptance. Hurricane deductibles are percentage-based (1-5% of home value), not a flat amount. Standard homeowners does NOT cover external flooding; you need NFIP separately. If denied, TDI can investigate and you have strong appeal rights."
         }
       />
@@ -167,7 +167,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
-            ? "Esta guía cubre lo que necesitas saber sobre los reclamos de seguros de restauración en Texas antes de que ocurra el daño, durante el proceso de reclamo, y qué hacer cuando algo sale mal."
+            ? "Esta guía cubre lo que necesita saber sobre los reclamos de seguros de restauración en Texas: antes de que ocurra el daño, durante el proceso de reclamo, y qué hacer cuando algo sale mal."
             : "This guide covers what you need to know about restoration insurance claims in Texas before damage occurs, during the claims process, and what to do when something goes wrong."}
         </p>
       </section>
@@ -181,23 +181,23 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
           {[
             {
               step: "1",
-              title: isEs ? "Documenta antes de limpiar" : "Document Before You Clean",
+              title: isEs ? "Documente antes de limpiar" : "Document Before You Clean",
               body: isEs
-                ? "Fotografía y filma todo el daño visible desde múltiples ángulos antes de mover o tirar cualquier cosa. Registra la marca del agua en la pared con una cinta métrica. Guarda muestras de materiales dañados en bolsas de plástico. Esta documentación determina tu pago de reclamo."
+                ? "Fotografíe y filme todo el daño visible desde múltiples ángulos antes de mover o tirar cualquier cosa. Registre la marca del agua en la pared con una cinta métrica. Guarde muestras de materiales dañados en bolsas de plástico. Esta documentación determina el pago de su reclamo."
                 : "Photograph and video all visible damage from multiple angles before moving or discarding anything. Record the water line mark on walls with a tape measure. Save samples of damaged materials in plastic bags. This documentation determines your claim payment.",
             },
             {
               step: "2",
-              title: isEs ? "Reporta el reclamo rápido" : "File the Claim Fast",
+              title: isEs ? "Reporte el reclamo rápido" : "File the Claim Fast",
               body: isEs
-                ? "Llama a tu aseguradora dentro de las 24 horas del daño. Bajo el Código de Seguros de Texas, los plazos de respuesta de la aseguradora comienzan desde que recibes el reclamo. Obtén tu número de reclamo y el nombre del ajustador asignado. Confirma si el daño activa tu deducible de huracán o el estándar."
+                ? "Llame a su aseguradora dentro de las 24 horas del daño. Bajo el Código de Seguros de Texas, los plazos de respuesta de la aseguradora comienzan desde que reciben el reclamo. Obtenga su número de reclamo y el nombre del ajustador asignado. Confirme si el daño activa su deducible de huracán o el estándar."
                 : "Call your insurer within 24 hours of damage. Under the Texas Insurance Code, insurer response deadlines start from claim receipt. Get your claim number and the assigned adjuster's name. Confirm whether damage triggers your hurricane deductible or standard.",
             },
             {
               step: "3",
-              title: isEs ? "Toma medidas para prevenir más daño" : "Take Steps to Prevent Further Damage",
+              title: isEs ? "Tome medidas para prevenir más daño" : "Take Steps to Prevent Further Damage",
               body: isEs
-                ? "Tu póliza requiere que tomes medidas razonables para prevenir daño adicional. Esto significa cubrir el techo dañado con lonas, extraer el agua estancada, y secar lo que sea seguro. Guarda los recibos de todo lo que gastes: materiales de emergencia son típicamente reembolsables."
+                ? "Su póliza requiere que tome medidas razonables para prevenir daño adicional. Esto significa cubrir el techo dañado con lonas, extraer el agua estancada y secar lo que sea seguro. Guarde los recibos de todo lo que gaste; los materiales de emergencia son típicamente reembolsables."
                 : "Your policy requires you to take reasonable steps to prevent further damage. This means tarping damaged roofs, extracting standing water, and drying what's safe to dry. Save receipts for all spending. Emergency materials are typically reimbursable.",
             },
           ].map((card) => (
@@ -219,7 +219,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "Texas tiene algunas de las protecciones de seguros para consumidores más fuertes del país. Conocer estas leyes cambia fundamentalmente la dinámica cuando tratas con tu aseguradora."
+            ? "Texas tiene algunas de las protecciones de seguros para consumidores más fuertes del país. Conocer estas leyes cambia fundamentalmente la dinámica cuando trata con su aseguradora."
             : "Texas has some of the strongest consumer insurance protections in the country. Knowing these laws fundamentally changes the dynamic when dealing with your insurer."}
         </p>
         <div className="space-y-4">
@@ -227,7 +227,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
             {
               law: isEs ? "Sección 542: Plazos de Respuesta Rápida" : "Section 542: Prompt Payment",
               detail: isEs
-                ? "Tu aseguradora debe: (1) acusar recibo del reclamo dentro de 15 días hábiles; (2) aceptar o rechazar dentro de 15 días hábiles después de recibir toda la información; (3) pagar dentro de 5 días hábiles de aceptación. Violación: 18% de interés anual más honorarios de abogado sobre la cantidad no pagada."
+                ? "Su aseguradora debe: (1) acusar recibo del reclamo dentro de 15 días hábiles; (2) aceptar o rechazar dentro de 15 días hábiles después de recibir toda la información; (3) pagar dentro de 5 días hábiles de aceptación. Violación: 18% de interés anual más honorarios de abogado sobre la cantidad no pagada."
                 : "Your insurer must: (1) acknowledge your claim within 15 business days of receipt; (2) accept or deny within 15 business days after receiving all information; (3) pay within 5 business days of acceptance. Violation: 18% annual interest plus attorney fees on the unpaid amount.",
             },
             {
@@ -239,13 +239,13 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
             {
               law: isEs ? "Artículo 4102: Regulación de Ajustadores Públicos" : "Article 4102: Public Adjuster Regulation",
               detail: isEs
-                ? "Texas licencia a los ajustadores públicos a través del TDI. Pueden cobrar hasta el 10% de los pagos de reclamos de desastre declarados por el gobernador y hasta el 15% de otros reclamos. El contrato debe estar por escrito. Tienes el derecho de cancelarlo dentro de 72 horas."
+                ? "Texas licencia a los ajustadores públicos a través del TDI. Pueden cobrar hasta el 10% de los pagos de reclamos de desastre declarados por el gobernador y hasta el 15% de otros reclamos. El contrato debe estar por escrito. Usted tiene el derecho de cancelarlo dentro de 72 horas."
                 : "Texas licenses public adjusters through TDI. They may charge up to 10% of claim payments on governor-declared disaster claims and up to 15% on other claims. The contract must be in writing. You have the right to cancel within 72 hours.",
             },
             {
               law: isEs ? "Código de Seguros 862.053: Protección contra Cancelación" : "Insurance Code 862.053: Cancellation Protections",
               detail: isEs
-                ? "En Texas, una aseguradora no puede cancelar tu póliza simplemente porque presentaste un reclamo. Tienen restricciones estrictas sobre cuándo pueden no renovar pólizas, y deben darte aviso de 60 días de no renovación."
+                ? "En Texas, una aseguradora no puede cancelar su póliza simplemente porque presentó un reclamo. Tienen restricciones estrictas sobre cuándo pueden no renovar pólizas y deben darle aviso de 60 días de no renovación."
                 : "In Texas, an insurer cannot cancel your policy simply because you filed a claim. They have strict restrictions on when they can non-renew policies, and must give you 60 days notice of non-renewal.",
             },
           ].map((item) => (
@@ -269,14 +269,14 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         </p>
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
           <h3 className="font-bold text-amber-900 mb-3">
-            {isEs ? "Cómo Calcular Tu Deducible de Huracán" : "How to Calculate Your Hurricane Deductible"}
+            {isEs ? "Cómo Calcular Su Deducible de Huracán" : "How to Calculate Your Hurricane Deductible"}
           </h3>
           <div className="space-y-2 text-sm">
             {(isEs
               ? [
-                  "Encuentra el valor asegurado de tu casa en tu declaración de póliza (no el precio de compra, sino el costo de reconstrucción).",
-                  "Encuentra el porcentaje del deducible de huracán (busca 'hurricane deductible' o 'windstorm deductible' en tu póliza).",
-                  "Multiplica: Valor asegurado × Porcentaje = Tu deducible.",
+                  "Encuentre el valor asegurado de su casa en su declaración de póliza (no el precio de compra, sino el costo de reconstrucción).",
+                  "Encuentre el porcentaje del deducible de huracán (busque 'hurricane deductible' o 'windstorm deductible' en su póliza).",
+                  "Multiplique: Valor asegurado × Porcentaje = Su deducible.",
                   "Ejemplo: Casa asegurada en $350,000 × 2% = $7,000 deducible antes de que el seguro pague.",
                 ]
               : [
@@ -295,7 +295,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         </div>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "El deducible de huracán se activa cuando la Tormenta era un 'huracán nombrado' al momento de causar el daño. Para Harvey, la tormenta fue degradada a tormenta tropical antes de tocar tierra en el área de Houston, lo que llevó a disputas sobre si se activaba el deducible de huracán o el estándar. Cada aseguradora manejó esto de manera diferente. Lee la definición exacta de 'huracán' en tu póliza."
+            ? "El deducible de huracán se activa cuando la Tormenta era un 'huracán nombrado' al momento de causar el daño. Para Harvey, la tormenta fue degradada a tormenta tropical antes de tocar tierra en el área de Houston, lo que llevó a disputas sobre si se activaba el deducible de huracán o el estándar. Cada aseguradora manejó esto de manera diferente. Lea la definición exacta de 'huracán' en su póliza."
             : "The hurricane deductible triggers when the storm was a 'named hurricane' at the time of causing damage. For Harvey, the storm was downgraded to a tropical storm before making landfall in the Houston area, leading to disputes about whether the hurricane or standard deductible applied. Different insurers handled this differently. Read the exact definition of 'hurricane' in your policy."}
         </p>
       </section>
@@ -375,37 +375,37 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
           {[
             {
               num: "01",
-              title: isEs ? "Reporta el reclamo" : "Report the Claim",
+              title: isEs ? "Reporte el reclamo" : "Report the Claim",
               body: isEs
-                ? "Llama a la línea de reclamos de tu aseguradora o usa la aplicación móvil dentro de las 24 horas. Ten a mano tu número de póliza, la dirección de la propiedad y una descripción básica del daño. Si es inundación, llama también a tu aseguradora NFIP (puede ser la misma empresa, puede ser diferente)."
+                ? "Llame a la línea de reclamos de su aseguradora o use la aplicación móvil dentro de las 24 horas. Tenga a mano su número de póliza, la dirección de la propiedad y una descripción básica del daño. Si es inundación, llame también a su aseguradora NFIP (puede ser la misma empresa o una diferente)."
                 : "Call your insurer's claims line or use the mobile app within 24 hours. Have your policy number, property address, and a basic damage description ready. If it's flooding, also call your NFIP insurer (may be the same company, may be different).",
             },
             {
               num: "02",
-              title: isEs ? "Documenta exhaustivamente" : "Document Exhaustively",
+              title: isEs ? "Documente exhaustivamente" : "Document Exhaustively",
               body: isEs
-                ? "Fotografía y filma todo el daño antes de tocar nada. Registra la marca de agua en la pared con una cinta métrica. Haz una lista de todos los artículos dañados con modelos y valores estimados. Si tienes facturas de compra, registros de garantía, o fotos previas al daño, reúnelas. Cuanta más documentación, mejor el resultado."
+                ? "Fotografíe y filme todo el daño antes de tocar nada. Registre la marca de agua en la pared con una cinta métrica. Haga una lista de todos los artículos dañados con modelos y valores estimados. Si tiene facturas de compra, registros de garantía o fotos previas al daño, reúnalas. Entre más documentación, mejor el resultado."
                 : "Photograph and video every damaged area before touching anything. Record the water line on walls with a tape measure. Create a list of all damaged items with models and estimated values. If you have purchase receipts, warranty records, or pre-damage photos, gather them. The more documentation, the better the outcome.",
             },
             {
               num: "03",
               title: isEs ? "Reunión con el ajustador" : "Meet with the Adjuster",
               body: isEs
-                ? "El ajustador de la aseguradora inspeccionará la propiedad. Estate presente en persona. Señala todo el daño que detectaste, incluyendo daño oculto (abre puertas de armarios, señala el espacio de rastreo si es relevante). Si no mencionas algo, el ajustador puede no incluirlo. Toma notas de lo que dice el ajustador."
+                ? "El ajustador de la aseguradora inspeccionará la propiedad. Esté presente en persona. Señale todo el daño que detectó, incluyendo daño oculto (abra puertas de armarios, señale el espacio de rastreo si es relevante). Si no menciona algo, el ajustador puede no incluirlo. Tome notas de lo que dice el ajustador."
                 : "The insurer's adjuster will inspect your property. Be there in person. Point out every damage you've identified, including hidden damage (open cabinet doors, point out the crawlspace if relevant). If you don't mention it, the adjuster may not include it. Take notes on what the adjuster says.",
             },
             {
               num: "04",
               title: isEs ? "Revisa la estimación de Xactimate" : "Review the Xactimate Estimate",
               body: isEs
-                ? "La mayoría de las aseguradoras en Texas usan Xactimate para calcular el costo de reparación. Obtendrás un desglose línea por línea. Compara los precios con estimaciones independientes de restauradores locales. Si los precios de Xactimate son significativamente más bajos que las estimaciones reales del mercado de Houston, pide una suplementación del reclamo."
+                ? "La mayoría de las aseguradoras en Texas usan Xactimate para calcular el costo de reparación. Obtendrá un desglose línea por línea. Compare los precios con estimaciones independientes de restauradores locales. Si los precios de Xactimate son significativamente más bajos que las estimaciones reales del mercado de Houston, solicite una suplementación del reclamo."
                 : "Most Texas insurers use Xactimate to calculate repair costs. You'll receive a line-by-line breakdown. Compare prices against independent estimates from local restorers. If Xactimate prices are significantly below actual Houston market estimates, request a claim supplement.",
             },
             {
               num: "05",
               title: isEs ? "Negocia o impugna si es necesario" : "Negotiate or Dispute if Necessary",
               body: isEs
-                ? "Si la oferta parece baja, solicita una explicación escrita de cada ítem en disputa. Presenta estimaciones de terceros como evidencia. Considera contratar un ajustador público si la brecha es significativa. Si el reclamo es denegado injustamente, el TDI y los abogados de mala fe en seguros son tus recursos siguientes."
+                ? "Si la oferta parece baja, solicite una explicación escrita de cada concepto en disputa. Presente estimaciones de terceros como evidencia. Considere contratar un ajustador público si la diferencia es significativa. Si el reclamo es denegado injustamente, el TDI y los abogados de mala fe en seguros son sus siguientes recursos."
                 : "If the offer seems low, request written explanation of each disputed item. Submit third-party estimates as evidence. Consider hiring a public adjuster if the gap is significant. If the claim is wrongfully denied, TDI and bad faith insurance attorneys are your next resources.",
             },
           ].map((step) => (
@@ -432,7 +432,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
             ? [
                 {
                   denial: "Denegación: 'El daño fue causado por inundación, no cubierto'",
-                  fight: "Impugnación: Si parte del daño fue de agua interna (tubería, techo), esa porción SÍ está cubierta. Documenta el punto de entrada del agua. Una tubería reventada durante una tormenta sigue siendo daño de tubería, no inundación. Obtén una segunda inspección independiente.",
+                  fight: "Impugnación: Si parte del daño fue de agua interna (tubería, techo), esa porción SÍ está cubierta. Documente el punto de entrada del agua. Una tubería reventada durante una tormenta sigue siendo daño de tubería, no inundación. Obtenga una segunda inspección independiente.",
                 },
                 {
                   denial: "Denegación: 'El daño fue por mantenimiento diferido'",
@@ -440,11 +440,11 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
                 },
                 {
                   denial: "Denegación: 'No hay daño cubierto que exceda el deducible'",
-                  fight: "Impugnación: Obtén múltiples estimaciones de restauradores con licencia. Si hay una brecha significativa entre la estimación de la aseguradora y las estimaciones del mercado, esa diferencia es la base para la apelación. Los precios de Xactimate pueden estar basados en datos de mercado nacionales que subestiman los precios de Houston.",
+                  fight: "Impugnación: Obtenga múltiples estimaciones de restauradores con licencia. Si hay una diferencia significativa entre la estimación de la aseguradora y las estimaciones del mercado, esa diferencia es la base para la apelación. Los precios de Xactimate pueden estar basados en datos de mercado nacionales que subestiman los precios de Houston.",
                 },
                 {
                   denial: "Denegación: 'El moho es una condición preexistente'",
-                  fight: "Impugnación: Si el moho creció como resultado de un evento de agua cubierto, no es preexistente. Obtén un informe de un evaluador de moho con licencia TDLR que documente la conexión causal entre el evento de agua y el crecimiento de moho.",
+                  fight: "Impugnación: Si el moho creció como resultado de un evento de agua cubierto, no es preexistente. Obtenga un informe de un evaluador de moho con licencia TDLR que documente la conexión causal entre el evento de agua y el crecimiento de moho.",
                 },
               ]
             : [
@@ -563,7 +563,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "Si tu aseguradora está actuando de mala fe, retrasando tu reclamo injustificadamente, o crees que te pagaron de menos, el TDI es tu primer recurso regulatorio."
+            ? "Si su aseguradora está actuando de mala fe, retrasando su reclamo injustificadamente, o usted cree que le pagaron de menos, el TDI es su primer recurso regulatorio."
             : "If your insurer is acting in bad faith, unreasonably delaying your claim, or you believe you were underpaid, TDI is your first regulatory resource."}
         </p>
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
@@ -575,9 +575,9 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
               <ol className="space-y-2 text-sm text-gray-700">
                 {(isEs
                   ? [
-                      "Ve a tdi.texas.gov y selecciona 'File a Complaint'",
-                      "Proporciona el nombre y número de póliza de tu aseguradora",
-                      "Describe el problema y adjunta tu documentación",
+                      "Vaya a tdi.texas.gov y seleccione 'File a Complaint'",
+                      "Proporcione el nombre y número de póliza de su aseguradora",
+                      "Describa el problema y adjunte su documentación",
                       "El TDI enviará la queja a la aseguradora y requerirá una respuesta",
                       "El TDI te notificará sobre el resultado de la investigación",
                     ]

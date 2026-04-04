@@ -109,7 +109,7 @@ export const costEstimatorDict = {
       {
         value: "black",
         label: "Agua Negra (Categor\u00eda 3)",
-        desc: "Respaldo de alcantarilla, inundaci\u00f3n de bayou, marejada ciclonica, agua estancada 72+ horas",
+        desc: "Reflujo de alcantarilla, inundaci\u00f3n de bayou, marejada cicl\u00f3nica, agua estancada 72+ horas",
       },
     ],
     timeLabel: "\u00bfCu\u00e1nto Tiempo Ha Estado el Agua?",
@@ -123,7 +123,7 @@ export const costEstimatorDict = {
     ],
     floorLabel: "Piso Principal en el \u00c1rea Afectada",
     floorHelp:
-      "La madera es la m\u00e1s cara de reemplazar. La alfombra puede ser salvable si se seca dentro de las 24 horas con agua limpia.",
+      "La madera es la m\u00e1s cara de reemplazar. La alfombra se puede recuperar si se seca dentro de las primeras 24 horas y el agua es limpia.",
     floorOptions: [
       { value: "carpet", label: "Alfombra" },
       { value: "hardwood", label: "Madera" },
@@ -138,8 +138,8 @@ export const costEstimatorDict = {
     moldUnsure: "No estoy seguro/a",
     emergencyLabel: "\u00bfEs una Llamada Fuera de Horario o Fin de Semana?",
     emergencyHelp:
-      "Las llamadas de emergencia fuera del horario laboral normalmente agregan un 25\u201350% a los costos de mano de obra. La temporada de huracanes puede ver sobreprecios adicionales.",
-    emergencyYes: "S\u00ed, noches/fines de semana/feriados",
+      "Las llamadas de emergencia fuera del horario laboral normalmente agregan un 25\u201350% a los costos de mano de obra. Durante la temporada de huracanes puede haber sobreprecios adicionales.",
+    emergencyYes: "S\u00ed, noches/fines de semana/d\u00edas festivos",
     emergencyNo: "No, durante horario laboral",
     structuralLabel: "\u00bfSe Necesita Reemplazar Panel de Yeso o Techo?",
     structuralHelp:
@@ -163,12 +163,12 @@ export const costEstimatorDict = {
     total: "Total Estimado",
     lowLabel: "M\u00ednimo",
     highLabel: "M\u00e1ximo",
-    tipsTitle: "Factores Clave que Afectan Su Costo",
-    calculateBtn: "Calcular Estimaci\u00f3n",
+    tipsTitle: "Factores Clave que Influyen en Su Costo",
+    calculateBtn: "Obtener Estimado",
     resetBtn: "Reiniciar",
     ctaText:
       "Obtenga m\u00faltiples presupuestos de empresas de restauraci\u00f3n con licencia y certificaci\u00f3n IICRC. Compare las estimaciones cuidadosamente antes de comprometerse con alg\u00fan contratista.",
-    ctaButton: "Aprenda c\u00f3mo elegir un contratista",
+    ctaButton: "Gu\u00eda para elegir un contratista",
     source: "Basado en datos de Angi, HomeAdvisor, HomeGuide, RSI Companies, Xactimate y m\u00e1s de 20 fuentes de la industria (2025\u20132026).",
   },
 } as const;

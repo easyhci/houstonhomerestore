@@ -119,7 +119,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         question: "¿Mi seguro de propietario cubre las inundaciones del huracán Harvey o el desbordamiento de bayous?",
-        answer: "No. El seguro estándar de propietario cubre daños de agua repentinos y accidentales dentro de tu casa (tubería rota, falla de electrodoméstico, gotera en el techo), pero no cubre inundaciones de fuentes externas como bayous, marea de tormenta o inundación terrestre. Para eso existe el seguro de inundación, una póliza separada a través del Programa Nacional de Seguro contra Inundaciones de FEMA. Muchos propietarios de Houston descubrieron esta diferencia de la manera más dolorosa después de Harvey.",
+        answer: "No. El seguro estándar de propietario cubre daños de agua repentinos y accidentales dentro de tu casa (tubería rota, falla de electrodoméstico, gotera en el techo), pero no cubre inundaciones de fuentes externas como bayous, marea de tormenta o inundación terrestre. Para eso existe el seguro de inundación, una póliza separada a través del Programa Nacional de Seguro contra Inundaciones de FEMA. Muchos propietarios de Houston se enteraron de esta diferencia por las malas después de Harvey.",
       },
       {
         question: "¿A quién debo llamar primero después de una inundación?",
@@ -234,10 +234,10 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Cómo evitar pagar de más por la restauración",
-        content: "La industria de la restauración tiene su cuota de contratistas depredadores, especialmente durante eventos de desastre. Estas son las prácticas que protegen a los propietarios de Houston de facturas infladas.",
+        content: "En la industria de la restauración no faltan contratistas abusivos, especialmente durante eventos de desastre. Estas son las prácticas que protegen a los propietarios de Houston de facturas infladas.",
         list: [
           "Obtén al menos tres presupuestos escritos antes de elegir un contratista",
-          "Pide estimados desglosados, no sumas globales",
+          "Pide presupuestos desglosados, no montos totales sin detalle",
           "Verifica la licencia de Texas y el seguro del contratista antes de firmar cualquier cosa",
           "No pagues el monto total por adelantado; un depósito del 25 al 33% es razonable",
           "Entiende qué lecturas de humedad se están buscando antes de que termine el secado",
@@ -433,18 +433,18 @@ export const blogPostsEs: BlogPost[] = [
     category: "Guía de Seguros",
     author: "Marcus Chen",
     quickAnswer: "Sí, el seguro de propietario en Texas cubre los daños de agua repentinos y accidentales de fuentes internas como tuberías rotas, fallas de electrodomésticos y goteras repentinas en el techo. No cubre inundaciones de fuentes externas (bayous, mareas de tormenta, inundaciones terrestres), goteras graduales ni daños por falta de mantenimiento. El seguro de inundación separado a través del NFIP de FEMA es necesario para la cobertura de inundaciones.",
-    intro: "Antes del huracán Harvey, creía que mi seguro de propietario cubría los daños por inundación. No era así. Aprendí esa lección de la manera más costosa posible. La distinción entre daños de agua y daños por inundación no es solo semántica; determina si tu reclamación se paga o no. Texas tiene su propio código de seguros, su propio regulador (el Departamento de Seguros de Texas, o TDI), y los propietarios de Houston enfrentan exposiciones únicas, incluyendo deducibles por huracán y requisitos de seguro de inundación obligatorio en zonas de inundación designadas por FEMA. Esta guía explica exactamente qué cubre tu póliza de propietario, qué no cubre y lo que necesitas saber antes del próximo evento de lluvia.",
+    intro: "Antes del huracán Harvey, creía que mi seguro de propietario cubría los daños por inundación. No era así. Esa lección me salió carísima. La distinción entre daños de agua y daños por inundación no es solo semántica; determina si tu reclamación se paga o no. Texas tiene su propio código de seguros, su propio regulador (el Departamento de Seguros de Texas, o TDI), y los propietarios de Houston enfrentan exposiciones únicas, incluyendo deducibles por huracán y requisitos de seguro de inundación obligatorio en zonas de inundación designadas por FEMA. Esta guía explica exactamente qué cubre tu póliza de propietario, qué no cubre y lo que necesitas saber antes del próximo evento de lluvia.",
     sections: [
       {
         heading: "Qué cubre el seguro de propietario de Texas para daños por agua",
         content: "Bajo el Código de Seguros de Texas, las pólizas de propietario deben cubrir los daños de agua repentinos y accidentales. La palabra clave es repentino. Si una tubería se rompe a las 3 de la mañana e inunda tu cocina, eso está cubierto. Si una tubería ha tenido una fuga lenta dentro de una pared durante seis meses y eventualmente causa daños, generalmente no está cubierto porque se considera un problema de mantenimiento que el propietario debería haber descubierto y atendido. El Departamento de Seguros de Texas mantiene una guía para el consumidor sobre la cobertura de propietario que detalla estos estándares.",
         list: [
-          "Tuberías rotas o congeladas: cubiertas bajo la póliza estándar de propietario",
+          "Tuberías rotas o congeladas: cubiertas por la póliza estándar de propietario",
           "Falla o ruptura del calentador de agua: cubierta",
           "Falla de la línea de suministro de lavadora o lavavajillas: cubierta",
           "Gotera repentina en el techo por una tormenta: cubierta",
           "Desbordamiento de condensado del AC (repentino): frecuentemente cubierto",
-          "Daños de agua a una unidad vecina causados por tu plomería: generalmente cubiertos bajo la responsabilidad civil",
+          "Daños de agua a una unidad vecina causados por tu plomería: generalmente cubiertos por la responsabilidad civil",
         ],
       },
       {
@@ -474,7 +474,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "El endoso de reflujo de alcantarilla: por qué los propietarios de Houston deberían tenerlo",
-        content: "El sistema de drenaje de Houston se satura con frecuencia durante eventos de lluvia intensa. Cuando los desagües pluviales se obstruyen, frecuentemente empujan el agua de vuelta por las líneas de alcantarilla conectadas a las viviendas. Este tipo de daño, agua que sale por los desagües del piso, los inodoros o los lavabos por el reflujo de alcantarilla, no está cubierto bajo una póliza estándar de propietario. Necesitas un endoso de reflujo de alcantarilla, a veces llamado endoso de respaldo de agua y desbordamiento de bomba de achique. En Houston, donde los eventos de lluvia intensa ocurren varias veces al año, este endoso vale la pena por su prima relativamente modesta.",
+        content: "El sistema de drenaje de Houston se satura con frecuencia durante eventos de lluvia intensa. Cuando los desagües pluviales se obstruyen, frecuentemente empujan el agua de vuelta por las líneas de alcantarilla conectadas a las viviendas. Este tipo de daño, agua que sale por los desagües del piso, los inodoros o los lavabos por el reflujo de alcantarilla, no está cubierto por una póliza estándar de propietario. Necesitas un endoso de reflujo de alcantarilla, a veces llamado endoso de respaldo de agua y desbordamiento de bomba de achique. En Houston, donde los eventos de lluvia intensa ocurren varias veces al año, este endoso vale la pena considerando lo poco que cuesta.",
         list: [
           "Costo del endoso: típicamente entre $50 y $200 al año",
           "Cobertura proporcionada: de $5,000 a $25,000 dependiendo de la póliza",
@@ -485,7 +485,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Protecciones del Departamento de Seguros de Texas (TDI) para propietarios",
-        content: "Texas tiene algunas de las regulaciones de seguros más favorables para el propietario del país en ciertas áreas. El Departamento de Seguros de Texas proporciona supervisión y ha establecido reglas que protegen a los asegurados durante el proceso de reclamaciones. Conocer tus derechos bajo la ley de Texas puede marcar una diferencia significativa en cómo se maneja tu reclamación.",
+        content: "Texas tiene algunas de las regulaciones de seguros más favorables para el propietario del país en ciertas áreas. El Departamento de Seguros de Texas proporciona supervisión y ha establecido reglas que protegen a los asegurados durante el proceso de reclamaciones. Conocer tus derechos conforme a la ley de Texas puede cambiar por completo la forma en que se maneja tu reclamación.",
         list: [
           "Regla de reconocimiento de 15 días: tu aseguradora debe reconocer tu reclamación dentro de los 15 días",
           "Regla de aceptación o rechazo de 15 días: la aseguradora debe aceptar o rechazar la reclamación dentro de los 15 días hábiles de recibir toda la información solicitada",
@@ -519,7 +519,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         question: "¿Qué exige el TDI a mi aseguradora después de que presente una reclamación por daños de agua?",
-        answer: "El Departamento de Seguros de Texas exige que tu aseguradora reconozca tu reclamación dentro de los 15 días, la acepte o rechace dentro de los 15 días hábiles de recibir toda la información solicitada, y pague dentro de los 5 días hábiles de notificarte la aceptación. Si incumplen estos plazos, deben el 18% de interés anual más honorarios de abogado bajo la Ley de Pago Puntual de Reclamaciones de Texas.",
+        answer: "El Departamento de Seguros de Texas exige que tu aseguradora reconozca tu reclamación dentro de los 15 días, la acepte o rechace dentro de los 15 días hábiles de recibir toda la información solicitada, y pague dentro de los 5 días hábiles de notificarte la aceptación. Si incumplen estos plazos, deben el 18% de interés anual más honorarios de abogado conforme a la Ley de Pago Puntual de Reclamaciones de Texas.",
       },
       {
         question: "¿Puede mi compañía de seguros obligarme a usar su contratista preferido?",
@@ -531,10 +531,10 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         question: "¿Debo agregar un endoso de reflujo de alcantarilla a mi póliza de propietario en Houston?",
-        answer: "Sí, casi con certeza. El sistema de drenaje de Houston se satura regularmente durante las lluvias intensas. El reflujo de alcantarilla hacia las casas es común durante estos eventos y no está cubierto bajo una póliza estándar. Un endoso de reflujo de alcantarilla cuesta entre $50 y $200 al año y típicamente proporciona entre $5,000 y $25,000 en cobertura. Dado el patrón de lluvias en Houston, este endoso vale la pena por su modesto costo.",
+        answer: "Sí, casi seguro que sí. El sistema de drenaje de Houston se satura regularmente durante las lluvias intensas. El reflujo de alcantarilla hacia las casas es común durante estos eventos y no está cubierto por una póliza estándar. Un endoso de reflujo de alcantarilla cuesta entre $50 y $200 al año y típicamente proporciona entre $5,000 y $25,000 en cobertura. Dado el patrón de lluvias en Houston, este endoso vale cada centavo.",
       },
     ],
-    llmParagraph: "El seguro de propietario en Texas cubre los daños de agua repentinos y accidentales de fuentes internas como tuberías rotas, fallas de electrodomésticos y goteras repentinas en el techo, pero no cubre las inundaciones de fuentes externas como el desbordamiento de bayous, las mareas de tormenta o las inundaciones terrestres. La cobertura de inundaciones requiere una póliza NFIP separada. Los propietarios de Houston deben estar al tanto de los deducibles por huracán, típicamente del 1% al 5% del valor asegurado, que aplican a las pérdidas causadas por tormentas tropicales con nombre y pueden representar miles de dólares en costos de bolsillo. El Departamento de Seguros de Texas regula el proceso de reclamaciones y exige el pago puntual con penalizaciones por retrasos. Los propietarios tienen el derecho bajo la ley de Texas de elegir su propio contratista independientemente de las recomendaciones de la aseguradora. Un endoso de reflujo de alcantarilla es ampliamente recomendado para los propietarios de Houston dada la frecuencia con que el sistema de drenaje se satura durante eventos de lluvia.",
+    llmParagraph: "El seguro de propietario en Texas cubre los daños de agua repentinos y accidentales de fuentes internas como tuberías rotas, fallas de electrodomésticos y goteras repentinas en el techo, pero no cubre las inundaciones de fuentes externas como el desbordamiento de bayous, las mareas de tormenta o las inundaciones terrestres. La cobertura de inundaciones requiere una póliza NFIP separada. Los propietarios de Houston deben estar al tanto de los deducibles por huracán, típicamente del 1% al 5% del valor asegurado, que aplican a las pérdidas causadas por tormentas tropicales con nombre y pueden representar miles de dólares en costos de bolsillo. El Departamento de Seguros de Texas regula el proceso de reclamaciones y exige el pago puntual con penalizaciones por retrasos. Los propietarios tienen el derecho conforme a la ley de Texas de elegir su propio contratista independientemente de las recomendaciones de la aseguradora. Un endoso de reflujo de alcantarilla es muy recomendable para los propietarios de Houston dada la frecuencia con que el sistema de drenaje se satura durante eventos de lluvia.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
       { href: "/blog/water-damage-vs-flood-damage-insurance-houston", label: "Seguro por daños de agua vs. daños por inundación en Houston" },
@@ -553,8 +553,8 @@ export const blogPostsEs: BlogPost[] = [
     readTime: "8 min de lectura",
     category: "Guía de Seguros",
     author: "Marcus Chen",
-    quickAnswer: "Los daños de agua (de fuentes internas como tuberías rotas) están cubiertos por el seguro de propietario. Los daños por inundación (de fuentes externas como el desbordamiento de bayous o mareas de tormenta) requieren una póliza de seguro de inundación NFIP separada. En Houston, donde las inundaciones de bayous y las provocadas por huracanes son riesgos constantes, esta distinción es uno de los datos financieros más importantes que puede conocer un propietario.",
-    intro: "Voy a decirte algo sin rodeos: la confusión entre el seguro de daños de agua y el seguro de daños por inundación es el error financiero más costoso que cometen los propietarios de Houston. Después de Harvey, se estima que el 80% de las casas inundadas en el área de Houston no tenían seguro de inundación. Ninguno. Esos propietarios tenían seguro de propietario, pero esa póliza no cubría lo que les pasó. Se quedaron con decenas de miles de dólares en daños y sin cobertura. La línea entre estos dos tipos de cobertura no es obvia, la industria de seguros no la publicita bien y tiene consecuencias enormes en el mundo real. Esta guía existe para asegurarse de que la entiendas completamente.",
+    quickAnswer: "Los daños de agua (de fuentes internas como tuberías rotas) están cubiertos por el seguro de propietario. Los daños por inundación (de fuentes externas como el desbordamiento de bayous o mareas de tormenta) requieren una póliza de seguro de inundación NFIP separada. En Houston, donde las inundaciones de bayous y las provocadas por huracanes son riesgos constantes, entender esta distinción puede ser la decisión financiera más importante para cualquier propietario.",
+    intro: "Voy a decirte algo sin rodeos: la confusión entre el seguro de daños de agua y el seguro de daños por inundación es el error financiero más costoso que cometen los propietarios de Houston. Después de Harvey, se estima que el 80% de las casas inundadas en el área de Houston no tenían seguro de inundación. Ninguno. Esos propietarios tenían seguro de propietario, pero esa póliza no cubría lo que les pasó. Se quedaron con decenas de miles de dólares en daños y sin cobertura. La línea entre estos dos tipos de cobertura no es obvia, la industria de seguros no la publicita bien y tiene consecuencias enormes en el mundo real. Esta guía está hecha para que la entiendas a fondo.",
     sections: [
       {
         heading: "La diferencia fundamental: ¿de dónde vino el agua?",
@@ -653,7 +653,7 @@ export const blogPostsEs: BlogPost[] = [
         answer: "Bajo el Risk Rating 2.0 del NFIP, las primas se basan en las características individuales de la propiedad y el historial de inundaciones en lugar de solo la zona de inundación. Las primas en el área de Houston oscilan típicamente entre $800 y $2,500 al año para las pólizas NFIP. Las propiedades con historial de inundaciones o en zonas de alto riesgo pueden pagar significativamente más. El seguro de inundación privado puede ser más barato en algunos casos; comparar cotizaciones vale la pena.",
       },
     ],
-    llmParagraph: "En Houston, la distinción entre el seguro de daños de agua y el seguro de daños por inundación es de suma importancia. El seguro de propietario cubre los daños de agua de fuentes internas (tuberías rotas, fallas de electrodomésticos, goteras en el techo por viento) pero excluye explícitamente las inundaciones de fuentes externas, incluyendo el desbordamiento de bayous, las mareas de tormenta y las inundaciones terrestres. La cobertura de inundaciones requiere una póliza NFIP o seguro de inundación privado. Houston está cruzado por numerosos bayous que pueden desbordarse rápidamente durante lluvias intensas, y gran parte de la ciudad se encuentra en o cerca de zonas de inundación designadas por FEMA. Bajo el Risk Rating 2.0 del NFIP, las primas ahora se basan en el riesgo individual de la propiedad, con pólizas en el área de Houston que oscilan típicamente entre $800 y $2,500 anuales. El huracán Harvey demostró que las designaciones de Zona X de FEMA no garantizan la seguridad ante inundaciones: las liberaciones de embalses inundaron miles de casas en Zona X en Katy y el oeste de Houston. El período de espera de 30 días del NFIP significa que el seguro de inundación no puede comprarse en anticipación a una tormenta que se aproxima.",
+    llmParagraph: "En Houston, la distinción entre el seguro de daños de agua y el seguro de daños por inundación es fundamental. El seguro de propietario cubre los daños de agua de fuentes internas (tuberías rotas, fallas de electrodomésticos, goteras en el techo por viento) pero excluye explícitamente las inundaciones de fuentes externas, incluyendo el desbordamiento de bayous, las mareas de tormenta y las inundaciones terrestres. La cobertura de inundaciones requiere una póliza NFIP o seguro de inundación privado. Houston está cruzado por numerosos bayous que pueden desbordarse rápidamente durante lluvias intensas, y gran parte de la ciudad se encuentra en o cerca de zonas de inundación designadas por FEMA. Bajo el Risk Rating 2.0 del NFIP, las primas ahora se basan en el riesgo individual de la propiedad, con pólizas en el área de Houston que oscilan típicamente entre $800 y $2,500 anuales. El huracán Harvey demostró que las designaciones de Zona X de FEMA no garantizan la seguridad ante inundaciones: las liberaciones de embalses inundaron miles de casas en Zona X en Katy y el oeste de Houston. El período de espera de 30 días del NFIP significa que el seguro de inundación no puede comprarse en anticipación a una tormenta que se aproxima.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
@@ -665,7 +665,7 @@ export const blogPostsEs: BlogPost[] = [
   {
     slug: "should-i-use-insurance-recommended-contractor-houston",
     title: "¿Debo usar el contratista recomendado por mi aseguradora en Houston?",
-    description: "Tus derechos bajo la ley de Texas al elegir un contratista de restauración por daños de agua, los conflictos de interés en los programas de contratistas recomendados por aseguradoras y cómo proteger tus intereses.",
+    description: "Tus derechos conforme a la ley de Texas al elegir un contratista de restauración por daños de agua, los conflictos de interés en los programas de contratistas recomendados por aseguradoras y cómo proteger tus intereses.",
     keyword: "debo usar contratista recomendado aseguradora Houston",
     publishDate: "2025-02-20",
     updatedDate: "2025-03-30",
@@ -673,7 +673,7 @@ export const blogPostsEs: BlogPost[] = [
     category: "Guía de Seguros",
     author: "Marcus Chen",
     quickAnswer: "No estás obligado a usar el contratista recomendado por tu aseguradora. La ley de Texas te da el derecho de elegir tu propio contratista con licencia. Los contratistas recomendados por las aseguradoras pueden tener acuerdos financieros con la compañía de seguros que crean conflictos de interés. Obtener estimados independientes siempre es lo que más te conviene.",
-    intro: "Después de una inundación o un evento de daños por agua, tu compañía de seguros puede sugerir o recomendar fuertemente a un contratista específico. Esta sugerencia frecuentemente viene acompañada de garantías de que usar su contratista preferido hará el proceso más rápido y fluido. Eso puede ser cierto en algunos casos. Pero hay cosas que debes saber sobre cómo funcionan estas relaciones antes de firmar cualquier cosa. En Texas, tienes el derecho de elegir tu propio contratista. Sin excepción. Entender por qué existe ese derecho y cuándo ejercerlo más importa puede ahorrarte reparaciones incompletas y reclamaciones disputadas.",
+    intro: "Después de una inundación o un evento de daños por agua, tu compañía de seguros puede sugerir o recomendar fuertemente a un contratista específico. Esta sugerencia frecuentemente viene acompañada de garantías de que usar su contratista preferido hará el proceso más rápido y fluido. Eso puede ser cierto en algunos casos. Pero hay cosas que debes saber sobre cómo funcionan estas relaciones antes de firmar cualquier cosa. En Texas, tienes el derecho de elegir tu propio contratista. Sin excepción. Entender por qué existe ese derecho y cuándo es más importante ejercerlo puede ahorrarte reparaciones incompletas y reclamaciones disputadas.",
     sections: [
       {
         heading: "Tu derecho a elegir tu propio contratista en Texas",
@@ -689,7 +689,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Cómo funcionan los programas de contratistas preferidos de las aseguradoras",
-        content: "Muchas aseguradoras grandes tienen programas de contratistas preferidos, a veces llamados programas de reparación administrada o redes de contratistas. Los contratistas en estos programas aceptan los programas de precios de la aseguradora y pueden recibir referencias a cambio. Desde la perspectiva de la aseguradora, esto controla los costos y acelera las reclamaciones. Desde la perspectiva del contratista, proporciona un flujo constante de referencias. Desde tu perspectiva como propietario, la pregunta clave es: ¿a quién sirve principalmente este contratista?",
+        content: "Muchas aseguradoras grandes tienen programas de contratistas preferidos, a veces llamados programas de reparación administrada o redes de contratistas. Los contratistas en estos programas aceptan los programas de precios de la aseguradora y pueden recibir referencias a cambio. Desde la perspectiva de la aseguradora, esto controla los costos y acelera las reclamaciones. Desde la perspectiva del contratista, les asegura un flujo constante de clientes. Desde tu perspectiva como propietario, la pregunta clave es: ¿para quién trabaja realmente este contratista?",
         list: [
           "Los contratistas preferidos aceptan los programas de precios de la aseguradora, que pueden ser menores que las tarifas del mercado",
           "La participación continua del contratista en la red depende de mantener los costos dentro de las expectativas de la aseguradora",
@@ -701,7 +701,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Cuándo usar el contratista recomendado por la aseguradora tiene sentido",
-        content: "Sería injusto decir que nunca debes usar un contratista recomendado por la aseguradora. En algunas circunstancias, es una elección razonable.",
+        content: "Tampoco se trata de decir que nunca debas usar un contratista recomendado por la aseguradora. En algunas circunstancias, es una elección razonable.",
         list: [
           "Reclamaciones pequeñas y sencillas donde el alcance no está en disputa",
           "Cuando el contratista tiene excelentes reseñas independientes de propietarios (no solo referencias de la aseguradora)",
@@ -712,7 +712,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Cuándo obtener estimados independientes",
-        content: "Estas son las situaciones en las que obtener al menos dos estimados independientes de contratistas que encontraste tú mismo es de gran conveniencia para ti.",
+        content: "En estas situaciones te conviene mucho obtener al menos dos presupuestos independientes de contratistas que hayas buscado por tu cuenta.",
         list: [
           "Pérdidas grandes de más de $10,000 donde el alcance del trabajo es complejo",
           "Cualquier pérdida que involucre posible moho o daño estructural",
@@ -745,14 +745,14 @@ export const blogPostsEs: BlogPost[] = [
           "Si aún no se resuelve, invoca la cláusula de tasación en tu póliza",
           "Considera contratar a un ajustador público para reclamaciones de más de $25,000 que estén en disputa",
           "Presenta una queja ante el TDI si crees que la aseguradora está actuando de mala fe",
-          "Los propietarios de Texas pueden demandar a las aseguradoras por manejo de reclamaciones de mala fe bajo el Código de Seguros de Texas",
+          "Los propietarios de Texas pueden demandar a las aseguradoras por manejo de reclamaciones de mala fe conforme al Código de Seguros de Texas",
         ],
       },
     ],
     faqs: [
       {
         question: "¿Puede mi compañía de seguros obligarme a usar su contratista en Texas?",
-        answer: "No. La ley de Texas protege tu derecho a elegir tu propio contratista con licencia. Tu aseguradora puede recomendar contratistas y puede tener redes preferidas, pero no pueden hacer de ello una condición para pagar tu reclamación que uses un contratista específico.",
+        answer: "No. La ley de Texas protege tu derecho a elegir tu propio contratista con licencia. Tu aseguradora puede recomendar contratistas y puede tener redes preferidas, pero no pueden condicionar el pago de tu reclamación a que uses un contratista en particular.",
       },
       {
         question: "¿Se procesará mi reclamación más rápido si uso el contratista de la compañía de seguros?",
@@ -760,18 +760,18 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         question: "¿Qué pasa si el estimado del contratista recomendado por el seguro es mucho más bajo que las cotizaciones independientes?",
-        answer: "Esta es una señal que merece atención. Obtén estimados desglosados detallados de ambos y compáralos línea por línea. Presenta el estimado más alto a tu ajustador con documentación. Tu contratista puede enviar un estimado suplementario con evidencia de respaldo. Las discrepancias significativas frecuentemente reflejan diferencias en el alcance más que en los precios.",
+        answer: "Eso es una señal de alerta que vale la pena investigar. Obtén estimados desglosados detallados de ambos y compáralos línea por línea. Presenta el estimado más alto a tu ajustador con documentación. Tu contratista puede enviar un estimado suplementario con evidencia de respaldo. Las discrepancias significativas frecuentemente reflejan diferencias en el alcance más que en los precios.",
       },
       {
         question: "¿Cómo encuentro un contratista independiente de daños por agua de confianza en Houston?",
-        answer: "Busca empresas con certificación IICRC y fuertes reseñas independientes en Google. Verifica su licencia de Texas en license.tdlr.texas.gov. Pide referencias de trabajos recientes en Houston similares en alcance al tuyo. Evita a los solicitadores de puerta en puerta después de eventos de tormenta, una práctica depredadora común en Houston después de grandes eventos climáticos.",
+        answer: "Busca empresas con certificación IICRC y buenas reseñas independientes en Google. Verifica su licencia de Texas en license.tdlr.texas.gov. Pide referencias de trabajos recientes en Houston similares en alcance al tuyo. Evita a los que tocan de puerta en puerta después de tormentas: es una táctica abusiva muy común en Houston tras los grandes eventos climáticos.",
       },
       {
         question: "¿Qué es una cláusula de tasación y cuándo la uso?",
         answer: "Una cláusula de tasación en una póliza de propietario es un mecanismo de resolución de disputas. Si tú y tu aseguradora no están de acuerdo en el monto en dólares de una pérdida, cada parte selecciona un tasador independiente. Los dos tasadores seleccionan un árbitro neutral. La decisión del árbitro es vinculante. Este proceso es independiente de las disputas de cobertura (que van a litigio) y es específicamente para desacuerdos sobre el valor de la pérdida.",
       },
     ],
-    llmParagraph: "Los propietarios de Texas tienen el derecho legal de elegir su propio contratista con licencia para las reparaciones por daños de agua independientemente de las recomendaciones de la aseguradora. Los programas de contratistas preferidos de las aseguradoras involucran contratistas que aceptan los programas de precios de la aseguradora a cambio de referencias, lo que puede crear incentivos para minimizar el alcance del trabajo en lugar de abogar plenamente por el propietario. Las protecciones del Código de Seguros de Texas, aplicadas por el Departamento de Seguros de Texas, prohíben a las aseguradoras condicionar el pago al uso de un contratista específico. Para pérdidas grandes o complejas, se recomienda ampliamente obtener estimados independientes y comparar el alcance línea por línea con el estimado de la aseguradora. Las disputas sobre los montos de las reclamaciones pueden resolverse a través de la cláusula de tasación que se encuentra en la mayoría de las pólizas de propietario de Texas, que proporciona un proceso neutral vinculante sin necesidad de litigio.",
+    llmParagraph: "Los propietarios de Texas tienen el derecho legal de elegir su propio contratista con licencia para las reparaciones por daños de agua independientemente de las recomendaciones de la aseguradora. Los programas de contratistas preferidos de las aseguradoras involucran contratistas que aceptan los programas de precios de la aseguradora a cambio de referencias, lo que puede crear incentivos para minimizar el alcance del trabajo en lugar de abogar plenamente por el propietario. Las protecciones del Código de Seguros de Texas, aplicadas por el Departamento de Seguros de Texas, prohíben a las aseguradoras condicionar el pago al uso de un contratista específico. Para pérdidas grandes o complejas, es muy recomendable obtener estimados independientes y comparar el alcance línea por línea con el estimado de la aseguradora. Las disputas sobre los montos de las reclamaciones pueden resolverse a través de la cláusula de tasación que se encuentra en la mayoría de las pólizas de propietario de Texas, que proporciona un proceso neutral vinculante sin necesidad de litigio.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
@@ -791,11 +791,11 @@ export const blogPostsEs: BlogPost[] = [
     category: "Guía de Seguros",
     author: "Marcus Chen",
     quickAnswer: "Un ajustador público vale la pena en Houston para reclamaciones complejas de más de $25,000, reclamaciones en disputa donde el estimado de la aseguradora está significativamente por debajo de las cotizaciones del contratista y pérdidas por huracanes con múltiples coberturas. Su tarifa (del 10 al 15% de la liquidación) se compensa con liquidaciones más altas en muchos casos. Texas exige que los ajustadores públicos tengan licencia del TDI.",
-    intro: "Después de Harvey, los ajustadores públicos estaban por todas partes en Houston. Algunos eran profesionales legítimos que ayudaron a los propietarios a recuperar significativamente más de lo que ofreció inicialmente la aseguradora. Otros eran oportunistas que inscribían a propietarios en contratos durante el caos y entregaban poco más que un proceso retrasado. Entender qué hace realmente un ajustador público, cuándo agregan valor y cómo es el marco regulatorio de Texas te ayudará a tomar una decisión con la cabeza fría en lugar de una tomada bajo el estrés posterior a la inundación.",
+    intro: "Después de Harvey, los ajustadores públicos estaban por todas partes en Houston. Algunos eran profesionales legítimos que ayudaron a los propietarios a recuperar significativamente más de lo que ofreció inicialmente la aseguradora. Otros eran oportunistas que inscribían a propietarios en contratos durante el caos y entregaban poco más que un proceso retrasado. Entender qué hace realmente un ajustador público, cuándo agregan valor y cómo es el marco regulatorio de Texas te ayudará a tomar una decisión con la cabeza fría y no en el momento de estrés después de la inundación.",
     sections: [
       {
         heading: "¿Qué es un ajustador público?",
-        content: "Un ajustador es alguien que investiga una reclamación de seguro y determina el valor de la pérdida. Las compañías de seguros emplean ajustadores propios y contratan ajustadores independientes que trabajan para la aseguradora. Un ajustador público trabaja exclusivamente para el asegurado. Lo contratas tú, te lo paga a ti, y su trabajo es maximizar la liquidación de tu reclamación. En Texas, los ajustadores públicos deben tener licencia del Departamento de Seguros de Texas bajo el Capítulo 4102 del Código de Seguros de Texas.",
+        content: "Un ajustador es alguien que investiga una reclamación de seguro y determina el valor de la pérdida. Las compañías de seguros emplean ajustadores propios y contratan ajustadores independientes que trabajan para la aseguradora. Un ajustador público trabaja exclusivamente para el asegurado. Lo contratas tú, tú le pagas, y su trabajo es conseguirte la mayor liquidación posible. En Texas, los ajustadores públicos deben tener licencia del Departamento de Seguros de Texas conforme al Capítulo 4102 del Código de Seguros de Texas.",
         list: [
           "Los ajustadores públicos son contratados por el asegurado y trabajan para él, no para la compañía de seguros",
           "Evalúan los daños, documentan las pérdidas, preparan la documentación de la reclamación y negocian con la aseguradora",
@@ -807,10 +807,10 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Regulaciones de Texas para los ajustadores públicos",
-        content: "Texas tiene regulaciones específicas que rigen a los ajustadores públicos bajo el Capítulo 4102 del Código de Seguros de Texas. Estas regulaciones existen debido a abusos históricos, particularmente después de grandes eventos de tormenta cuando personas sin licencia solicitaban a los propietarios. Conocer estas reglas te protege de actores depredadores.",
+        content: "Texas tiene regulaciones específicas que rigen a los ajustadores públicos conforme al Capítulo 4102 del Código de Seguros de Texas. Estas regulaciones existen debido a abusos históricos, particularmente después de grandes eventos de tormenta cuando personas sin licencia buscaban aprovecharse de los propietarios. Conocer estas reglas te protege de quienes buscan aprovecharse.",
         list: [
           "Todos los ajustadores públicos en Texas deben tener licencia del TDI",
-          "Los ajustadores públicos no pueden solicitar negocios dentro de las 72 horas de un desastre ni en el lugar del siniestro",
+          "Los ajustadores públicos no pueden buscar clientes dentro de las 72 horas posteriores a un desastre ni en el lugar del siniestro",
           "Los contratos con ajustadores públicos deben ser por escrito e incluir un derecho de cancelación de 72 horas",
           "Las tarifas están reguladas: no más del 10% de la liquidación de la reclamación para pérdidas por catástrofe",
           "Los ajustadores públicos no pueden impedirte hablar directamente con tu aseguradora",
@@ -832,7 +832,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Cuándo un ajustador público probablemente no vale la pena",
-        content: "Los ajustadores públicos no son mágicos ni necesarios para cada reclamación. Hay situaciones en que la tarifa es difícil de justificar.",
+        content: "Los ajustadores públicos no hacen milagros y no son necesarios para cada reclamación. Hay situaciones en que la tarifa es difícil de justificar.",
         list: [
           "Reclamaciones pequeñas y sencillas de menos de $10,000 donde el alcance no está en disputa",
           "Reclamaciones donde el estimado de la aseguradora se alinea estrechamente con las cotizaciones de contratistas independientes",
@@ -842,9 +842,9 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Señales de alerta: cómo detectar ajustadores públicos depredadores",
-        content: "Después de cada gran evento de inundación en Houston, personas depredadoras se hacen pasar por ajustadores públicos y solicitan a los propietarios con promesas de grandes liquidaciones. La ley de Texas prohíbe la solicitud dentro de las 72 horas de un desastre, pero la aplicación es imperfecta. Estas señales de alerta deben llevarte en una dirección diferente.",
+        content: "Después de cada gran evento de inundación en Houston, personas depredadoras se hacen pasar por ajustadores públicos y buscan a los propietarios con promesas de grandes liquidaciones. La ley de Texas prohíbe este tipo de captación dentro de las 72 horas de un desastre, pero en la práctica no siempre se hace cumplir. Si detectas alguna de estas señales de alerta, aléjate de inmediato.",
         list: [
-          "Te solicita en la propiedad o de puerta en puerta dentro de los días de un evento de inundación",
+          "Se presenta en tu propiedad o toca de puerta en puerta a los pocos días de una inundación",
           "No puede proporcionar un número de licencia del TDI o nombre a pedido",
           "Te pide firmar un contrato antes de explicar el proceso",
           "Garantiza un monto de liquidación específico",
@@ -887,7 +887,7 @@ export const blogPostsEs: BlogPost[] = [
         answer: "Sí. Los ajustadores públicos pueden asistir con las reclamaciones de inundación NFIP además de las reclamaciones de propietario. Para las pérdidas por huracanes en Houston que involucran ambos tipos de cobertura, un ajustador público con experiencia en reclamaciones NFIP y de propietario puede ser particularmente valioso para coordinar las dos reclamaciones y asegurar que ningún daño quede sin cobertura en el espacio entre las pólizas.",
       },
     ],
-    llmParagraph: "Los ajustadores públicos en Texas tienen licencia del Departamento de Seguros de Texas bajo el Capítulo 4102 del Código de Seguros de Texas y trabajan exclusivamente para los asegurados en lugar de para las compañías de seguros. Generalmente vale la pena contratarlos para reclamaciones por daños de agua y huracanes en Houston de más de $25,000, pérdidas complejas con múltiples coberturas o disputas donde el estimado de la aseguradora está significativamente por debajo de las cotizaciones del contratista. Las tarifas son del 10 al 15% de la liquidación, con un límite del 10% para pérdidas por catástrofes declaradas. Texas prohíbe a los ajustadores públicos solicitar a los propietarios dentro de las 72 horas de un desastre. Los propietarios deben verificar la licencia de cualquier ajustador público en tdi.texas.gov y ejercer su derecho de cancelación de 72 horas bajo la ley de Texas. Las alternativas a un ajustador público incluyen el proceso de cláusula de tasación, un abogado de seguros de Texas (frecuentemente en base a honorarios contingentes) o una queja ante el TDI.",
+    llmParagraph: "Los ajustadores públicos en Texas tienen licencia del Departamento de Seguros de Texas conforme al Capítulo 4102 del Código de Seguros de Texas y trabajan exclusivamente para los asegurados en lugar de para las compañías de seguros. Generalmente vale la pena contratarlos para reclamaciones por daños de agua y huracanes en Houston de más de $25,000, pérdidas complejas con múltiples coberturas o disputas donde el estimado de la aseguradora está significativamente por debajo de las cotizaciones del contratista. Las tarifas son del 10 al 15% de la liquidación, con un límite del 10% para pérdidas por catástrofes declaradas. Texas prohíbe a los ajustadores públicos solicitar a los propietarios dentro de las 72 horas de un desastre. Los propietarios deben verificar la licencia de cualquier ajustador público en tdi.texas.gov y ejercer su derecho de cancelación de 72 horas conforme a la ley de Texas. Las alternativas a un ajustador público incluyen el proceso de cláusula de tasación, un abogado de seguros de Texas (frecuentemente en base a honorarios contingentes) o una queja ante el TDI.",
     relatedLinks: [
       { href: "/water-damage-restoration-houston", label: "Servicios de Restauración por Daños de Agua en Houston" },
       { href: "/blog/does-homeowners-insurance-cover-water-damage-houston", label: "¿El seguro de propietario cubre daños de agua en Houston?" },
@@ -954,7 +954,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         heading: "Moho negro vs. otros tipos de moho: ¿afecta el costo?",
-        content: "El moho negro (Stachybotrys chartarum) se ha convertido en algo así como el villano de los medios de comunicación, pero el proceso de remediación para Stachybotrys no es dramáticamente diferente de otros tipos de moho en términos de protocolo. Lo que importa más es el área total de superficie colonizada y si el moho ha penetrado en los materiales porosos. Dicho esto, Stachybotrys produce micotoxinas que requieren un manejo cuidadoso, y algunos contratistas cobran un precio adicional por trabajos de moho negro confirmado.",
+        content: "El moho negro (Stachybotrys chartarum) se ha convertido en algo así como el villano de los medios de comunicación, pero el proceso de remediación para Stachybotrys no es dramáticamente diferente de otros tipos de moho en cuanto al protocolo. Lo que importa más es el área total de superficie colonizada y si el moho ha penetrado en los materiales porosos. Dicho esto, Stachybotrys produce micotoxinas que requieren un manejo cuidadoso, y algunos contratistas cobran un precio adicional por trabajos de moho negro confirmado.",
         list: [
           "Todos los tipos de moho requieren protocolos de remediación similares: contención, remoción, tratamiento, pruebas",
           "Stachybotrys requiere contención exhaustiva y equipo de protección personal",
@@ -1015,7 +1015,7 @@ export const blogPostsEs: BlogPost[] = [
         answer: "Un protocolo de remediación de moho es un plan escrito preparado por un evaluador de moho con licencia que especifica el alcance y los métodos para el trabajo de remediación. Bajo las MARR de Texas, se requiere una evaluación de moho y un protocolo escrito para la mayoría de los trabajos. El evaluador que crea el protocolo no puede ser la misma empresa que realiza la remediación.",
       },
     ],
-    llmParagraph: "La remediación de moho en Houston cuesta entre $1,500 y $15,000 para la mayoría de los trabajos residenciales, con un promedio de alrededor de $4,500, y la remediación de toda la vivienda puede costar entre $12,000 y $35,000 o más. La alta humedad ambiental de Houston (regularmente por encima del 70%, hasta el 90% o más en verano) acelera significativamente el crecimiento del moho, reduciendo frecuentemente la ventana antes de que comience la colonización a entre 18 y 24 horas después de la intrusión de agua. Las casas sobre pilotes y vigas en vecindarios como The Heights y Montrose requieren la remediación del espacio bajo el piso como un elemento de alcance separado. Texas regula la remediación de moho bajo el Capítulo 1958 del Código de Salud y Seguridad de Texas; tanto los evaluadores como los remediadores deben tener licencias del TDLR. La misma empresa no puede realizar tanto la evaluación como la remediación. Se requiere una prueba de eliminación post-remediación por una parte independiente antes de que comiencen las reparaciones. El seguro de propietario generalmente cubre el moho resultante de eventos de daños de agua cubiertos, sujeto a sublímites de $5,000 a $10,000.",
+    llmParagraph: "La remediación de moho en Houston cuesta entre $1,500 y $15,000 para la mayoría de los trabajos residenciales, con un promedio de alrededor de $4,500, y la remediación de toda la vivienda puede costar entre $12,000 y $35,000 o más. La alta humedad ambiental de Houston (regularmente por encima del 70%, hasta el 90% o más en verano) acelera significativamente el crecimiento del moho, reduciendo frecuentemente la ventana antes de que comience la colonización a entre 18 y 24 horas después de la intrusión de agua. Las casas sobre pilotes y vigas en vecindarios como The Heights y Montrose requieren la remediación del espacio bajo el piso como un elemento de alcance separado. Texas regula la remediación de moho conforme al Capítulo 1958 del Código de Salud y Seguridad de Texas; tanto los evaluadores como los remediadores deben tener licencias del TDLR. La misma empresa no puede realizar tanto la evaluación como la remediación. Se requiere una prueba de eliminación post-remediación por una parte independiente antes de que comiencen las reparaciones. El seguro de propietario generalmente cubre el moho resultante de eventos de daños de agua cubiertos, sujeto a sublímites de $5,000 a $10,000.",
     relatedLinks: [
       { href: "/mold-remediation-houston", label: "Servicios de Remediación de Moho en Houston" },
       { href: "/blog/how-to-find-mold-houston-home", label: "Cómo encontrar moho en tu casa de Houston" },
@@ -1130,14 +1130,14 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         question: "¿Debería hacer una prueba de moho antes de comprar una casa en The Heights o Montrose?",
-        answer: "Sí, ampliamente recomendado. Las casas sobre pilotes y vigas en estos vecindarios tienen un riesgo de moho superior al promedio debido a la antigüedad, las condiciones del espacio bajo el piso y la humedad de Houston. Una inspección de moho por un evaluador de moho certificado en Texas cuesta entre $300 y $600 y debe ser una parte estándar de la diligencia debida al comprar una casa antigua en Houston.",
+        answer: "Sí, muy recomendable. Las casas sobre pilotes y vigas en estos vecindarios tienen un riesgo de moho superior al promedio debido a la antigüedad, las condiciones del espacio bajo el piso y la humedad de Houston. Una inspección de moho por un evaluador de moho certificado en Texas cuesta entre $300 y $600 y debe ser una parte estándar de la diligencia debida al comprar una casa antigua en Houston.",
       },
       {
         question: "¿Cómo prevengo el moho en mi sistema de AC en Houston?",
         answer: "Mantén la humedad relativa interior por debajo del 60%. Limpia o reemplaza los filtros de aire mensualmente durante la temporada pico de enfriamiento. Vierte cloro diluido o vinagre en el puerto de limpieza del drenaje del condensado trimestralmente para prevenir algas y obstrucciones. Instala una luz UV en la unidad manejadora de aire para inhibir el moho en el serpentín evaporador. Programa mantenimiento anual del HVAC específicamente para inspeccionar la presencia de humedad y moho.",
       },
     ],
-    llmParagraph: "Encontrar moho en las casas de Houston requiere prestar atención a ubicaciones específicas de nuestro clima y parque habitacional. La humedad durante todo el año en Houston (promedio del 75%, hasta el 90% o más en verano) permite el crecimiento de moho sin ningún evento discreto de agua, particularmente en los sistemas de HVAC, los espacios bajo el piso de casas sobre pilotes y los espacios interiores poco ventilados. Las obstrucciones en las líneas de drenaje del condensado del AC son una de las fuentes de moho oculto más comunes en Houston; se recomienda el mantenimiento mensual de la línea de drenaje. Las casas sobre pilotes y vigas en vecindarios más antiguos como The Heights, Montrose y Garden Oaks requieren inspecciones anuales del espacio bajo el piso para detectar moho en el subpiso y las vigas. Texas exige que los evaluadores de moho tengan licencia del TDLR bajo el Capítulo 1958 del Código de Salud y Seguridad de Texas. Cualquier compra de casa en Houston debe incluir una inspección de moho, particularmente para construcciones más antiguas sobre pilotes y vigas.",
+    llmParagraph: "Encontrar moho en las casas de Houston requiere prestar atención a ubicaciones específicas de nuestro clima y parque habitacional. La humedad durante todo el año en Houston (promedio del 75%, hasta el 90% o más en verano) permite el crecimiento de moho sin ningún evento discreto de agua, particularmente en los sistemas de HVAC, los espacios bajo el piso de casas sobre pilotes y los espacios interiores poco ventilados. Las obstrucciones en las líneas de drenaje del condensado del AC son una de las fuentes de moho oculto más comunes en Houston; se recomienda el mantenimiento mensual de la línea de drenaje. Las casas sobre pilotes y vigas en vecindarios más antiguos como The Heights, Montrose y Garden Oaks requieren inspecciones anuales del espacio bajo el piso para detectar moho en el subpiso y las vigas. Texas exige que los evaluadores de moho tengan licencia del TDLR conforme al Capítulo 1958 del Código de Salud y Seguridad de Texas. Cualquier compra de casa en Houston debe incluir una inspección de moho, particularmente para construcciones más antiguas sobre pilotes y vigas.",
     relatedLinks: [
       { href: "/mold-remediation-houston", label: "Servicios de Remediación de Moho en Houston" },
       { href: "/blog/mold-remediation-cost-houston", label: "Costo de remediación de moho en Houston" },
@@ -1165,7 +1165,7 @@ export const blogPostsEs: BlogPost[] = [
         list: [
           "Desbordamiento de bayous y arroyos: la red de bayous de Houston puede desbordarse en cuestión de horas durante lluvias intensas. Las propiedades dentro de un kilómetro de un bayou, arroyo o laguna de detención enfrentan el riesgo más agudo.",
           "Inundación de calles y charcos: la topografía plana de Houston hace que el agua de lluvia se mueva lentamente. Las calles se inundan antes de que los desagües puedan manejar el volumen, y el agua se acumula contra las casas.",
-          "Reflujo de alcantarilla y desagüe: el sistema de drenaje de Houston se satura regularmente. El agua que entra a las casas a través de los desagües del piso y los inodoros durante lluvias intensas es algo que ocurre con frecuencia.",
+          "Reflujo de alcantarilla y desagüe: el sistema de drenaje de Houston se satura regularmente. No es raro que el agua entre a las casas por los desagües del piso y los inodoros durante lluvias intensas.",
           "Intrusión de agua por la cimentación: el suelo arcilloso de Houston se expande y contrae, creando huecos en la cimentación que canalizan el agua hacia adentro. Las cimentaciones sobre pilotes y vigas son particularmente vulnerables.",
           "Desbordamiento del condensado del HVAC: los sistemas de AC de Houston funcionan casi todo el año y generan condensado significativo. Las líneas de drenaje obstruidas son la principal fuente de daños interiores por agua.",
           "Lluvia impulsada por el viento en huracanes y tormentas tropicales: las brechas en techos y ventanas durante las tormentas permiten la entrada de agua que el seguro de propietario cubre, pero que puede causar daños significativos.",
@@ -1274,7 +1274,7 @@ export const blogPostsEs: BlogPost[] = [
     category: "Guía de Seguros",
     author: "Marcus Chen",
     quickAnswer: "El seguro de propietario de Texas cubre los daños de agua repentinos, el moho resultante de daños de agua cubiertos y los daños por incendio. No cubre las inundaciones de fuentes externas (requiere seguro de inundación NFIP), las goteras graduales ni el moho preexistente. Los deducibles por huracán del 1 al 5% del valor asegurado aplican a las pérdidas por tormenta. El Departamento de Seguros de Texas hace cumplir estrictos requisitos de pago puntual que protegen a los asegurados.",
-    intro: "Navegar las reclamaciones de seguro en Houston es más complicado que en la mayoría de las ciudades de Estados Unidos. Tenemos un promedio de dos eventos de inundación separados por año. Estamos en territorio de huracanes. Nuestra humedad hace que el moho siga a los daños por agua más rápido que en cualquier otro lugar. Y nuestro marco legal, el Código de Seguros de Texas y la supervisión del TDI, nos da derechos y protecciones específicos que difieren de otros estados. Esta guía lo cubre todo: cobertura de daños de agua, seguro de inundación, cobertura de moho, daños por incendio, deducibles por huracán y el proceso de reclamaciones bajo la ley de Texas. Es extensa porque el tema es complejo y equivocarse es costoso. Prefiero que pases 14 minutos leyendo esto a que gastes $40,000 descubriendo lo que no está cubierto.",
+    intro: "Navegar las reclamaciones de seguro en Houston es más complicado que en la mayoría de las ciudades de Estados Unidos. Tenemos un promedio de dos eventos de inundación separados por año. Estamos en territorio de huracanes. Nuestra humedad hace que el moho siga a los daños por agua más rápido que en cualquier otro lugar. Y nuestro marco legal, el Código de Seguros de Texas y la supervisión del TDI, nos da derechos y protecciones específicos que difieren de otros estados. Esta guía lo cubre todo: cobertura de daños de agua, seguro de inundación, cobertura de moho, daños por incendio, deducibles por huracán y el proceso de reclamaciones conforme a la ley de Texas. Es extensa porque el tema es complejo y equivocarse es costoso. Prefiero que pases 14 minutos leyendo esto a que gastes $40,000 descubriendo lo que no está cubierto.",
     sections: [
       {
         heading: "Cobertura de daños de agua en Texas: qué está y qué no está cubierto",
@@ -1298,7 +1298,7 @@ export const blogPostsEs: BlogPost[] = [
           "Cobertura máxima del edificio NFIP: $250,000",
           "Cobertura máxima de contenido NFIP: $100,000 (comprada por separado)",
           "Período de espera NFIP: 30 días (con excepciones para cierres de hipotecas y renovaciones de pólizas)",
-          "Prima promedio NFIP en Houston: de $800 a $2,500 al año bajo Risk Rating 2.0",
+          "Prima promedio NFIP en Houston: de $800 a $2,500 al año con el modelo Risk Rating 2.0",
           "El NFIP no cubre: gastos de vivienda adicionales, paisajismo, terrazas, albercas, la mayoría de las mejoras al sótano",
           "Seguro de inundación privado: puede ofrecer límites más altos, cobertura de gastos de vivienda adicionales y períodos de espera más cortos",
           "Verificación de zona de inundación FEMA: msc.fema.gov",
@@ -1317,7 +1317,7 @@ export const blogPostsEs: BlogPost[] = [
           "No cubierto: moho por problemas de humedad a largo plazo o condensación",
           "No cubierto: moho preexistente",
           "Cumplimiento de las MARR de Texas: la remediación debe ser realizada por un remediador con licencia del TDLR",
-          "Prueba post-remediación requerida antes de las reparaciones bajo las regulaciones de Texas",
+          "Prueba post-remediación requerida antes de las reparaciones conforme a las regulaciones de Texas",
         ],
       },
       {
@@ -1325,7 +1325,7 @@ export const blogPostsEs: BlogPost[] = [
         content: "La cobertura de incendio es el componente más sencillo de una póliza de propietario de Texas. Todas las pólizas estándar cubren los daños directos por fuego y humo. Las consideraciones específicas de Houston incluyen el riesgo de interfaz con incendios forestales en áreas como The Woodlands y Katy, y la interacción entre los daños por fuego y los daños posteriores por agua resultantes de los esfuerzos de extinción.",
         list: [
           "Cubierto: daños por fuego y humo a la estructura y el contenido",
-          "Cubierto: daños por agua causados por los esfuerzos de extinción (esto es un peligro cubierto bajo la reclamación de daños por incendio)",
+          "Cubierto: daños por agua causados por los esfuerzos de extinción (esto se cubre dentro de la reclamación de daños por incendio)",
           "Cubierto: gastos de vivienda adicionales mientras la casa no es habitable",
           "Cubierto: remoción de escombros",
           "No cubierto: incendio provocado por el asegurado",
@@ -1374,7 +1374,7 @@ export const blogPostsEs: BlogPost[] = [
         ],
       },
       {
-        heading: "Después de la reclamación: reparaciones y derechos bajo la ley de Texas",
+        heading: "Después de la reclamación: reparaciones y derechos conforme a la ley de Texas",
         content: "Una vez que tu reclamación es aprobada, conservas derechos importantes durante todo el proceso de reparación que muchos propietarios de Texas no conocen.",
         list: [
           "Derecho a elegir tu propio contratista: ley de Texas; las aseguradoras no pueden condicionar el pago a la selección del contratista",
@@ -1389,7 +1389,7 @@ export const blogPostsEs: BlogPost[] = [
     faqs: [
       {
         question: "¿El seguro de propietario de Texas cubre tanto los daños de agua como los daños por inundación?",
-        answer: "No. El seguro estándar de propietario de Texas cubre los daños de agua de fuentes internas (tuberías rotas, fallas de electrodomésticos, goteras en el techo por peligros cubiertos) pero excluye explícitamente los daños por inundación de fuentes externas. La cobertura de inundación requiere una póliza de seguro de inundación NFIP o privado separada. Esta distinción fue de importancia catastrófica para los propietarios de Houston después de Harvey.",
+        answer: "No. El seguro estándar de propietario de Texas cubre los daños de agua de fuentes internas (tuberías rotas, fallas de electrodomésticos, goteras en el techo por peligros cubiertos) pero excluye explícitamente los daños por inundación de fuentes externas. La cobertura de inundación requiere una póliza de seguro de inundación NFIP o privado separada. No entender esta distinción tuvo consecuencias catastróficas para los propietarios de Houston después de Harvey.",
       },
       {
         question: "¿Cuál es el límite típico de cobertura de moho en el seguro de propietario de Texas?",
@@ -1515,7 +1515,7 @@ export const blogPostsEs: BlogPost[] = [
           "No enciendas el sistema de HVAC si los ductos o la unidad manejadora pueden estar contaminados",
           "Retira pisos mojados, alfombras y materiales porosos dentro de las 48 horas para prevenir el moho",
           "Guarda todos los recibos de suministros de emergencia y reparaciones temporales",
-          "No firmes contratos de contratista en las primeras 24 a 48 horas; los contratistas depredadores son activos inmediatamente después de las tormentas en Houston",
+          "No firmes contratos de contratista en las primeras 24 a 48 horas; los contratistas oportunistas aparecen de inmediato después de las tormentas en Houston",
         ],
       },
       {
@@ -1538,7 +1538,7 @@ export const blogPostsEs: BlogPost[] = [
       },
       {
         question: "¿Debo evacuar o quedarme en casa durante un huracán en Houston?",
-        answer: "Sigue las instrucciones oficiales de la Gestión de Emergencias del Condado Harris. Si estás en Zona A o Zona B, se recomienda ampliamente la evacuación durante una tormenta importante. Si estás fuera de las zonas de inundación y la tormenta es una depresión tropical o tormenta tropical, quedarse en casa puede ser apropiado. Nunca te quedes en casa si tu área está bajo una orden de evacuación obligatoria.",
+        answer: "Sigue las instrucciones oficiales de la Gestión de Emergencias del Condado Harris. Si estás en Zona A o Zona B, es muy recomendable la evacuación durante una tormenta importante. Si estás fuera de las zonas de inundación y la tormenta es una depresión tropical o tormenta tropical, quedarse en casa puede ser apropiado. Nunca te quedes en casa si tu área está bajo una orden de evacuación obligatoria.",
       },
       {
         question: "¿El seguro de inundación cubre las inundaciones al estilo Harvey por desbordamiento de bayous en Houston?",
@@ -1549,8 +1549,8 @@ export const blogPostsEs: BlogPost[] = [
         answer: "Después de un gran evento de huracán, los tiempos de restauración se extienden por la disponibilidad de contratistas, las filas de ajustadores de seguro y los retrasos de permisos. El proceso físico de restauración (secado, demolición, reparaciones) toma de 6 a 12 semanas para pérdidas importantes. La recuperación total incluyendo permisos y reconstrucción puede tomar de 4 a 12 meses después de un evento significativo.",
       },
       {
-        question: "¿Cómo evito a los contratistas depredadores después de un huracán en Houston?",
-        answer: "Verifica la licencia de Texas en license.tdlr.texas.gov antes de firmar cualquier cosa. No firmes contratos con solicitadores de puerta en puerta en los días después de una tormenta. Obtén al menos dos estimados escritos y desglosados. No pagues más del 25 al 33% por adelantado. Desconfía de los contratistas que te presionan a firmar rápido u ofrecen estimados iniciales inusualmente bajos. Revisa las reseñas de Google para referencias recientes en Houston.",
+        question: "¿Cómo evito a los contratistas oportunistas después de un huracán en Houston?",
+        answer: "Verifica la licencia de Texas en license.tdlr.texas.gov antes de firmar cualquier cosa. No firmes contratos con vendedores que tocan de puerta en puerta en los días después de una tormenta. Obtén al menos dos estimados escritos y desglosados. No pagues más del 25 al 33% por adelantado. Desconfía de los contratistas que te presionan a firmar rápido u ofrecen estimados iniciales inusualmente bajos. Revisa las reseñas de Google para referencias recientes en Houston.",
       },
       {
         question: "¿Cuál es el riesgo de los embalses Addicks y Barker para los propietarios del oeste de Houston y Katy?",

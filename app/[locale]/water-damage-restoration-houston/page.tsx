@@ -94,7 +94,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
     {
       question: "¿Cuánto tiempo tarda la restauración por daño de agua en Houston?",
       answer:
-        "La mayoría de los trabajos residenciales toman de 3 a 7 días para el secado, más 1 a 2 semanas adicionales para las reparaciones. La alta humedad de Houston (un promedio del 75% durante todo el año) ralentiza la evaporación, así que espera que la fase de secado dure más que los promedios nacionales.",
+        "La mayoría de los trabajos residenciales toman de 3 a 7 días para el secado, más 1 a 2 semanas adicionales para las reparaciones. La alta humedad de Houston (un promedio del 75% durante todo el año) ralentiza la evaporación, así que espere que la fase de secado dure más que los promedios nacionales.",
     },
     {
       question: "¿Qué son las categorías de daño por agua y por qué importan?",
@@ -104,12 +104,12 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
     {
       question: "¿El seguro de propietario cubre el daño por agua en Texas?",
       answer:
-        "Las pólizas estándar de Texas cubren daños por agua repentinos y accidentales, como una tubería reventada. NO cubren inundaciones de fuentes externas como bayous, calles o marejadas ciclónicas. Para eso necesitas una póliza de seguro contra inundaciones por separado a través del NFIP o un asegurador privado.",
+        "Las pólizas estándar de Texas cubren daños por agua repentinos y accidentales, como una tubería reventada. NO cubren inundaciones de fuentes externas como bayous, calles o marejadas ciclónicas. Para eso necesita una póliza de seguro contra inundaciones por separado a través del NFIP o un asegurador privado.",
     },
     {
       question: "¿Cómo afecta el suelo arcilloso de Houston al daño por agua?",
       answer:
-        "Houston se asienta sobre un suelo arcilloso muy expansivo. Cuando la arcilla se satura, se hincha y puede empujar contra los cimientos. Cuando se seca después de una inundación, se encoge y puede separarse de las losas, creando grietas que permiten que entre humedad. Siempre realiza una inspección de cimientos después de grandes inundaciones.",
+        "Houston se asienta sobre un suelo arcilloso muy expansivo. Cuando la arcilla se satura, se hincha y puede empujar contra los cimientos. Cuando se seca después de una inundación, se encoge y puede separarse de las losas, creando grietas que permiten que entre humedad. Siempre realice una inspección de cimientos después de grandes inundaciones.",
     },
     {
       question: "¿Cuánto cuesta la restauración por daño de agua en Houston?",
@@ -124,12 +124,12 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
     {
       question: "¿Qué pasa si crece moho después del daño por agua?",
       answer:
-        "En el clima de Houston, el moho puede comenzar a crecer en 24 a 48 horas en drywall, madera o aislamiento mojado. Una vez que hay moho, los costos de restauración aumentan sustancialmente. Consulta nuestra <a href='/es/mold-removal-houston'>guía de eliminación de moho</a> para más detalles.",
+        "En el clima de Houston, el moho puede comenzar a crecer en 24 a 48 horas en drywall, madera o aislamiento mojado. Una vez que hay moho, los costos de restauración aumentan sustancialmente. Consulte nuestra <a href='/es/mold-removal-houston'>guía de eliminación de moho</a> para más detalles.",
     },
     {
       question: "¿Debo usar ventiladores y deshumidificadores antes de que lleguen los profesionales?",
       answer:
-        "Usar ventiladores está bien si la fuente de agua es Categoría 1 (agua limpia). Pero usar ventiladores en aguas residuales o agua de inundación en realidad dispersa partículas contaminadas por el aire. Para situaciones de Categoría 2 o 3, documenta todo con fotos y deja que los restauradores certificados manejen la extracción primero.",
+        "Usar ventiladores está bien si la fuente de agua es Categoría 1 (agua limpia). Pero usar ventiladores en aguas residuales o agua de inundación en realidad dispersa partículas contaminadas por el aire. Para situaciones de Categoría 2 o 3, documente todo con fotos y deje que los restauradores certificados manejen la extracción primero.",
     },
   ];
 
@@ -162,7 +162,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
       <section className="mt-8 mb-10">
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
-            ? "Crecí en Houston y perdí $47,000 en daños después del huracán Harvey. La mayor parte no fue el agua en sí, sino los errores que cometí en las primeras 72 horas: no documentar correctamente, esperar demasiado para secar, y no entender qué cubría mi seguro. Esta guía existe para que no cometas los mismos errores."
+            ? "Crecí en Houston y perdí $47,000 en daños después del huracán Harvey. La mayor parte no fue el agua en sí, sino los errores que cometí en las primeras 72 horas: no documentar correctamente, esperar demasiado para secar, y no entender qué cubría mi seguro. Esta guía existe para que usted no cometa los mismos errores."
             : "I grew up in Houston and lost $47,000 in damages after Hurricane Harvey. Most of it wasn't the water itself. It was the mistakes I made in the first 72 hours: not documenting correctly, waiting too long to dry, and not understanding what my insurance actually covered. This guide exists so you don't make the same mistakes."}
         </p>
         <p className="text-gray-700 leading-relaxed">
@@ -181,23 +181,23 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
           {[
             {
               step: "1",
-              title: isEs ? "Detén la fuente" : "Stop the Source",
+              title: isEs ? "Detenga la fuente" : "Stop the Source",
               body: isEs
-                ? "Cierra la llave de paso principal si es una tubería. Si es agua de inundación de bayou o lluvia, espera a que baje. No entres a agua estancada que pueda estar electrificada."
+                ? "Cierre la llave de paso principal si es una tubería. Si es agua de inundación de bayou o lluvia, espere a que baje. No entre a agua estancada que pueda estar electrificada."
                 : "Shut the main water valve if it's a pipe. If it's bayou or rainwater, wait for it to recede. Never walk through standing water that may be electrified.",
             },
             {
               step: "2",
-              title: isEs ? "Documenta todo" : "Document Everything",
+              title: isEs ? "Documente todo" : "Document Everything",
               body: isEs
-                ? "Toma fotos y videos antes de mover cualquier cosa. Tu reclamo de seguro depende de documentación detallada. Registra la fecha, hora y nivel del agua. Guarda recibos de todo lo que compres."
+                ? "Tome fotos y videos antes de mover cualquier cosa. Su reclamo de seguro depende de documentación detallada. Registre la fecha, hora y nivel del agua. Guarde recibos de todo lo que compre."
                 : "Photograph and video everything before moving anything. Your insurance claim depends on detailed documentation. Record date, time, and water level. Save receipts for everything you purchase.",
             },
             {
               step: "3",
-              title: isEs ? "Llama a tu aseguradora" : "Call Your Insurer",
+              title: isEs ? "Llame a su aseguradora" : "Call Your Insurer",
               body: isEs
-                ? "Reporta el reclamo dentro de las primeras 24 horas. Bajo el Código de Seguros de Texas, la aseguradora debe acusar recibo en 15 días. Pide el número de tu reclamo y el nombre del ajustador asignado."
+                ? "Reporte el reclamo dentro de las primeras 24 horas. Bajo el C\u00f3digo de Seguros de Texas, la aseguradora debe acusar recibo en 15 d\u00edas. Solicite el n\u00famero de su reclamo y el nombre del ajustador asignado."
                 : "File the claim within 24 hours. Under the Texas Insurance Code, your insurer must acknowledge within 15 days. Get your claim number and the assigned adjuster's name.",
             },
           ].map((card) => (
@@ -227,7 +227,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
-            ? "El estándar IICRC S500 define los objetivos de humedad para materiales de madera y mampostería. Los técnicos certificados en Restauración por Agua (WRT) y los Técnicos de Secado Aplicado (ASD) son los que debes buscar. Pide ver las certificaciones antes de permitir que alguien trabaje en tu casa."
+            ? "El estándar IICRC S500 define los objetivos de humedad para materiales de madera y mampostería. Los técnicos certificados en Restauración por Agua (WRT) y los Técnicos de Secado Aplicado (ASD) son los que debe buscar. Solicite ver las certificaciones antes de permitir que alguien trabaje en su casa."
             : "The IICRC S500 standard defines moisture targets for wood and masonry materials. Water Restoration Technicians (WRT) and Applied Structural Drying (ASD) certified technicians are what you want. Ask to see certifications before allowing anyone to work on your home."}
         </p>
       </section>
@@ -256,7 +256,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
             </h3>
             <p className="text-gray-700 leading-relaxed">
               {isEs
-                ? "El suelo de Houston es principalmente arcilla de la formación Beaumont, conocida por su ciclo dramático de expansión y contracción. Cuando se inunda, el suelo absorbe agua y se expande, ejerciendo presión lateral sobre cimientos y paredes de sótano. Cuando se seca, el suelo se encoge, y los cimientos de losa pueden agrietarse. Después de una inundación, siempre haz inspeccionar los cimientos. El Instituto de Ingeniería de Cimientos de Texas recomienda esperar 6 a 12 semanas después de una inundación mayor antes de hacer trabajo de nivelación de cimientos."
+                ? "El suelo de Houston es principalmente arcilla de la formación Beaumont, conocida por su ciclo dramático de expansión y contracción. Cuando se inunda, el suelo absorbe agua y se expande, ejerciendo presión lateral sobre cimientos y paredes de sótano. Cuando se seca, el suelo se encoge, y los cimientos de losa pueden agrietarse. Después de una inundación, siempre haga inspeccionar los cimientos. El Instituto de Ingeniería de Cimientos de Texas recomienda esperar 6 a 12 semanas después de una inundación mayor antes de hacer trabajo de nivelación de cimientos."
                 : "Houston's soil is primarily Beaumont clay, known for its dramatic expansion and contraction cycle. When flooded, the soil absorbs water and expands, exerting lateral pressure on foundations and basement walls. When it dries, the soil shrinks, and slab foundations can crack. After any flood, always have foundations inspected. The Texas Foundation Engineering Institute recommends waiting 6 to 12 weeks after major flooding before doing foundation leveling work."}
             </p>
           </div>
@@ -456,7 +456,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
               phase: isEs ? "Días 1-5" : "Days 1-5",
               title: isEs ? "Secado Activo" : "Active Drying",
               desc: isEs
-                ? "Monitoreo diario de humedad, ajuste de equipo. En Houston en verano, espera estar en el extremo superior de este rango."
+                ? "Monitoreo diario de humedad, ajuste de equipo. En Houston en verano, espere estar en el extremo superior de este rango."
                 : "Daily moisture monitoring, equipment adjustment. In Houston in summer, expect to be at the high end of this range.",
             },
             {
@@ -489,7 +489,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           {isEs
-            ? "Seguro de Daño por Agua en Texas: Lo Que Necesitas Saber"
+            ? "Seguro de Da\u00f1o por Agua en Texas: Lo Que Necesita Saber"
             : "Water Damage Insurance in Texas: What You Need to Know"}
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
@@ -499,12 +499,12 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "Bajo el Código de Seguros de Texas, Sección 542, tu aseguradora debe acusar recibo de tu reclamo dentro de 15 días hábiles, aceptar o rechazar el reclamo dentro de 15 días hábiles adicionales después de recibir toda la información necesaria, y pagar los reclamos aceptados dentro de 5 días hábiles. Si no cumplen estos plazos, tienes derecho a intereses adicionales y posiblemente honorarios de abogado."
+            ? "Bajo el Código de Seguros de Texas, Sección 542, su aseguradora debe acusar recibo de su reclamo dentro de 15 días hábiles, aceptar o rechazar el reclamo dentro de 15 días hábiles adicionales después de recibir toda la información necesaria, y pagar los reclamos aceptados dentro de 5 días hábiles. Si no cumplen estos plazos, usted tiene derecho a intereses adicionales y posiblemente honorarios de abogado."
             : "Under Texas Insurance Code Section 542, your insurer must acknowledge your claim within 15 business days, accept or deny the claim within 15 additional business days after receiving all needed information, and pay accepted claims within 5 business days. If they miss these deadlines, you're entitled to additional interest and potentially attorney fees."}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
-            ? "Para inundaciones causadas por desbordamiento de bayou, aguas de tormenta, o el mar, necesitas un seguro de inundación separado. La mayoría de las pólizas en Houston son a través del Programa Nacional de Seguro de Inundaciones (NFIP). Lee nuestra"
+            ? "Para inundaciones causadas por desbordamiento de bayou, aguas de tormenta o el mar, necesita un seguro de inundación por separado. La mayoría de las pólizas en Houston son a través del Programa Nacional de Seguro de Inundaciones (NFIP). Lea nuestra"
             : "For flooding caused by bayou overflow, stormwater, or the sea, you need separate flood insurance. Most Houston policies are through the National Flood Insurance Program (NFIP). Read our"}{" "}
           <Link
             href={localePath("/flood-cleanup-houston", locale)}
@@ -525,28 +525,28 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
           {(isEs
             ? [
                 {
-                  title: "Inspecciona el techo cada año",
+                  title: "Inspeccione el techo cada año",
                   body: "El sol de Texas degrada el tejado rápidamente. Las tejas rotas son la causa número uno de agua de lluvia que entra a los áticos.",
                 },
                 {
-                  title: "Limpia los canalones antes de cada temporada de lluvias",
-                  body: "Los canalones tapados hacen que el agua se revierta bajo el tejado. Limpia en marzo y septiembre.",
+                  title: "Limpie los canalones antes de cada temporada de lluvias",
+                  body: "Los canalones tapados hacen que el agua se revierta bajo el tejado. Límpielos en marzo y septiembre.",
                 },
                 {
-                  title: "Instala un detector de fugas de agua",
+                  title: "Instale un detector de fugas de agua",
                   body: "Los sensores de agua de $30 a $100 bajo lavabos y detrás de electrodomésticos pueden detectar fugas antes de que se conviertan en inundaciones.",
                 },
                 {
-                  title: "Ventilar espacios de rastreo",
-                  body: "Si tienes cimientos de pilares, asegúrate de que las rejillas de ventilación del espacio de rastreo estén abiertas y no bloqueadas. Considera instalar un ventilador de espacio de rastreo.",
+                  title: "Ventile los espacios de rastreo",
+                  body: "Si tiene cimientos de pilares, asegúrese de que las rejillas de ventilación del espacio de rastreo estén abiertas y sin obstrucciones. Considere instalar un ventilador de espacio de rastreo.",
                 },
                 {
-                  title: "Conoce dónde está tu llave de paso principal",
-                  body: "En una emergencia de tubería, cada minuto cuenta. Practica cerrando la llave de paso para que todo en la casa lo sepa.",
+                  title: "Conozca dónde está su llave de paso principal",
+                  body: "En una emergencia de tubería, cada minuto cuenta. Practique cerrando la llave de paso para que todos en la casa sepan hacerlo.",
                 },
                 {
-                  title: "Monitorea el nivel de humedad interior",
-                  body: "Un higrómetro de $15 en casa te dice si la humedad interior supera el 60%, lo que significa riesgo de moho. Usa el AC o un deshumidificador para mantenerla por debajo del 55%.",
+                  title: "Monitoree el nivel de humedad interior",
+                  body: "Un higrómetro de $15 le indica si la humedad interior supera el 60%, lo que significa riesgo de moho. Use el AC o un deshumidificador para mantenerla por debajo del 55%.",
                 },
               ]
             : [
@@ -631,7 +631,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
             </h3>
             <p className="text-gray-500 text-xs">
               {isEs
-                ? "Cómo presentar y ganar tu reclamo bajo el Código de Seguros de Texas."
+                ? "Cómo presentar y ganar su reclamo bajo el Código de Seguros de Texas."
                 : "How to file and win your claim under the Texas Insurance Code."}
             </p>
           </Link>
@@ -649,7 +649,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Qué hacer cuando tu casa se inunda en Houston (primeras 24 horas)"
+              ? "Qué hacer cuando su casa se inunda en Houston (primeras 24 horas)"
               : "What to Do When Your House Floods in Houston (First 24 Hours)"}
           </Link>
           <Link

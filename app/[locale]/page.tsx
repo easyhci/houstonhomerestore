@@ -131,7 +131,7 @@ export default async function HomePage({ params }: Props) {
         {
           title: "Reclamos de Seguro",
           description:
-            "C\u00f3mo navegar los reclamos de seguro de propietarios en Texas. Tus derechos, errores comunes y c\u00f3mo apelar una oferta baja.",
+            "C\u00f3mo navegar los reclamos de seguro de propietarios en Texas. Sus derechos, errores comunes y c\u00f3mo apelar una oferta baja.",
           href: localePath("/insurance-claim-restoration-houston", locale),
           icon: "📋",
           color: "bg-red-50 border-red-200 hover:border-red-400",
@@ -183,7 +183,7 @@ export default async function HomePage({ params }: Props) {
           title: "Temporada de Huracanes",
           period: "Junio a Noviembre",
           description:
-            "Houston est\u00e1 en el corredor de huracanes del Golfo. Harvey fue una tormenta de categor\u00eda 4 que descarg\u00f3 m\u00e1s de 60 pulgadas de lluvia. Prepararse antes no es opcional.",
+            "Houston se encuentra en el corredor de huracanes del Golfo. Harvey fue una tormenta de categor\u00eda 4 que descarg\u00f3 m\u00e1s de 60 pulgadas de lluvia. Prepararse con anticipaci\u00f3n no es opcional.",
           accent: "bg-red-100 border-red-300",
           heading: "text-red-800",
         },
@@ -191,7 +191,7 @@ export default async function HomePage({ params }: Props) {
           title: "Humedad Extrema Todo el A\u00f1o",
           period: "M\u00e1s del 90% de humedad relativa",
           description:
-            "La humedad de Houston significa que el moho puede comenzar a crecer en superficies mojadas en tan solo 24 a 48 horas. Cada trabajo de agua da\u00f1ada es tambi\u00e9n una carrera contra el moho.",
+            "La humedad de Houston hace que el moho pueda empezar a crecer en superficies mojadas en tan solo 24 a 48 horas. Cada trabajo de da\u00f1o por agua es tambi\u00e9n una carrera contra el moho.",
           accent: "bg-green-100 border-green-300",
           heading: "text-green-800",
         },
@@ -207,7 +207,7 @@ export default async function HomePage({ params }: Props) {
           title: "Inundaciones de Bayou",
           period: "Zonas de inundaci\u00f3n FEMA en toda la ciudad",
           description:
-            "El sistema de bayous de Houston atraviesa barrios residenciales. La proximidad a un bayou puede cuadriplicar tu riesgo de inundaci\u00f3n, y muchos propietarios no saben que est\u00e1n en una zona de inundaci\u00f3n.",
+            "El sistema de bayous de Houston atraviesa barrios residenciales. La proximidad a un bayou puede cuadruplicar su riesgo de inundaci\u00f3n, y muchos propietarios no saben que est\u00e1n en una zona de inundaci\u00f3n.",
           accent: "bg-blue-100 border-blue-300",
           heading: "text-blue-800",
         },
@@ -284,7 +284,7 @@ export default async function HomePage({ params }: Props) {
           </Link>
           <p className="text-amber-300 text-sm mt-4">
             {isEs
-              ? "Gu\u00edas educativas gratuitas. Sin formularios de contratistas. Sin generaci\u00f3n de leads."
+              ? "Gu\u00edas educativas gratuitas. Sin formularios de contratistas. Sin venta de datos."
               : "Free educational guides. No contractor forms. No lead generation."}
           </p>
         </div>
@@ -299,7 +299,7 @@ export default async function HomePage({ params }: Props) {
             </div>
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-3">
-                {isEs ? "Por qu\u00e9 creo este sitio" : "Why I built this site"}
+                {isEs ? "Por qu\u00e9 constru\u00ed este sitio" : "Why I built this site"}
               </h2>
               {isEs ? (
                 <>
@@ -310,7 +310,7 @@ export default async function HomePage({ params }: Props) {
                     El da\u00f1o total fue de $47,000. El seguro cubri\u00f3 $19,000, despu\u00e9s de 8 meses de pelea. Contrat\u00e9 contratistas que no estaban calificados, firm\u00e9 contratos que no entend\u00eda, y pas\u00e9 noches leyendo foros sobre reclamos de seguro para entender mis derechos.
                   </p>
                   <p className="text-gray-700">
-                    Este sitio existe para que t\u00fa no tengas que hacer lo mismo. No es un directorio de contratistas. No vendemos leads. Es lo que quisiera haber tenido en agosto de 2017.
+                    Este sitio existe para que usted no tenga que pasar por lo mismo. No es un directorio de contratistas. No vendemos datos de contacto. Es lo que hubiera querido tener en agosto de 2017.
                   </p>
                 </>
               ) : (
@@ -345,7 +345,7 @@ export default async function HomePage({ params }: Props) {
           </h2>
           <p className="text-gray-500 text-center mb-10">
             {isEs
-              ? "Todo lo que necesitas saber sobre restauraci\u00f3n de propiedades en Houston"
+              ? "Todo lo que necesita saber sobre restauraci\u00f3n de propiedades en Houston"
               : "Everything you need to know about property restoration in Houston"}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

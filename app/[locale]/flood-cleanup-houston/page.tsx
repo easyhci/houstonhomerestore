@@ -94,7 +94,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
     {
       question: "¿Qué debo hacer primero cuando mi casa en Houston se inunda?",
       answer:
-        "No entres al agua estancada hasta que las autoridades confirmen que no hay peligro eléctrico. Una vez seguro, documenta todo con fotos y video antes de tocar nada. Llama a tu aseguradora dentro de las primeras 24 horas. Si la inundación es por desbordamiento de bayou o agua de la calle, asumir que es agua Categoría 3 contaminada.",
+        "No entre al agua estancada hasta que las autoridades confirmen que no hay peligro eléctrico. Una vez seguro, documente todo con fotos y video antes de tocar nada. Llame a su aseguradora dentro de las primeras 24 horas. Si la inundación es por desbordamiento de bayou o agua de la calle, asuma que es agua Categoría 3 contaminada.",
     },
     {
       question: "¿Cuál es la diferencia entre daño por agua e inundación para el seguro?",
@@ -114,7 +114,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
     {
       question: "¿Cómo sé en qué zona de inundación FEMA estoy?",
       answer:
-        "Usa el Centro de Servicios de Mapas de Inundación de FEMA en msc.fema.gov e ingresa tu dirección de Houston. La Zona A o AE significa que estás en un área de alto riesgo y el seguro de inundación generalmente es requerido por tu prestamista hipotecario. La Zona X significa menor riesgo, pero las inundaciones aún ocurren, como Harvey lo demostró.",
+        "Use el Centro de Servicios de Mapas de Inundación de FEMA en msc.fema.gov e ingrese su dirección de Houston. La Zona A o AE significa que está en un área de alto riesgo y el seguro de inundación generalmente es requerido por su prestamista hipotecario. La Zona X significa menor riesgo, pero las inundaciones siguen ocurriendo, como Harvey lo demostró.",
     },
     {
       question: "¿La asistencia de FEMA cubre los costos de limpieza de inundaciones?",
@@ -167,7 +167,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "Pero Harvey no fue un evento excepcional para Houston. El Día Memorial de 2015 y la Inundación de Tax Day de 2016 también causaron inundaciones masivas en la misma área solo dos años antes. Houston experimenta inundaciones graves con una frecuencia que pocas ciudades de EE. UU. igualan. Esta guía te prepara para la realidad de la limpieza de inundaciones en una ciudad que inunda."
+            ? "Pero Harvey no fue un evento excepcional para Houston. El Día Memorial de 2015 y la Inundación de Tax Day de 2016 también causaron inundaciones masivas en la misma área solo dos años antes. Houston experimenta inundaciones graves con una frecuencia que pocas ciudades de EE. UU. igualan. Esta guía lo prepara para la realidad de la limpieza de inundaciones en una ciudad que se inunda con frecuencia."
             : "But Harvey wasn't an exceptional event for Houston. The 2015 Memorial Day flood and the 2016 Tax Day flood also caused massive flooding in the same area just two years earlier. Houston experiences serious flooding with a frequency few US cities match. This guide prepares you for the reality of flood cleanup in a city that floods."}
         </p>
       </section>
@@ -183,21 +183,21 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
               step: "1",
               title: isEs ? "Seguridad primero" : "Safety First",
               body: isEs
-                ? "No entres al agua estancada hasta que CenterPoint Energy o las autoridades confirmen que no hay líneas eléctricas caídas ni peligros eléctricos. El agua de inundación puede estar electrificada. Usa botas de agua y guantes si debes entrar. No conduzcas por agua con profundidad desconocida: dos pies de agua que fluye pueden arrastrar un vehículo."
+                ? "No entre al agua estancada hasta que CenterPoint Energy o las autoridades confirmen que no hay líneas eléctricas caídas ni peligros eléctricos. El agua de inundación puede estar electrificada. Use botas de agua y guantes si debe entrar. No conduzca por agua de profundidad desconocida: dos pies de agua en movimiento pueden arrastrar un vehículo."
                 : "Do not enter standing water until CenterPoint Energy or authorities confirm no downed power lines or electrical hazards exist. Flood water can be electrified. Wear rubber boots and gloves if you must enter. Never drive through water of unknown depth. Two feet of moving water can sweep away a vehicle.",
             },
             {
               step: "2",
-              title: isEs ? "Documenta antes de limpiar" : "Document Before Cleaning",
+              title: isEs ? "Documente antes de limpiar" : "Document Before Cleaning",
               body: isEs
-                ? "Tu reclamo de seguro depende de documentación exhaustiva. Fotografía y filma cada habitación desde múltiples ángulos. Registra la marca de agua en las paredes. Enumera todos los artículos dañados con sus valores estimados. Guarda muestras de materiales dañados si es posible. Esta documentación determina tu pago de reclamo."
+                ? "Su reclamo de seguro depende de documentación exhaustiva. Fotografíe y filme cada habitación desde múltiples ángulos. Registre la marca de agua en las paredes. Enumere todos los artículos dañados con sus valores estimados. Guarde muestras de materiales dañados si es posible. Esta documentación determina el pago de su reclamo."
                 : "Your insurance claim depends on thorough documentation. Photograph and video every room from multiple angles. Record the water line mark on walls. List all damaged items with estimated values. Save samples of damaged materials if possible. This documentation determines your claim payment.",
             },
             {
               step: "3",
-              title: isEs ? "Reporta el reclamo y solicita ayuda" : "File the Claim and Seek Assistance",
+              title: isEs ? "Reporte el reclamo y solicite ayuda" : "File the Claim and Seek Assistance",
               body: isEs
-                ? "Llama a tu aseguradora de inundaciones (NFIP o privada) dentro de las 24 horas. Registra con FEMA en DisasterAssistance.gov o llama al 1-800-621-3362 si hay una declaración de desastre federal. El Distrito de Control de Inundaciones del Condado Harris también tiene recursos para propietarios afectados."
+                ? "Llame a su aseguradora de inundaciones (NFIP o privada) dentro de las 24 horas. Regístrese con FEMA en DisasterAssistance.gov o llame al 1-800-621-3362 si hay una declaración de desastre federal. El Distrito de Control de Inundaciones del Condado Harris también tiene recursos para propietarios afectados."
                 : "Call your flood insurer (NFIP or private) within 24 hours. Register with FEMA at DisasterAssistance.gov or call 1-800-621-3362 if there's a federal disaster declaration. The Harris County Flood Control District also has resources for affected homeowners.",
             },
           ].map((card) => (
@@ -217,7 +217,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "Houston tiene un largo historial de inundaciones repetidas. Comprender este contexto es importante porque afecta el valor de la propiedad, los requisitos de seguro, y las posibilidades de que tu casa vuelva a inundarse."
+            ? "Houston tiene un largo historial de inundaciones repetidas. Comprender este contexto es importante porque afecta el valor de la propiedad, los requisitos de seguro, y las posibilidades de que su casa vuelva a inundarse."
             : "Houston has a long history of repeated flooding. Understanding this context is important because it affects property values, insurance requirements, and the likelihood your home floods again."}
         </p>
         <div className="space-y-3">
@@ -266,7 +266,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           {isEs
-            ? "Daño por Agua vs. Inundación: La Distinción que Determina tu Cobertura"
+            ? "Daño por Agua vs. Inundación: La Distinción que Determina su Cobertura"
             : "Water Damage vs. Flood Damage: The Distinction That Determines Your Coverage"}
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
@@ -313,7 +313,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
                     "Desbordamiento de bayou (Brays, Buffalo, White Oak, etc.)",
                     "Agua de tormenta de la calle que entra a la casa",
                     "Marejada ciclónica de huracán",
-                    "Agua que fluye por la tierra hacia tu sótano",
+                    "Agua que fluye por la tierra hacia su cimentación",
                     "Inundación de vecindarios por drenaje bloqueado",
                   ]
                 : [
@@ -334,7 +334,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         </div>
         <p className="text-gray-600 text-sm mt-4 italic">
           {isEs
-            ? "Nota: Muchos eventos de Houston involucran ambos tipos. Por ejemplo, si la lluvia de un huracán daña tu techo y agua entra por el techo mientras que el bayou se desborda y entra por la puerta trasera al mismo tiempo, las dos porciones pueden ser reclamadas bajo diferentes pólizas. Documenta los puntos de entrada del agua cuidadosamente."
+            ? "Nota: Muchos eventos en Houston involucran ambos tipos. Por ejemplo, si la lluvia de un huracán daña su techo y el agua entra por arriba mientras que el bayou se desborda y entra por la puerta trasera al mismo tiempo, las dos porciones pueden reclamarse bajo diferentes pólizas. Documente los puntos de entrada del agua cuidadosamente."
             : "Note: Many Houston events involve both types. For example, if hurricane rain damages your roof and water enters through the roof while the bayou simultaneously overflows through the back door, the two portions may be claimed under different policies. Document water entry points carefully."}
         </p>
       </section>
@@ -417,7 +417,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         </div>
         <p className="text-gray-600 text-sm mt-3">
           {isEs
-            ? "Importante: Los mapas de inundación FEMA se actualizan. Verifica tu zona actual en msc.fema.gov. Harris County ha actualizado los mapas significativamente después de Harvey."
+            ? "Importante: Los mapas de inundación FEMA se actualizan periódicamente. Verifique su zona actual en msc.fema.gov. Harris County ha actualizado los mapas significativamente después de Harvey."
             : "Important: FEMA flood maps are updated regularly. Verify your current zone at msc.fema.gov. Harris County has updated maps significantly post-Harvey."}
         </p>
       </section>
@@ -603,11 +603,11 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
             ? [
                 {
                   title: "Cobertura máxima NFIP",
-                  body: "$250,000 para la estructura de la edificación y $100,000 para el contenido. Si tu casa vale más de $250,000, considera un seguro de inundación privado para cubrir la brecha.",
+                  body: "$250,000 para la estructura de la edificación y $100,000 para el contenido. Si su casa vale más de $250,000, considere un seguro de inundación privado para cubrir la diferencia.",
                 },
                 {
                   title: "Período de espera de 30 días",
-                  body: "Las pólizas NFIP nuevas tienen un período de espera de 30 días antes de entrar en vigencia. No puedes comprar seguro de inundación cuando una tormenta ya se está formando en el Golfo.",
+                  body: "Las pólizas NFIP nuevas tienen un período de espera de 30 días antes de entrar en vigencia. No puede comprar seguro de inundación cuando una tormenta ya se está formando en el Golfo.",
                 },
                 {
                   title: "Qué NO cubre el NFIP",
@@ -615,7 +615,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
                 },
                 {
                   title: "Seguro de inundación privado",
-                  body: "Las aseguradoras privadas ahora ofrecen cobertura más alta, períodos de espera más cortos y cobertura de contenido más amplia. Considera comparar precios especialmente si estás en Zona X con historial de inundaciones.",
+                  body: "Las aseguradoras privadas ahora ofrecen cobertura más alta, períodos de espera más cortos y cobertura de contenido más amplia. Considere comparar precios, especialmente si está en Zona X con historial de inundaciones.",
                 },
               ]
             : [
@@ -657,7 +657,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
-            ? "El Distrito de Control de Inundaciones del Condado Harris ha construido más de 62 cuencas de retención de aguas pluviales para manejar este problema, pero el desarrollo continuo en las llanuras de inundación sigue agravando la situación. Si estás comprando una casa en Houston, busca el historial de inundaciones en el Harris County Appraisal District y en el portal Harris County Flood Education Mapping Tool (FEMT)."
+            ? "El Distrito de Control de Inundaciones del Condado Harris ha construido más de 62 cuencas de retención de aguas pluviales para manejar este problema, pero el desarrollo continuo en las llanuras de inundación sigue agravando la situación. Si está comprando una casa en Houston, busque el historial de inundaciones en el Harris County Appraisal District y en el portal Harris County Flood Education Mapping Tool (FEMT)."
             : "The Harris County Flood Control District has built more than 62 stormwater detention basins to manage this problem, but continued development in floodplains keeps worsening the situation. If you're buying a home in Houston, look up its flood history through the Harris County Appraisal District and the Harris County Flood Education Mapping Tool (FEMT)."}
         </p>
       </section>
@@ -704,7 +704,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
               {isEs ? "Reclamos de Seguro" : "Insurance Claims Houston"}
             </h3>
             <p className="text-gray-500 text-xs">
-              {isEs ? "Cómo presentar y ganar tu reclamo NFIP." : "How to file and maximize your NFIP claim."}
+              {isEs ? "Cómo presentar y ganar su reclamo NFIP." : "How to file and maximize your NFIP claim."}
             </p>
           </Link>
         </div>
@@ -721,7 +721,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Qué Hacer Cuando Tu Casa Se Inunda en Houston (Primeras 24 Horas)"
+              ? "Qué Hacer Cuando Su Casa Se Inunda en Houston (Primeras 24 Horas)"
               : "What to Do When Your House Floods in Houston (First 24 Hours)"}
           </Link>
           <Link

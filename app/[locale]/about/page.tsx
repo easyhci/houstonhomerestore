@@ -129,22 +129,22 @@ export default async function AboutPage({ params }: Props) {
           {isEs ? (
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                En 2015 compr\u00e9 un bungal\u00f3 de los a\u00f1os 60 en The Heights, uno de los barrios hist\u00f3ricos m\u00e1s queridos de Houston. Era una casa con car\u00e1cter: pisos de madera original, techos altos, un porche delantero que realmente se usaba. Yo era un ingeniero de software que hab\u00eda trabajado durante a\u00f1os y quer\u00eda echar ra\u00edces en Houston.
+                En 2015 compr\u00e9 un bungal\u00f3 de los a\u00f1os 60 en The Heights, uno de los barrios hist\u00f3ricos m\u00e1s queridos de Houston. Era una casa con car\u00e1cter: pisos de madera original, techos altos, un porche delantero que realmente se usaba. Soy ingeniero de software; llevaba a\u00f1os trabajando y quer\u00eda echar ra\u00edces en Houston.
               </p>
               <p>
-                No ten\u00eda experiencia en mantenimiento de casas. Nunca hab\u00eda lidiado con un da\u00f1o por agua serio. No entend\u00eda las zonas de inundaci\u00f3n de FEMA ni el seguro contra inundaciones. Simplemente assum\u00ed que mi p\u00f3liza de propietario cubrir\u00eda cualquier cosa que ocurriera.
+                No ten\u00eda experiencia en mantenimiento de casas. Nunca hab\u00eda enfrentado un da\u00f1o por agua grave. No entend\u00eda las zonas de inundaci\u00f3n de FEMA ni el seguro contra inundaciones. Simplemente asum\u00ed que mi p\u00f3liza de propietario cubrir\u00eda cualquier cosa que ocurriera.
               </p>
               <p>
-                El Hurac\u00e1n Harvey lleg\u00f3 en agosto de 2017. En las primeras 36 horas, cay\u00f3 casi un metro de lluvia sobre Houston. El Bayou Buffalo se desbord\u00f3. El agua entr\u00f3 por las puertas. Para cuando pude volver a mi casa, hab\u00eda casi un metro de agua estancada que hab\u00eda estado all\u00ed por horas.
+                El Hurac\u00e1n Harvey lleg\u00f3 en agosto de 2017. En las primeras 36 horas, cayeron casi tres pies de lluvia sobre Houston. El Bayou Buffalo se desbord\u00f3. El agua entr\u00f3 por las puertas. Para cuando pude regresar a mi casa, hab\u00eda casi un pie de agua estancada que llevaba horas acumulada.
               </p>
               <p>
-                El da\u00f1o fue devastador. Seco wall hasta 4 pies de altura en todas las habitaciones. Pisos de madera destruidos. El sistema HVAC arruinado. La cocina completa destrozada. Moho empieza a crecer en 48 horas en el clima de Houston. El da\u00f1o total fue de $47,000.
+                El da\u00f1o fue devastador. Drywall da\u00f1ado hasta 4 pies de altura en todas las habitaciones. Pisos de madera destruidos. El sistema HVAC arruinado. La cocina completa destrozada. El moho empieza a crecer en 48 horas con el clima de Houston. El da\u00f1o total fue de $47,000.
               </p>
               <p>
                 Llam\u00e9 a mi compa\u00f1\u00eda de seguros. Enviaron un ajustador. La primera oferta fue de $9,200. Nueve mil doscientos d\u00f3lares para un da\u00f1o de $47,000. Comenc\u00e9 a investigar. Aprend\u00ed sobre el proceso de p\u00e9rdida total. Contrat\u00e9 un ajustador p\u00fablico. Apel\u00e9. Disput\u00e9 cada l\u00ednea del estimado. Despu\u00e9s de 8 meses, el seguro pag\u00f3 $19,000. Todav\u00eda $28,000 de mi bolsillo.
               </p>
               <p>
-                Tambi\u00e9n contrat\u00e9 al contratista equivocado para la restauraci\u00f3n inicial. Prometi\u00f3 tiempos r\u00e1pidos, cobr\u00f3 por adelantado, y desapareci\u00f3 con el trabajo a medias. Tuve que encontrar un segundo contratista. Aprend\u00ed qu\u00e9 preguntar, qu\u00e9 contratos firmar, c\u00f3mo documentar todo.
+                Tambi\u00e9n contrat\u00e9 al contratista equivocado para la restauraci\u00f3n inicial. Prometi\u00f3 entregas r\u00e1pidas, cobr\u00f3 por adelantado y desapareci\u00f3 con el trabajo a medias. Tuve que encontrar un segundo contratista. Aprend\u00ed qu\u00e9 preguntas hacer, qu\u00e9 contratos firmar y c\u00f3mo documentar todo.
               </p>
               <p>
                 Este sitio es el manual que quisiera haber tenido en agosto de 2017.
@@ -182,7 +182,7 @@ export default async function AboutPage({ params }: Props) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-green-50 border border-green-200 rounded-2xl p-6">
               <h2 className="text-xl font-bold text-green-800 mb-4">
-                {isEs ? "Lo Que Es Este Sitio" : "What This Site Is"}
+                {isEs ? "Qu\u00e9 Es Este Sitio" : "What This Site Is"}
               </h2>
               <ul className="space-y-3 text-gray-700 text-sm">
                 {(isEs ? [
@@ -208,12 +208,12 @@ export default async function AboutPage({ params }: Props) {
 
             <div className="bg-red-50 border border-red-200 rounded-2xl p-6">
               <h2 className="text-xl font-bold text-red-800 mb-4">
-                {isEs ? "Lo Que No Es Este Sitio" : "What This Site Is Not"}
+                {isEs ? "Qu\u00e9 No Es Este Sitio" : "What This Site Is Not"}
               </h2>
               <ul className="space-y-3 text-gray-700 text-sm">
                 {(isEs ? [
                   "No es un directorio de contratistas",
-                  "No vendemos leads ni referencias de contratistas",
+                  "No vendemos datos de contacto ni referencias de contratistas",
                   "No somos afiliados de ninguna empresa de restauraci\u00f3n",
                   "No garantizamos la calidad de ning\u00fan contratista externo",
                   "No somos abogados, ajustadores de seguros ni inspectores de moho",
@@ -273,7 +273,7 @@ export default async function AboutPage({ params }: Props) {
                 name="name"
                 type="text"
                 required
-                placeholder={isEs ? "Tu nombre" : "Your name"}
+                placeholder={isEs ? "Su nombre" : "Your name"}
                 className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"
               />
             </div>
@@ -307,7 +307,7 @@ export default async function AboutPage({ params }: Props) {
                 rows={5}
                 placeholder={
                   isEs
-                    ? "Tu pregunta o mensaje..."
+                    ? "Su pregunta o mensaje..."
                     : "Your question or message..."
                 }
                 className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent resize-none"

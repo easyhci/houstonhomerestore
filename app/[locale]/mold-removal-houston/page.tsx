@@ -94,7 +94,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
     {
       question: "¿Cómo sé si tengo moho en mi casa de Houston?",
       answer:
-        "Busca manchas oscuras visibles (negras, verdes o grises) en paredes, techos o debajo de los lavabos. Un olor mohoso persistente, incluso sin crecimiento visible, frecuentemente indica moho dentro de las paredes o debajo de los pisos. En Houston, si has tenido alguna entrada de agua en los últimos 6 meses, asume que se justifica hacer una prueba de moho.",
+        "Busque manchas oscuras visibles (negras, verdes o grises) en paredes, techos o debajo de los lavabos. Un olor a humedad persistente, incluso sin crecimiento visible, frecuentemente indica moho dentro de las paredes o debajo de los pisos. En Houston, si ha tenido alguna entrada de agua en los últimos 6 meses, considere que se justifica hacer una prueba de moho.",
     },
     {
       question: "¿El seguro de propietario cubre la remediación de moho en Texas?",
@@ -114,7 +114,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
     {
       question: "¿Puedo hacer yo mismo la eliminación de moho en Houston?",
       answer:
-        "La ley de Texas permite a los propietarios manejar la remediación de moho en áreas menores de 25 pies cuadrados contiguos sin licencia TDLR. Para áreas más grandes, necesitas un remediador con licencia. Para cualquier moho resultante de inundaciones o que cubra más de 10 pies cuadrados, contrata un profesional con licencia.",
+        "La ley de Texas permite a los propietarios manejar la remediación de moho en áreas menores de 25 pies cuadrados contiguos sin licencia TDLR. Para áreas más grandes, necesita un remediador con licencia. Para cualquier moho resultante de inundaciones o que cubra más de 10 pies cuadrados, contrate un profesional con licencia.",
     },
     {
       question: "¿Cuánto cuesta la remediación de moho en Houston?",
@@ -129,7 +129,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
     {
       question: "¿Qué debo hacer para prevenir el moho en Houston?",
       answer:
-        "Mantén la humedad interior por debajo del 55% usando AC y deshumidificadores. Repara las fugas de agua dentro de las primeras 24 a 48 horas. Asegura la ventilación del espacio de rastreo si tienes cimientos de pilares. Considera un deshumidificador para toda la casa integrado con tu sistema HVAC, que muchos propietarios de Houston usan durante todo el año.",
+        "Mantenga la humedad interior por debajo del 55% usando AC y deshumidificadores. Repare las fugas de agua dentro de las primeras 24 a 48 horas. Asegure la ventilación del espacio de rastreo si tiene cimientos de pilares. Considere un deshumidificador para toda la casa integrado con su sistema HVAC, que muchos propietarios de Houston usan durante todo el año.",
     },
   ];
 
@@ -162,7 +162,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
       <section className="mt-8 mb-10">
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
-            ? "Después del huracán Harvey, encontré moho negro detrás del drywall en tres habitaciones de mi casa en The Heights. Lo que pensé que sería un problema de $2,000 se convirtió en una remediación de $18,000 porque esperé demasiado y porque el espacio de rastreo debajo de mi casa también estaba infestado. Esta guía te da lo que desearía haber sabido."
+            ? "Después del huracán Harvey, encontré moho negro detrás del drywall en tres habitaciones de mi casa en The Heights. Lo que pensé que sería un problema de $2,000 se convirtió en una remediación de $18,000 porque esperé demasiado y porque el espacio de rastreo debajo de mi casa también estaba infestado. Esta guía le ofrece lo que me hubiera gustado saber en su momento."
             : "After Hurricane Harvey, I found black mold behind drywall in three rooms of my Heights home. What I thought would be a $2,000 problem turned into an $18,000 remediation because I waited too long and because the crawlspace beneath my house was also infested. This guide gives you what I wish I'd known."}
         </p>
         <p className="text-gray-700 leading-relaxed">
@@ -181,23 +181,23 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
           {[
             {
               step: "1",
-              title: isEs ? "No perturbes el área" : "Don't Disturb the Area",
+              title: isEs ? "No perturbe el área" : "Don't Disturb the Area",
               body: isEs
-                ? "Rociar moho o raspar sin equipo adecuado dispersa esporas por el aire. Cierra la puerta de la habitación y desactiva el HVAC en esa zona si puedes, para evitar que las esporas se propaguen."
+                ? "Rociar o raspar moho sin equipo adecuado dispersa esporas por el aire. Cierre la puerta de la habitación y desactive el HVAC en esa zona si puede, para evitar que las esporas se propaguen."
                 : "Spraying or scraping mold without proper equipment disperses spores through the air. Close the door to the room and disable HVAC in that zone if you can, to prevent spore spread.",
             },
             {
               step: "2",
-              title: isEs ? "Encuentra y elimina la fuente de humedad" : "Find and Eliminate the Moisture Source",
+              title: isEs ? "Encuentre y elimine la fuente de humedad" : "Find and Eliminate the Moisture Source",
               body: isEs
-                ? "El moho no vuelve a crecer si eliminas la humedad. Encuentra la fuga, el condensado de AC, o la infiltración de agua. Sin corregir la fuente, cualquier remediación es temporal."
+                ? "El moho no vuelve a crecer si se elimina la humedad. Encuentre la fuga, el condensado de AC o la infiltración de agua. Sin corregir la fuente, cualquier remediación es temporal."
                 : "Mold won't grow back if you eliminate moisture. Find the leak, AC condensate, or water intrusion. Without fixing the source, any remediation is temporary.",
             },
             {
               step: "3",
-              title: isEs ? "Documenta y llama a tu seguro" : "Document and Call Your Insurer",
+              title: isEs ? "Documente y llame a su aseguradora" : "Document and Call Your Insurer",
               body: isEs
-                ? "Toma fotos de todo el moho visible. Si el moho resultó de un evento cubierto (tubería reventada, no inundación), llama a tu aseguradora antes de hacer cualquier trabajo. La remoción prematura puede invalidar tu reclamo."
+                ? "Tome fotos de todo el moho visible. Si el moho resultó de un evento cubierto (tubería reventada, no inundación), llame a su aseguradora antes de hacer cualquier trabajo. La remoción prematura puede invalidar su reclamo."
                 : "Photograph all visible mold. If the mold resulted from a covered event (burst pipe, not flooding), call your insurer before doing any work. Premature removal can invalidate your claim.",
             },
           ].map((card) => (
@@ -254,7 +254,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
             </h3>
             <p className="text-gray-700 leading-relaxed">
               {isEs
-                ? "El huracán Harvey en 2017 inundó más de 200,000 estructuras en el área de Houston. Las casas que no fueron remediadas correctamente en las primeras 2 a 3 semanas post-inundación frecuentemente desarrollaron moho severo. Incluso casas que 'parecían bien' externamente tenían moho activo creciendo detrás del drywall que no se detectó hasta meses después cuando los residentes comenzaron a experimentar síntomas de salud. Cada vez que hay una tormenta tropical significativa, revisamos el espacio de rastreo dentro de los 7 días."
+                ? "El huracán Harvey en 2017 inundó más de 200,000 estructuras en el área de Houston. Las casas que no fueron remediadas correctamente en las primeras 2 a 3 semanas post-inundación frecuentemente desarrollaron moho severo. Incluso casas que 'parecían bien' externamente tenían moho activo creciendo detrás del drywall que no se detectó hasta meses después cuando los residentes comenzaron a experimentar síntomas de salud. Cada vez que pasa una tormenta tropical significativa, revise el espacio de rastreo dentro de los 7 días."
                 : "Hurricane Harvey in 2017 flooded more than 200,000 structures in the Houston area. Homes not properly remediated within the first 2 to 3 weeks post-flooding frequently developed severe mold. Even homes that 'looked fine' externally had active mold growing behind drywall that wasn't detected until months later when residents began experiencing health symptoms. After any significant tropical storm, check the crawlspace within 7 days."}
             </p>
           </div>
@@ -264,7 +264,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
       {/* How to Identify Mold */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          {isEs ? "Cómo Identificar el Moho en Tu Casa de Houston" : "How to Identify Mold in Your Houston Home"}
+          {isEs ? "Cómo Identificar el Moho en Su Casa de Houston" : "How to Identify Mold in Your Houston Home"}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {[
@@ -489,10 +489,10 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
             ? [
                 {
                   title: "Líneas de drenaje de AC tapadas",
-                  body: "El problema número uno de moho en Houston que veo. Limpia la línea de drenaje del condensado cada seis meses con tabletas de cloro para WC colocadas en el pleno del manejador de aire. Esto previene taponamientos que resultan en desbordamiento.",
+                  body: "El problema de moho número uno que veo en Houston. Limpie la línea de drenaje del condensado cada seis meses con tabletas de cloro colocadas en el pleno del manejador de aire. Esto previene taponamientos que terminan en desbordamiento.",
                 },
                 {
-                  title: "Ductwork en áticos",
+                  title: "Ductos de HVAC en áticos",
                   body: "Los conductos de HVAC en los áticos de Houston experimentan condensación extrema cuando el aire frío del interior encuentra el calor del ático. Conductos mal sellados o con fugas desarrollan moho internamente y lo distribuyen por toda la casa.",
                 },
                 {
@@ -501,7 +501,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
                 },
                 {
                   title: "Inundaciones post-tormenta tropical",
-                  body: "Después del paso de una tormenta tropical, inspecciona el espacio de rastreo, el ático y el área debajo de los fregaderos dentro de los 3 días. Las inundaciones escondidas en áreas no ocupadas son la causa principal de moho no detectado.",
+                  body: "Después del paso de una tormenta tropical, inspeccione el espacio de rastreo, el ático y el área debajo de los fregaderos dentro de los 3 días. Las inundaciones ocultas en áreas no ocupadas son la causa principal de moho no detectado.",
                 },
               ]
             : [
@@ -538,19 +538,19 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
-            ? "Prevenir el moho en Houston no es posible del 100%, pero puedes reducir significativamente el riesgo con el mantenimiento correcto."
+            ? "Prevenir el moho al 100% en Houston no es posible, pero puede reducir significativamente el riesgo con el mantenimiento adecuado."
             : "Preventing mold in Houston isn't 100% achievable, but you can significantly reduce risk with the right maintenance."}
         </p>
         <div className="space-y-3">
           {(isEs
             ? [
-                { priority: "ALTA", text: "Mantén la humedad interior por debajo del 55% con AC y deshumidificadores. Usa un higrómetro para monitorear." },
-                { priority: "ALTA", text: "Limpia la línea de drenaje del condensado del AC cada seis meses. Costo: $0 con tabletas de cloro." },
-                { priority: "ALTA", text: "Repara cualquier fuga de plomería dentro de las 24-48 horas de detectarla. El agua estancada promueve el moho rápidamente en el clima de Houston." },
-                { priority: "MEDIA", text: "Instala una barrera de vapor en el espacio de rastreo si tienes cimientos de pilares." },
-                { priority: "MEDIA", text: "Cambia los filtros de HVAC mensualmente de mayo a octubre. Los filtros sucios recirculan esporas." },
-                { priority: "MEDIA", text: "Asegúrate de que los ventiladores de extracción del baño estén funcionando y que los conductos estén dirigidos al exterior, no al ático." },
-                { priority: "BAJA", text: "Considera pintura con inhibidor de moho en baños y espacios debajo de los fregaderos." },
+                { priority: "ALTA", text: "Mantenga la humedad interior por debajo del 55% con AC y deshumidificadores. Use un higrómetro para monitorear." },
+                { priority: "ALTA", text: "Limpie la línea de drenaje del condensado del AC cada seis meses. Costo: $0 con tabletas de cloro." },
+                { priority: "ALTA", text: "Repare cualquier fuga de plomería dentro de las 24 a 48 horas de detectarla. El agua estancada promueve el moho rápidamente en el clima de Houston." },
+                { priority: "MEDIA", text: "Instale una barrera de vapor en el espacio de rastreo si tiene cimientos de pilares." },
+                { priority: "MEDIA", text: "Cambie los filtros de HVAC mensualmente de mayo a octubre. Los filtros sucios recirculan esporas." },
+                { priority: "MEDIA", text: "Asegúrese de que los ventiladores de extracción del baño estén funcionando y que los conductos estén dirigidos al exterior, no al ático." },
+                { priority: "BAJA", text: "Considere pintura con inhibidor de moho en baños y espacios debajo de los fregaderos." },
               ]
             : [
                 { priority: "HIGH", text: "Keep indoor humidity below 55% using AC and dehumidifiers. Use a hygrometer to monitor." },
@@ -622,7 +622,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
               {isEs ? "Reclamos de Seguro" : "Insurance Claims Houston"}
             </h3>
             <p className="text-gray-500 text-xs">
-              {isEs ? "Cómo reclamar el costo de la remediación a tu aseguradora." : "How to claim remediation costs from your insurer."}
+              {isEs ? "Cómo reclamar el costo de la remediación a su aseguradora." : "How to claim remediation costs from your insurer."}
             </p>
           </Link>
         </div>
@@ -639,7 +639,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Moho Negro en Casas de Houston: Lo Que Necesitas Saber"
+              ? "Moho Negro en Casas de Houston: Lo Que Necesita Saber"
               : "Black Mold in Houston Homes: What You Actually Need to Know"}
           </Link>
           <Link

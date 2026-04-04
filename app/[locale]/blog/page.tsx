@@ -53,13 +53,13 @@ export default async function BlogIndexPage({ params }: Props) {
       ? "Gu\u00edas para propietarios de Houston sobre da\u00f1o por agua, moho, inundaciones y reclamos de seguro."
       : "Expert guides for Houston homeowners on water damage, mold, flood cleanup, and insurance claims.",
     editorialIntro: isEs
-      ? "Cada art\u00edculo est\u00e1 escrito desde la experiencia directa de un sobreviviente del Hurac\u00e1n Harvey. Cubrimos desde emergencias por tuber\u00edas rotas hasta la navegaci\u00f3n de reclamos de seguro, todo con datos espec\u00edficos de Texas, precios locales de Houston y las lecciones que hemos aprendido de propietarios reales."
+      ? "Cada art\u00edculo est\u00e1 escrito desde la experiencia directa de un sobreviviente del Hurac\u00e1n Harvey. Cubrimos desde emergencias por tuber\u00edas rotas hasta el proceso de reclamos de seguro, todo con datos espec\u00edficos de Texas, precios locales de Houston y las lecciones aprendidas de propietarios reales."
       : "Every article is written from the firsthand experience of a Hurricane Harvey survivor. We cover everything from burst pipe emergencies to navigating insurance claims, all with Texas-specific data, local Houston pricing, and lessons learned from real homeowners who have been through the process.",
     featuredHeading: isEs ? "Gu\u00edas M\u00e1s Importantes" : "Most Important Guides",
     allArticlesHeading: isEs ? "Todos los Art\u00edculos" : "All Articles",
     ctaHeading: isEs ? "\u00bfNecesita M\u00e1s Ayuda?" : "Need More Help?",
     ctaText: isEs
-      ? "Si tiene una emergencia de da\u00f1o por agua, moho o inundaci\u00f3n, comience con nuestra gu\u00eda de emergencia paso a paso."
+      ? "Si est\u00e1 enfrentando una emergencia por da\u00f1o de agua, moho o inundaci\u00f3n, comience con nuestra gu\u00eda de emergencia paso a paso."
       : "If you're dealing with a water damage, mold, or flood emergency, start with our step-by-step emergency guide.",
     ctaButton: isEs ? "Gu\u00eda de Emergencia por Inundaci\u00f3n" : "Emergency Flood Guide",
     ctaButtonHref: localePath("/blog/what-to-do-when-your-house-floods-houston", locale),
@@ -143,9 +143,9 @@ export default async function BlogIndexPage({ params }: Props) {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-6">
           {isEs ? (
             <>
-              <p className="text-gray-700 mb-3">Houston no es como cualquier otra ciudad cuando se trata de restauraci\u00f3n de propiedades. Nuestra humedad extrema, la temporada de huracanes, el suelo arcilloso que se expande, y la proximidad a los bayous crean un conjunto de desaf\u00edos que los recursos gen\u00e9ricos de restauraci\u00f3n simplemente no cubren.</p>
+              <p className="text-gray-700 mb-3">Houston no es como cualquier otra ciudad en lo que respecta a la restauraci\u00f3n de propiedades. Nuestra humedad extrema, la temporada de huracanes, el suelo arcilloso expansivo y la cercan\u00eda a los bayous crean un conjunto de desaf\u00edos que los recursos gen\u00e9ricos de restauraci\u00f3n simplemente no abordan.</p>
               <p className="text-gray-700 mb-3">Cada gu\u00eda aqu\u00ed est\u00e1 escrita con datos espec\u00edficos de Texas: leyes estatales de seguros, precios de Xactimate del \u00e1rea de Houston, patrones de da\u00f1o comunes en nuestra regi\u00f3n, y las lecciones que los propietarios locales han aprendido.</p>
-              <p className="text-gray-700">Ya sea que est\u00e9 lidiando con una emergencia ahora mismo o investig\u00e1ndo para estar preparado, estas gu\u00edas le dan la informaci\u00f3n que necesita para tomar decisiones inteligentes y proteger su propiedad.</p>
+              <p className="text-gray-700">Ya sea que est\u00e9 enfrentando una emergencia en este momento o investigando para estar preparado, estas gu\u00edas le proporcionan la informaci\u00f3n que necesita para tomar decisiones acertadas y proteger su propiedad.</p>
             </>
           ) : (
             <>
