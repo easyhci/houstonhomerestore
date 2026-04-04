@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface AuthorBioProps {
   locale?: "en" | "es";
 }
@@ -6,9 +8,13 @@ export default function AuthorBio({ locale = "en" }: AuthorBioProps) {
   const isEs = locale === "es";
   return (
     <div className="flex items-center gap-4 my-8 py-6 px-5 bg-amber-50 border border-amber-200 rounded-xl">
-      <div className="w-16 h-16 bg-amber-700 text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">
-        MC
-      </div>
+      <Image
+        src="/images/marcus-chen.jpg"
+        alt="Marcus Chen"
+        width={64}
+        height={64}
+        className="w-16 h-16 rounded-full object-cover flex-shrink-0"
+      />
       <div>
         <p className="font-semibold text-gray-900 text-sm">
           {isEs ? "Escrito por" : "Written by"}{" "}

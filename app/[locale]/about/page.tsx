@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { isValidLocale, type Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/localePath";
@@ -96,9 +97,14 @@ export default async function AboutPage({ params }: Props) {
       <section className="bg-gradient-to-br from-[#1C1008] to-[#3D2010] text-white py-16 px-4">
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center gap-4 mb-6">
-            <div className="w-16 h-16 bg-amber-700 text-white rounded-full flex items-center justify-center font-extrabold text-2xl flex-shrink-0">
-              MC
-            </div>
+            <Image
+              src="/images/marcus-chen.jpg"
+              alt="Marcus Chen"
+              width={64}
+              height={64}
+              className="w-16 h-16 rounded-full object-cover flex-shrink-0"
+              priority
+            />
             <div>
               <h1 className="text-3xl md:text-4xl font-extrabold leading-tight">
                 {isEs ? "Marcus Chen" : "Marcus Chen"}
