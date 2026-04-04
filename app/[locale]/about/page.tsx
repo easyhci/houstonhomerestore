@@ -257,10 +257,13 @@ export default async function AboutPage({ params }: Props) {
               : "Questions, corrections, or your own Harvey story. I don't offer contractor recommendations."}
           </p>
           <form
-            action="/api/contact"
+            action="https://api.web3forms.com/submit"
             method="POST"
             className="space-y-4 bg-stone-50 border border-stone-200 rounded-2xl p-6"
           >
+            <input type="hidden" name="access_key" value="d74591be-d8dd-4a93-8012-db7c153c3be9" />
+            <input type="hidden" name="subject" value="HoustonHomeRestore Contact Form" />
+            <input type="hidden" name="from_name" value="HoustonHomeRestore" />
             <div>
               <label
                 htmlFor="contact-name"
