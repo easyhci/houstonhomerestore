@@ -701,28 +701,36 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         </h2>
         <div className="space-y-2">
           <Link
-            href={localePath("/blog/houston-water-damage-insurance-claim-mistakes", locale)}
+            href={localePath("/blog/does-homeowners-insurance-cover-water-damage-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "7 Errores de Reclamo de Seguro que Cometen los Propietarios de Houston"
-              : "7 Insurance Claim Mistakes Houston Homeowners Make"}
+              ? "¿El Seguro de Propietario Cubre Daño por Agua en Houston?"
+              : "Does Homeowners Insurance Cover Water Damage in Houston?"}
           </Link>
           <Link
-            href={localePath("/blog/hurricane-deductible-texas-explained", locale)}
-            className="block text-amber-700 underline hover:text-amber-900 text-sm"
-          >
-            {isEs
-              ? "Deducibles de Huracán en Texas: Guía Completa"
-              : "Texas Hurricane Deductibles Explained: Complete Guide"}
-          </Link>
-          <Link
-            href={localePath("/blog/public-adjuster-worth-it-houston", locale)}
+            href={localePath("/blog/is-public-adjuster-worth-it-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
               ? "¿Vale la Pena Contratar un Ajustador Público en Houston?"
-              : "Is Hiring a Public Adjuster Worth It in Houston?"}
+              : "Is a Public Adjuster Worth It for Houston Water Damage Claims?"}
+          </Link>
+          <Link
+            href={localePath("/blog/should-i-use-insurance-recommended-contractor-houston", locale)}
+            className="block text-amber-700 underline hover:text-amber-900 text-sm"
+          >
+            {isEs
+              ? "¿Debo Usar el Contratista Recomendado por Mi Aseguradora?"
+              : "Should I Use My Insurance Company's Recommended Contractor?"}
+          </Link>
+          <Link
+            href={localePath("/blog/complete-guide-insurance-coverage-water-mold-fire-damage-houston", locale)}
+            className="block text-amber-700 underline hover:text-amber-900 text-sm"
+          >
+            {isEs
+              ? "Guía Completa de Cobertura de Seguro para Agua, Moho e Incendios"
+              : "Complete Guide to Insurance Coverage for Water, Mold, and Fire Damage"}
           </Link>
         </div>
       </section>

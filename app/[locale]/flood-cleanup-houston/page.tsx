@@ -734,20 +734,28 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
               : "What to Do When Your House Floods in Houston (First 24 Hours)"}
           </Link>
           <Link
-            href={localePath("/blog/harvey-flood-lessons-houston-homeowners", locale)}
+            href={localePath("/blog/water-damage-vs-flood-damage-insurance-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Lecciones de Harvey: Lo que Aprendieron los Propietarios de Houston"
-              : "Harvey Flood Lessons: What Houston Homeowners Learned"}
+              ? "Daño por Agua vs. Daño por Inundación: Lo Que Cubre Cada Seguro"
+              : "Water Damage vs. Flood Damage Insurance: What Every Homeowner Must Know"}
           </Link>
           <Link
-            href={localePath("/blog/nfip-flood-insurance-houston-guide", locale)}
+            href={localePath("/blog/hurricane-season-water-damage-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Guía del NFIP para Propietarios de Houston"
-              : "NFIP Flood Insurance Guide for Houston Homeowners"}
+              ? "Guía de Temporada de Huracanes para Propietarios de Houston"
+              : "Hurricane Season Water Damage Guide for Houston Homeowners"}
+          </Link>
+          <Link
+            href={localePath("/blog/water-damage-restoration-cost-houston", locale)}
+            className="block text-amber-700 underline hover:text-amber-900 text-sm"
+          >
+            {isEs
+              ? "Costos de Restauración por Daño de Agua en Houston (2025)"
+              : "Water Damage Restoration Cost in Houston: 2025 Pricing Guide"}
           </Link>
         </div>
       </section>
