@@ -712,28 +712,28 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
         </h2>
         <div className="space-y-2">
           <Link
-            href={localePath("/blog/black-mold-houston-homes-guide", locale)}
+            href={localePath("/blog/mold-remediation-cost-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Moho Negro en Casas de Houston: Lo Que Necesita Saber"
-              : "Black Mold in Houston Homes: What You Actually Need to Know"}
+              ? "Costo de Remediación de Moho en Houston (2026)"
+              : "Mold Remediation Cost in Houston (2026)"}
           </Link>
           <Link
-            href={localePath("/blog/ac-condensate-mold-houston", locale)}
+            href={localePath("/blog/how-to-find-mold-houston-home", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Cómo el AC de Houston Crea Moho (y Cómo Prevenirlo)"
-              : "How Houston AC Creates Mold (And How to Prevent It)"}
+              ? "Cómo Encontrar Moho en Su Casa de Houston"
+              : "How to Find Mold in Your Houston Home"}
           </Link>
           <Link
-            href={localePath("/blog/crawlspace-mold-pier-beam-houston", locale)}
+            href={localePath("/blog/how-to-prevent-water-damage-houston", locale)}
             className="block text-amber-700 underline hover:text-amber-900 text-sm"
           >
             {isEs
-              ? "Guía del Espacio de Rastreo para Propietarios en Houston"
-              : "The Crawlspace Mold Guide for Houston Pier-and-Beam Homeowners"}
+              ? "Cómo Prevenir Daños por Agua en Houston"
+              : "How to Prevent Water Damage in Houston"}
           </Link>
         </div>
       </section>

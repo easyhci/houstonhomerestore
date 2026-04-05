@@ -51,7 +51,9 @@ export default async function RootLayout({
 
   return (
     <html lang={lang} suppressHydrationWarning>
-      <head>
+      <body className="antialiased">
+        {children}
+        <Analytics />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-61H97ZSGJQ"
           strategy="afterInteractive"
@@ -64,10 +66,6 @@ export default async function RootLayout({
             gtag('config', 'G-61H97ZSGJQ');
           `}
         </Script>
-      </head>
-      <body className="antialiased">
-        {children}
-        <Analytics />
       </body>
     </html>
   );
