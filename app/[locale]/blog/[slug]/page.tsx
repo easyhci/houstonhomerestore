@@ -76,10 +76,10 @@ export default async function BlogPostPage({ params }: Props) {
   const isEs = locale === "es";
 
   const ui = {
-    backToBlog: isEs ? "\u2190 Blog" : "\u2190 Blog",
+    backToBlog: isEs ? "← Blog" : "← Blog",
     editorial: isEs ? "Editorial HoustonHomeRestore" : "HoustonHomeRestore Editorial",
     relatedHeading: isEs ? "Recursos Relacionados" : "Related Resources",
-    backAll: isEs ? "\u2190 Volver a todos los art\u00edculos" : "\u2190 Back to all articles",
+    backAll: isEs ? "← Volver a todos los artículos" : "← Back to all articles",
     faqHeading: isEs ? "Preguntas Frecuentes" : "Frequently Asked Questions",
   };
 

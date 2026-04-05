@@ -16,10 +16,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEs = locale === "es";
 
   const title = isEs
-    ? "Blog de Restauraci\u00f3n en Houston, Gu\u00edas de Da\u00f1o por Agua, Moho e Inundaciones (2026)"
+    ? "Blog de Restauración en Houston, Guías de Daño por Agua, Moho e Inundaciones (2026)"
     : "Houston Restoration Blog, Water Damage, Mold & Insurance Guides (2026)";
   const description = isEs
-    ? "12+ gu\u00edas escritas por un sobreviviente de Harvey que perdi\u00f3 $47,000. Costos reales, errores de seguros y lo que los contratistas no le dicen. Actualizado 2026."
+    ? "12+ guías escritas por un sobreviviente de Harvey que perdió $47,000. Costos reales, errores de seguros y lo que los contratistas no le dicen. Actualizado 2026."
     : "12+ guides written by a Hurricane Harvey survivor who lost $47k. Real costs, insurance mistakes, and what contractors won't tell you. Updated 2026.";
 
   const canonical =
@@ -50,20 +50,20 @@ export default async function BlogIndexPage({ params }: Props) {
   const isEs = locale === "es";
 
   const ui = {
-    h1: isEs ? "Blog de Restauraci\u00f3n en Houston" : "Houston Restoration Blog",
+    h1: isEs ? "Blog de Restauración en Houston" : "Houston Restoration Blog",
     intro: isEs
-      ? "Gu\u00edas para propietarios de Houston sobre da\u00f1o por agua, moho, inundaciones y reclamos de seguro."
+      ? "Guías para propietarios de Houston sobre daño por agua, moho, inundaciones y reclamos de seguro."
       : "Expert guides for Houston homeowners on water damage, mold, flood cleanup, and insurance claims.",
     editorialIntro: isEs
-      ? "Cada art\u00edculo est\u00e1 escrito desde la experiencia directa de un sobreviviente del Hurac\u00e1n Harvey. Cubrimos desde emergencias por tuber\u00edas rotas hasta el proceso de reclamos de seguro, todo con datos espec\u00edficos de Texas, precios locales de Houston y las lecciones aprendidas de propietarios reales."
+      ? "Cada artículo está escrito desde la experiencia directa de un sobreviviente del Huracán Harvey. Cubrimos desde emergencias por tuberías rotas hasta el proceso de reclamos de seguro, todo con datos específicos de Texas, precios locales de Houston y las lecciones aprendidas de propietarios reales."
       : "Every article is written from the firsthand experience of a Hurricane Harvey survivor. We cover everything from burst pipe emergencies to navigating insurance claims, all with Texas-specific data, local Houston pricing, and lessons learned from real homeowners who have been through the process.",
-    featuredHeading: isEs ? "Gu\u00edas M\u00e1s Importantes" : "Most Important Guides",
-    allArticlesHeading: isEs ? "Todos los Art\u00edculos" : "All Articles",
-    ctaHeading: isEs ? "\u00bfNecesita M\u00e1s Ayuda?" : "Need More Help?",
+    featuredHeading: isEs ? "Guías Más Importantes" : "Most Important Guides",
+    allArticlesHeading: isEs ? "Todos los Artículos" : "All Articles",
+    ctaHeading: isEs ? "¿Necesita Más Ayuda?" : "Need More Help?",
     ctaText: isEs
-      ? "Si est\u00e1 enfrentando una emergencia por da\u00f1o de agua, moho o inundaci\u00f3n, comience con nuestra gu\u00eda de emergencia paso a paso."
+      ? "Si está enfrentando una emergencia por daño de agua, moho o inundación, comience con nuestra guía de emergencia paso a paso."
       : "If you're dealing with a water damage, mold, or flood emergency, start with our step-by-step emergency guide.",
-    ctaButton: isEs ? "Gu\u00eda de Emergencia por Inundaci\u00f3n" : "Emergency Flood Guide",
+    ctaButton: isEs ? "Guía de Emergencia por Inundación" : "Emergency Flood Guide",
     ctaButtonHref: localePath("/blog/what-to-do-when-your-house-floods-houston", locale),
   };
 
@@ -170,14 +170,14 @@ export default async function BlogIndexPage({ params }: Props) {
       {/* Editorial Section */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          {isEs ? "Por Qu\u00e9 Escribimos Estas Gu\u00edas" : "Why We Write These Guides"}
+          {isEs ? "Por Qué Escribimos Estas Guías" : "Why We Write These Guides"}
         </h2>
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-6">
           {isEs ? (
             <>
-              <p className="text-gray-700 mb-3">Houston no es como cualquier otra ciudad en lo que respecta a la restauraci\u00f3n de propiedades. Nuestra humedad extrema, la temporada de huracanes, el suelo arcilloso expansivo y la cercan\u00eda a los bayous crean un conjunto de desaf\u00edos que los recursos gen\u00e9ricos de restauraci\u00f3n simplemente no abordan.</p>
-              <p className="text-gray-700 mb-3">Cada gu\u00eda aqu\u00ed est\u00e1 escrita con datos espec\u00edficos de Texas: leyes estatales de seguros, precios de Xactimate del \u00e1rea de Houston, patrones de da\u00f1o comunes en nuestra regi\u00f3n, y las lecciones que los propietarios locales han aprendido.</p>
-              <p className="text-gray-700">Ya sea que est\u00e9 enfrentando una emergencia en este momento o investigando para estar preparado, estas gu\u00edas le proporcionan la informaci\u00f3n que necesita para tomar decisiones acertadas y proteger su propiedad.</p>
+              <p className="text-gray-700 mb-3">Houston no es como cualquier otra ciudad en lo que respecta a la restauración de propiedades. Nuestra humedad extrema, la temporada de huracanes, el suelo arcilloso expansivo y la cercanía a los bayous crean un conjunto de desafíos que los recursos genéricos de restauración simplemente no abordan.</p>
+              <p className="text-gray-700 mb-3">Cada guía aquí está escrita con datos específicos de Texas: leyes estatales de seguros, precios de Xactimate del área de Houston, patrones de daño comunes en nuestra región, y las lecciones que los propietarios locales han aprendido.</p>
+              <p className="text-gray-700">Ya sea que esté enfrentando una emergencia en este momento o investigando para estar preparado, estas guías le proporcionan la información que necesita para tomar decisiones acertadas y proteger su propiedad.</p>
             </>
           ) : (
             <>
@@ -190,10 +190,10 @@ export default async function BlogIndexPage({ params }: Props) {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {(isEs ? [
-            { topic: "Da\u00f1o por Agua", desc: "Tuber\u00edas rotas, inundaciones, limpieza de emergencia" },
-            { topic: "Moho", desc: "Detecci\u00f3n, remediaci\u00f3n, prevenci\u00f3n" },
+            { topic: "Daño por Agua", desc: "Tuberías rotas, inundaciones, limpieza de emergencia" },
+            { topic: "Moho", desc: "Detección, remediación, prevención" },
             { topic: "Seguros", desc: "Reclamos, ajustadores, derechos de Texas" },
-            { topic: "Prevenci\u00f3n", desc: "Mantenimiento, preparaci\u00f3n para huracanes" },
+            { topic: "Prevención", desc: "Mantenimiento, preparación para huracanes" },
           ] : [
             { topic: "Water Damage", desc: "Burst pipes, flooding, emergency cleanup" },
             { topic: "Mold", desc: "Detection, remediation, prevention" },

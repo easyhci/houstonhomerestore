@@ -22,7 +22,7 @@ export default function AuthorBio({ locale = "en" }: AuthorBioProps) {
         </p>
         <p className="text-gray-600 text-xs mt-0.5">
           {isEs
-            ? "Ingeniero de software en The Heights, Houston. Cre\u00f3 HoustonHomeRestore despu\u00e9s de perder $47,000 por da\u00f1o de agua y moho oculto tras el hurac\u00e1n Harvey."
+            ? "Ingeniero de software en The Heights, Houston. Creó HoustonHomeRestore después de perder $47,000 por daño de agua y moho oculto tras el huracán Harvey."
             : "Software engineer in The Heights, Houston. Built HoustonHomeRestore after losing $47,000 to water damage and hidden mold following Hurricane Harvey."}
         </p>
       </div>

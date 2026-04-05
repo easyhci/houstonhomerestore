@@ -69,46 +69,46 @@ function getTips(
   if (inputs.time === "lt24") {
     tips.push(
       isEs
-        ? "Actuar en menos de 24 horas reduce costos hasta un 30%. La respuesta r\u00e1pida es su mejor ahorro."
+        ? "Actuar en menos de 24 horas reduce costos hasta un 30%. La respuesta rápida es su mejor ahorro."
         : "Acting within 24 hours reduces costs by up to 30%. Fast response is your single biggest savings."
     );
   }
   if (inputs.time === "gt72" || inputs.time === "48to72") {
     tips.push(
       isEs
-        ? "El agua estancada m\u00e1s de 48 horas frecuentemente degrada a Categor\u00eda 2 o 3, incluso si empez\u00f3 como agua limpia. Esto puede duplicar los costos."
+        ? "El agua estancada más de 48 horas frecuentemente degrada a Categoría 2 o 3, incluso si empezó como agua limpia. Esto puede duplicar los costos."
         : "Water standing over 48 hours frequently degrades to Category 2 or 3, even if it started as clean water. This can double costs."
     );
   }
   if (inputs.water === "black") {
     tips.push(
       isEs
-        ? "El agua negra (Categor\u00eda 3) requiere remoci\u00f3n completa de todos los materiales que toc\u00f3. Nada es recuperable."
+        ? "El agua negra (Categoría 3) requiere remoción completa de todos los materiales que tocó. Nada es recuperable."
         : "Black water (Category 3) requires complete removal of all materials it touched. Nothing is salvageable."
     );
   }
   if (inputs.mold === "yes" || (inputs.mold === "unsure" && inputs.time !== "lt24")) {
     tips.push(
       isEs
-        ? "La remediaci\u00f3n de moho agrega $10\u2013$30 por pie cuadrado. La inspecci\u00f3n profesional de moho ($200\u2013$600) puede confirmar la extensi\u00f3n antes de la restauraci\u00f3n."
-        : "Mold remediation adds $10\u2013$30 per square foot. Professional mold inspection ($200\u2013$600) can confirm the extent before restoration begins."
+        ? "La remediación de moho agrega $10–$30 por pie cuadrado. La inspección profesional de moho ($200–$600) puede confirmar la extensión antes de la restauración."
+        : "Mold remediation adds $10–$30 per square foot. Professional mold inspection ($200–$600) can confirm the extent before restoration begins."
     );
   }
   if (inputs.sqft > 500) {
     tips.push(
       isEs
-        ? "\u00c1reas mayores a 500 pies\u00b2 generalmente requieren m\u00faltiples equipos de secado funcionando simult\u00e1neamente, lo que aumenta el costo diario de equipos."
+        ? "Áreas mayores a 500 pies² generalmente requieren múltiples equipos de secado funcionando simultáneamente, lo que aumenta el costo diario de equipos."
         : "Areas over 500 sq ft typically require multiple drying units running simultaneously, which increases daily equipment costs."
     );
   }
   tips.push(
     isEs
-      ? "Los propietarios que obtienen 3 presupuestos ahorran un promedio de 15\u201325% en su factura total de restauraci\u00f3n (HomeAdvisor, 2026)."
-      : "Homeowners who get 3 quotes save an average of 15\u201325% on their total restoration bill (HomeAdvisor, 2026)."
+      ? "Los propietarios que obtienen 3 presupuestos ahorran un promedio de 15–25% en su factura total de restauración (HomeAdvisor, 2026)."
+      : "Homeowners who get 3 quotes save an average of 15–25% on their total restoration bill (HomeAdvisor, 2026)."
   );
   tips.push(
     isEs
-      ? "El seguro est\u00e1ndar de propietarios cubre da\u00f1os repentinos y accidentales, pero NO fugas graduales ni inundaciones exteriores. En Houston, el seguro contra inundaciones es frecuentemente obligatorio."
+      ? "El seguro estándar de propietarios cubre daños repentinos y accidentales, pero NO fugas graduales ni inundaciones exteriores. En Houston, el seguro contra inundaciones es frecuentemente obligatorio."
       : "Standard homeowner insurance covers sudden and accidental damage, but NOT gradual leaks or outside flooding. In Houston, flood insurance is frequently required."
   );
   return tips;
@@ -348,7 +348,7 @@ export default function WaterDamageCostEstimator({ locale = "en" }: Props) {
                 <div className="text-xs text-gray-500 uppercase tracking-wide">{t.lowLabel}</div>
                 <div className="text-3xl font-extrabold text-green-700">{fmt(result.totalLow)}</div>
               </div>
-              <div className="text-2xl text-gray-300 font-light">{"\u2013"}</div>
+              <div className="text-2xl text-gray-300 font-light">{"–"}</div>
               <div className="text-center">
                 <div className="text-xs text-gray-500 uppercase tracking-wide">{t.highLabel}</div>
                 <div className="text-3xl font-extrabold text-red-700">{fmt(result.totalHigh)}</div>
@@ -370,12 +370,12 @@ export default function WaterDamageCostEstimator({ locale = "en" }: Props) {
               ].map((row) => (
                 <div key={row.label} className="flex items-center justify-between px-4 py-3">
                   <span className="text-sm text-gray-700">{row.label}</span>
-                  <span className="text-sm font-medium text-gray-900">{fmt(row.low)} {"\u2013"} {fmt(row.high)}</span>
+                  <span className="text-sm font-medium text-gray-900">{fmt(row.low)} {"–"} {fmt(row.high)}</span>
                 </div>
               ))}
               <div className="flex items-center justify-between px-4 py-3 bg-gray-900 text-white font-bold">
                 <span>{t.total}</span>
-                <span>{fmt(result.totalLow)} {"\u2013"} {fmt(result.totalHigh)}</span>
+                <span>{fmt(result.totalLow)} {"–"} {fmt(result.totalHigh)}</span>
               </div>
             </div>
           </div>

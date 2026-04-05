@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? "Acerca de HoustonHomeRestore, Historia de Marcus Chen y Harvey"
     : "About HoustonHomeRestore, Marcus Chen's Harvey Story";
   const description = isEs
-    ? "Marcus Chen es un ingeniero de software que perdi\u00f3 $47,000 en el Hurac\u00e1n Harvey. Este sitio es su recurso educativo sobre da\u00f1o por agua, moho y seguros en Houston."
+    ? "Marcus Chen es un ingeniero de software que perdió $47,000 en el Huracán Harvey. Este sitio es su recurso educativo sobre daño por agua, moho y seguros en Houston."
     : "Marcus Chen is a software engineer who lost $47,000 in Hurricane Harvey. This site is his educational resource on water damage, mold, and insurance in Houston.";
 
   const canonical =
@@ -82,8 +82,8 @@ export default async function AboutPage({ params }: Props) {
 
   const relatedResources = isEs
     ? [
-        { label: "Da\u00f1o por Agua", href: localePath("/water-damage-restoration-houston", locale) },
-        { label: "Remediaci\u00f3n de Moho", href: localePath("/mold-removal-houston", locale) },
+        { label: "Daño por Agua", href: localePath("/water-damage-restoration-houston", locale) },
+        { label: "Remediación de Moho", href: localePath("/mold-removal-houston", locale) },
         { label: "Limpieza de Inundaciones", href: localePath("/flood-cleanup-houston", locale) },
         { label: "Reclamos de Seguro", href: localePath("/insurance-claim-restoration-houston", locale) },
         { label: "Blog", href: localePath("/blog", locale) },
@@ -125,14 +125,14 @@ export default async function AboutPage({ params }: Props) {
               </h1>
               <p className="text-amber-200 text-sm mt-1">
                 {isEs
-                  ? "Fundador, HoustonHomeRestore. Sobreviviente del Hurac\u00e1n Harvey."
+                  ? "Fundador, HoustonHomeRestore. Sobreviviente del Huracán Harvey."
                   : "Founder, HoustonHomeRestore. Hurricane Harvey survivor."}
               </p>
             </div>
           </div>
           <p className="text-amber-100 text-lg">
             {isEs
-              ? "Ingeniero de software. Propietario de una casa en The Heights. Sobreviviente del Hurac\u00e1n Harvey. $47,000 en da\u00f1os. $19,000 del seguro. 8 meses de pelea."
+              ? "Ingeniero de software. Propietario de una casa en The Heights. Sobreviviente del Huracán Harvey. $47,000 en daños. $19,000 del seguro. 8 meses de pelea."
               : "Software engineer. Heights homeowner. Hurricane Harvey survivor. $47,000 in damage. $19,000 from insurance. 8 months of fighting."}
           </p>
         </div>
@@ -156,22 +156,22 @@ export default async function AboutPage({ params }: Props) {
           {isEs ? (
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                En 2015 compr\u00e9 un bungal\u00f3 de los a\u00f1os 60 en The Heights, uno de los barrios hist\u00f3ricos m\u00e1s queridos de Houston. Era una casa con car\u00e1cter: pisos de madera original, techos altos, un porche delantero que realmente se usaba. Soy ingeniero de software; llevaba a\u00f1os trabajando y quer\u00eda echar ra\u00edces en Houston.
+                En 2015 compré un bungaló de los años 60 en The Heights, uno de los barrios históricos más queridos de Houston. Era una casa con carácter: pisos de madera original, techos altos, un porche delantero que realmente se usaba. Soy ingeniero de software; llevaba años trabajando y quería echar raíces en Houston.
               </p>
               <p>
-                No ten\u00eda experiencia en mantenimiento de casas. Nunca hab\u00eda enfrentado un da\u00f1o por agua grave. No entend\u00eda las zonas de inundaci\u00f3n de FEMA ni el seguro contra inundaciones. Simplemente asum\u00ed que mi p\u00f3liza de propietario cubrir\u00eda cualquier cosa que ocurriera.
+                No tenía experiencia en mantenimiento de casas. Nunca había enfrentado un daño por agua grave. No entendía las zonas de inundación de FEMA ni el seguro contra inundaciones. Simplemente asumí que mi póliza de propietario cubriría cualquier cosa que ocurriera.
               </p>
               <p>
-                El Hurac\u00e1n Harvey lleg\u00f3 en agosto de 2017. En las primeras 36 horas, cayeron casi tres pies de lluvia sobre Houston. El Bayou Buffalo se desbord\u00f3. El agua entr\u00f3 por las puertas. Para cuando pude regresar a mi casa, hab\u00eda casi un pie de agua estancada que llevaba horas acumulada.
+                El Huracán Harvey llegó en agosto de 2017. En las primeras 36 horas, cayeron casi tres pies de lluvia sobre Houston. El Bayou Buffalo se desbordó. El agua entró por las puertas. Para cuando pude regresar a mi casa, había casi un pie de agua estancada que llevaba horas acumulada.
               </p>
               <p>
-                El da\u00f1o fue devastador. Drywall da\u00f1ado hasta 4 pies de altura en todas las habitaciones. Pisos de madera destruidos. El sistema HVAC arruinado. La cocina completa destrozada. El moho empieza a crecer en 48 horas con el clima de Houston. El da\u00f1o total fue de $47,000.
+                El daño fue devastador. Drywall dañado hasta 4 pies de altura en todas las habitaciones. Pisos de madera destruidos. El sistema HVAC arruinado. La cocina completa destrozada. El moho empieza a crecer en 48 horas con el clima de Houston. El daño total fue de $47,000.
               </p>
               <p>
-                Llam\u00e9 a mi compa\u00f1\u00eda de seguros. Enviaron un ajustador. La primera oferta fue de $9,200. Nueve mil doscientos d\u00f3lares para un da\u00f1o de $47,000. Comenc\u00e9 a investigar. Aprend\u00ed sobre el proceso de p\u00e9rdida total. Contrat\u00e9 un ajustador p\u00fablico. Apel\u00e9. Disput\u00e9 cada l\u00ednea del estimado. Despu\u00e9s de 8 meses, el seguro pag\u00f3 $19,000. Todav\u00eda $28,000 de mi bolsillo.
+                Llamé a mi compañía de seguros. Enviaron un ajustador. La primera oferta fue de $9,200. Nueve mil doscientos dólares para un daño de $47,000. Comencé a investigar. Aprendí sobre el proceso de pérdida total. Contraté un ajustador público. Apelé. Disputé cada línea del estimado. Después de 8 meses, el seguro pagó $19,000. Todavía $28,000 de mi bolsillo.
               </p>
               <p>
-                Tambi\u00e9n contrat\u00e9 al contratista equivocado para la restauraci\u00f3n inicial. Prometi\u00f3 entregas r\u00e1pidas, cobr\u00f3 por adelantado y desapareci\u00f3 con el trabajo a medias. Tuve que encontrar un segundo contratista. Aprend\u00ed qu\u00e9 preguntas hacer, qu\u00e9 contratos firmar y c\u00f3mo documentar todo.
+                También contraté al contratista equivocado para la restauración inicial. Prometió entregas rápidas, cobró por adelantado y desapareció con el trabajo a medias. Tuve que encontrar un segundo contratista. Aprendí qué preguntas hacer, qué contratos firmar y cómo documentar todo.
               </p>
               <p>
                 Este sitio es el manual que quisiera haber tenido en agosto de 2017.
@@ -218,13 +218,13 @@ export default async function AboutPage({ params }: Props) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-green-50 border border-green-200 rounded-2xl p-6">
               <h2 className="text-xl font-bold text-green-800 mb-4">
-                {isEs ? "Qu\u00e9 Es Este Sitio" : "What This Site Is"}
+                {isEs ? "Qué Es Este Sitio" : "What This Site Is"}
               </h2>
               <ul className="space-y-3 text-gray-700 text-sm">
                 {(isEs ? [
                   "Un recurso educativo gratuito para propietarios de Houston",
-                  "Gu\u00edas escritas desde la experiencia directa de un sobreviviente de Harvey",
-                  "Informaci\u00f3n espec\u00edfica de Texas: costos reales, leyes de seguros estatales, riesgos clim\u00e1ticos locales",
+                  "Guías escritas desde la experiencia directa de un sobreviviente de Harvey",
+                  "Información específica de Texas: costos reales, leyes de seguros estatales, riesgos climáticos locales",
                   "Un lugar para entender el proceso antes de contratar a alguien",
                   "Contenido actualizado con datos actuales del mercado de Houston",
                 ] : [
@@ -244,14 +244,14 @@ export default async function AboutPage({ params }: Props) {
 
             <div className="bg-red-50 border border-red-200 rounded-2xl p-6">
               <h2 className="text-xl font-bold text-red-800 mb-4">
-                {isEs ? "Qu\u00e9 No Es Este Sitio" : "What This Site Is Not"}
+                {isEs ? "Qué No Es Este Sitio" : "What This Site Is Not"}
               </h2>
               <ul className="space-y-3 text-gray-700 text-sm">
                 {(isEs ? [
                   "No es un directorio de contratistas",
                   "No vendemos datos de contacto ni referencias de contratistas",
-                  "No somos afiliados de ninguna empresa de restauraci\u00f3n",
-                  "No garantizamos la calidad de ning\u00fan contratista externo",
+                  "No somos afiliados de ninguna empresa de restauración",
+                  "No garantizamos la calidad de ningún contratista externo",
                   "No somos abogados, ajustadores de seguros ni inspectores de moho",
                 ] : [
                   "Not a contractor directory",
@@ -273,11 +273,11 @@ export default async function AboutPage({ params }: Props) {
         {/* Editorial note */}
         <section className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-14">
           <h2 className="text-lg font-bold text-amber-800 mb-2">
-            {isEs ? "Pol\u00edtica Editorial" : "Editorial Policy"}
+            {isEs ? "Política Editorial" : "Editorial Policy"}
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed">
             {isEs
-              ? "Todos los contenidos son escritos o revisados por Marcus Chen. Los costos se basan en datos reales del \u00e1rea de Houston, incluyendo precios Xactimate de Texas y entrevistas con propietarios locales. Ninguna empresa paga por aparecer o ser mencionada en este sitio. Si eso cambia alguna vez, se divulgar\u00e1 claramente."
+              ? "Todos los contenidos son escritos o revisados por Marcus Chen. Los costos se basan en datos reales del área de Houston, incluyendo precios Xactimate de Texas y entrevistas con propietarios locales. Ninguna empresa paga por aparecer o ser mencionada en este sitio. Si eso cambia alguna vez, se divulgará claramente."
               : "All content is written or reviewed by Marcus Chen. Costs are based on real Houston-area data, including Texas Xactimate pricing and interviews with local homeowners. No company pays to be featured or mentioned on this site. If that ever changes, it will be clearly disclosed."}
           </p>
         </section>
@@ -321,7 +321,7 @@ export default async function AboutPage({ params }: Props) {
                 htmlFor="contact-email"
                 className="block text-sm font-semibold text-gray-700 mb-1"
               >
-                {isEs ? "Correo Electr\u00f3nico" : "Email"}
+                {isEs ? "Correo Electrónico" : "Email"}
               </label>
               <input
                 id="contact-email"

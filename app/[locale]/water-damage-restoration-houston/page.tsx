@@ -264,7 +264,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
               step: "3",
               title: isEs ? "Llame a su aseguradora" : "Call Your Insurer",
               body: isEs
-                ? "Reporte el reclamo dentro de las primeras 24 horas. Bajo el C\u00f3digo de Seguros de Texas, la aseguradora debe acusar recibo en 15 d\u00edas. Solicite el n\u00famero de su reclamo y el nombre del ajustador asignado."
+                ? "Reporte el reclamo dentro de las primeras 24 horas. Bajo el Código de Seguros de Texas, la aseguradora debe acusar recibo en 15 días. Solicite el número de su reclamo y el nombre del ajustador asignado."
                 : "File the claim within 24 hours. Under the Texas Insurance Code, your insurer must acknowledge within 15 days. Get your claim number and the assigned adjuster's name.",
             },
           ].map((card) => (
@@ -556,7 +556,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           {isEs
-            ? "Seguro de Da\u00f1o por Agua en Texas: Lo Que Necesita Saber"
+            ? "Seguro de Daño por Agua en Texas: Lo Que Necesita Saber"
             : "Water Damage Insurance in Texas: What You Need to Know"}
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
