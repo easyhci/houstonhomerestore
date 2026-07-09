@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonical = locale === "en" ? enUrl : esUrl;
 
   return {
-    title: post.title,
+    title: post.metaTitle || post.title,
     description: post.description,
     alternates: {
       canonical,
@@ -91,6 +91,7 @@ export default async function BlogPostPage({ params }: Props) {
     headline: post.title,
     description: post.description,
     datePublished: post.publishDate,
+    dateModified: post.updatedDate ?? post.publishDate,
     inLanguage: langCode,
     author: { "@type": "Person", name: "Marcus Chen" },
     publisher: {

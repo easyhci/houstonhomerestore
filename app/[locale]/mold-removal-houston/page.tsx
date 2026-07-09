@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEs = locale === "es";
 
   const title = isEs
-    ? "Eliminación de Moho en Houston: Guía Completa de Remediación 2026"
-    : "Mold Removal Houston: Complete Remediation Guide 2026";
+    ? "Eliminación de Moho Houston: Guía 2026"
+    : "Mold Removal Houston: Remediation 2026";
   const description = isEs
     ? "Guía definitiva sobre eliminación y remediación de moho en Houston. Identificación, proceso profesional, costos reales, riesgos en espacios de rastreo y AC, y cobertura de seguro en Texas."
     : "Complete guide to mold removal and remediation in Houston. Identification, professional process, real costs, crawlspace and AC risks, and Texas insurance coverage. Updated 2026.";
@@ -141,6 +141,8 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
     ? "Guía definitiva sobre eliminación y remediación de moho en Houston. Identificación, proceso profesional, costos reales, riesgos en espacios de rastreo y AC, y cobertura de seguro en Texas."
     : "Complete guide to mold removal and remediation in Houston. Identification, professional process, real costs, crawlspace and AC risks, and Texas insurance coverage. Updated 2026.";
 
+  const TODAY = new Date().toISOString().slice(0, 10);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -150,8 +152,8 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
     description,
     author: { "@type": "Person", name: "Marcus Chen" },
     publisher: { "@type": "Organization", name: "HoustonHomeRestore" },
-    datePublished: "2026-04-01",
-    dateModified: "2026-04-04",
+    datePublished: "2025-01-01",
+    dateModified: TODAY,
   };
 
   const faqSchema = {
@@ -211,7 +213,9 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
           : "Mold Removal Houston: The Complete Remediation Guide"}
       </h1>
       <p className="text-gray-500 text-sm mb-4">
-        {isEs ? "Actualizado: Abril 2026" : "Updated: April 2026"} &middot; Marcus Chen
+        {isEs
+          ? `Actualizado: ${new Date().toLocaleDateString("es-US", { month: "long", year: "numeric" })}`
+          : `Updated: ${new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" })}`} &middot; Marcus Chen
       </p>
 
       <QuickAnswer
@@ -230,12 +234,12 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
             ? <>Después del huracán Harvey, encontré moho negro detrás del drywall en tres habitaciones de mi casa en The Heights. Lo que pensé que sería un problema de $2,000 se convirtió en una remediación de $18,000 porque esperé demasiado y porque el espacio de rastreo debajo de mi casa también estaba infestado. El <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">daño de agua no tratado correctamente</Link> fue la causa directa. Esta guía le ofrece lo que me hubiera gustado saber en su momento.</>
-            : <>After Hurricane Harvey, I found black mold behind drywall in three rooms of my Heights home. What I thought would be a $2,000 problem turned into an $18,000 remediation because I waited too long and because the crawlspace beneath my house was also infested. <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">Improperly treated water damage</Link> was the direct cause. This guide gives you what I wish I had known.</>}
+            : <>After Hurricane Harvey, I found black mold behind drywall in three rooms of my Heights home. What I thought would be a $2,000 problem turned into an $18,000 remediation because I waited too long and because the crawlspace beneath my house was also severely infested. <Link href={localePath("/water-damage-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">Improperly treated water damage</Link> was the direct cause. This guide gives you what I wish I had known before that happened.</>}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
             ? <>Houston es excepcionalmente propensa al moho. La combinación de calor extremo, humedad que supera el 90% en verano, <Link href={localePath("/blog/hurricane-season-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">temporada de huracanes activa</Link> y el parque de viviendas antiguas con espacios de rastreo crea condiciones de laboratorio para el crecimiento de moho. Lo que en otros lugares sería un problema menor aquí puede convertirse en una infestación de toda la casa en semanas.</>
-            : <>Houston is exceptionally mold-prone. The combination of extreme heat, humidity exceeding 90% in summer, an <Link href={localePath("/blog/hurricane-season-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">active hurricane season</Link>, and an older housing stock with crawlspaces creates laboratory conditions for mold growth. What would be a minor problem elsewhere can become a whole-home infestation within weeks here.</>}
+            : <>Houston is exceptionally mold-prone. The combination of extreme heat, humidity exceeding 90% in summer, an <Link href={localePath("/blog/hurricane-season-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">active hurricane season</Link>, and an older housing stock with crawlspaces creates near-ideal conditions for mold growth. What would be a contained problem elsewhere can become a whole-home infestation within weeks here.</>}
         </p>
       </section>
 
@@ -302,7 +306,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
             <p className="text-gray-700 leading-relaxed">
               {isEs
                 ? "Los sistemas de AC en Houston trabajan hasta 10 meses al año y producen enormes cantidades de condensado. Una unidad de AC de 3 toneladas puede producir 20 a 30 galones de agua por día en un día húmedo. Si la línea de drenaje del condensado se tapa, esa agua puede desbordarse hacia el pleno del manejador de aire, el ático o las paredes, creando condiciones perfectas de moho sin que lo notes hasta que el olor se vuelve inconfundible."
-                : "AC systems in Houston run up to 10 months per year and produce enormous amounts of condensate. A 3-ton AC unit can produce 20 to 30 gallons of water per day on a humid day. If the condensate drain line clogs, that water can overflow into the air handler plenum, attic, or walls, creating perfect mold conditions without you noticing until the smell becomes unmistakable."}
+                : "AC systems in Houston run up to 10 months per year and generate enormous amounts of condensate. A 3-ton AC unit can produce 20 to 30 gallons of water per day on a humid summer day. If the condensate drain line clogs, that water overflows into the air handler plenum, attic, or walls, creating perfect mold conditions without you noticing until the smell becomes unmistakable. This is especially relevant heading into the July 2026 peak cooling season."}
             </p>
           </div>
           <div>
@@ -616,7 +620,7 @@ export default async function MoldRemovalHoustonPage({ params }: Props) {
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
             ? <>Prevenir el moho al 100% en Houston no es posible, pero puede reducir significativamente el riesgo con el mantenimiento adecuado. Dado que el daño de agua es la causa principal del moho, consulte también nuestra guía sobre <Link href={localePath("/blog/how-to-prevent-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">cómo prevenir el daño por agua en Houston</Link>.</>
-            : <>Preventing mold in Houston is not 100% achievable, but you can significantly reduce risk with the right maintenance. Since water damage is the leading cause of mold, also see our guide on <Link href={localePath("/blog/how-to-prevent-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">how to prevent water damage in Houston</Link>.</>}
+            : <>Preventing mold in Houston is not 100% achievable, but the right maintenance approach can reduce risk dramatically. Since water damage is the leading cause of mold, also see our guide on <Link href={localePath("/blog/how-to-prevent-water-damage-houston", locale)} className="text-amber-700 underline hover:text-amber-900">how to prevent water damage in Houston</Link>.</>}
         </p>
         <div className="space-y-3">
           {(isEs

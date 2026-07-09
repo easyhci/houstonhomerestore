@@ -54,6 +54,27 @@ export default async function HomePage({ params }: Props) {
   const blogPosts = await getBlogPosts(locale);
   const featuredPosts = blogPosts.slice(0, 6);
 
+  const TODAY = new Date().toISOString().slice(0, 10);
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: isEs
+      ? "Guía de Daño por Agua en Houston, De un Sobreviviente de Harvey"
+      : "Houston Water Damage Guide, From a Harvey Survivor",
+    url: isEs
+      ? "https://houstonhomerestore.com/es"
+      : "https://houstonhomerestore.com",
+    datePublished: "2025-01-01",
+    dateModified: TODAY,
+    inLanguage: isEs ? "es" : "en",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "HoustonHomeRestore",
+      url: "https://houstonhomerestore.com",
+    },
+  };
+
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -250,6 +271,10 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}

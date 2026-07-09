@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEs = locale === "es";
 
   const title = isEs
-    ? "Blog de Restauración en Houston, Guías de Daño por Agua, Moho e Inundaciones (2026)"
-    : "Houston Restoration Blog, Water Damage, Mold & Insurance Guides (2026)";
+    ? "Blog de Restauración Houston (2026)"
+    : "Houston Water Damage & Mold Blog (2026)";
   const description = isEs
     ? "12+ guías escritas por un sobreviviente de Harvey que perdió $47,000. Costos reales, errores de seguros y lo que los contratistas no le dicen. Actualizado 2026."
     : "12+ guides written by a Hurricane Harvey survivor who lost $47k. Real costs, insurance mistakes, and what contractors won't tell you. Updated 2026.";
@@ -67,6 +67,25 @@ export default async function BlogIndexPage({ params }: Props) {
     ctaButtonHref: localePath("/blog/what-to-do-when-your-house-floods-houston", locale),
   };
 
+  const TODAY = new Date().toISOString().slice(0, 10);
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: isEs ? "Blog de Restauración Houston" : "Houston Water Damage & Mold Blog",
+    url: isEs
+      ? "https://houstonhomerestore.com/es/blog"
+      : "https://houstonhomerestore.com/blog",
+    datePublished: "2025-01-01",
+    dateModified: TODAY,
+    inLanguage: isEs ? "es" : "en",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "HoustonHomeRestore",
+      url: "https://houstonhomerestore.com",
+    },
+  };
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -78,6 +97,10 @@ export default async function BlogIndexPage({ params }: Props) {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

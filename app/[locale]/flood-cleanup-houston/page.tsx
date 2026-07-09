@@ -141,6 +141,8 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
     ? "Guía definitiva sobre limpieza de inundaciones en Houston. Historia de inundaciones de Harvey, zonas FEMA, seguro NFIP, proceso de limpieza, costos reales, suelo arcilloso y bayous."
     : "Complete guide to flood cleanup in Houston. Harvey flood history, FEMA flood zones, NFIP insurance, cleanup process, real costs, clay soil, and bayou drainage issues. Updated 2026.";
 
+  const TODAY = new Date().toISOString().slice(0, 10);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -150,8 +152,8 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
     description,
     author: { "@type": "Person", name: "Marcus Chen" },
     publisher: { "@type": "Organization", name: "HoustonHomeRestore" },
-    datePublished: "2026-04-01",
-    dateModified: "2026-04-04",
+    datePublished: "2025-01-01",
+    dateModified: TODAY,
   };
 
   const faqSchema = {
@@ -211,7 +213,9 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
           : "Flood Cleanup Houston: The Complete Guide"}
       </h1>
       <p className="text-gray-500 text-sm mb-4">
-        {isEs ? "Actualizado: Abril 2026" : "Updated: April 2026"} &middot; Marcus Chen
+        {isEs
+          ? `Actualizado: ${new Date().toLocaleDateString("es-US", { month: "long", year: "numeric" })}`
+          : `Updated: ${new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" })}`} &middot; Marcus Chen
       </p>
 
       <QuickAnswer
@@ -230,12 +234,12 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
             ? "Cuando el huracán Harvey se estancó sobre Houston en agosto de 2017 y descargó más de 50 pulgadas de lluvia en cuatro días, más de 200,000 estructuras fueron inundadas. Más de 30,000 personas fueron rescatadas. El daño total superó los $125 mil millones, convirtiéndolo en el desastre natural más costoso de la historia de EE. UU. después del huracán Katrina."
-            : "When Hurricane Harvey stalled over Houston in August 2017 and dropped more than 50 inches of rain in four days, over 200,000 structures flooded. More than 30,000 people were rescued. Total damage exceeded $125 billion, making it the costliest natural disaster in US history at the time after Hurricane Katrina."}
+            : "When Hurricane Harvey stalled over Houston in August 2017 and dropped more than 50 inches of rain in four days, over 200,000 structures flooded. More than 30,000 people were rescued from floodwaters. Total damage exceeded $125 billion, making it the costliest natural disaster in US history at the time, second only to Hurricane Katrina."}
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
             ? "Pero Harvey no fue un evento excepcional para Houston. El Día Memorial de 2015 y la Inundación de Tax Day de 2016 también causaron inundaciones masivas en la misma área solo dos años antes. Houston experimenta inundaciones graves con una frecuencia que pocas ciudades de EE. UU. igualan. Esta guía lo prepara para la realidad de la limpieza de inundaciones en una ciudad que se inunda con frecuencia."
-            : "But Harvey wasn't an exceptional event for Houston. The 2015 Memorial Day flood and the 2016 Tax Day flood also caused massive flooding in the same area just two years earlier. Houston experiences serious flooding with a frequency few US cities match. This guide prepares you for the reality of flood cleanup in a city that floods."}
+            : "But Harvey was not an isolated outlier for Houston. The 2015 Memorial Day flood and the 2016 Tax Day flood also caused massive flooding in the same area just two years earlier. Houston experiences serious flooding with a regularity few US cities match. This guide, current as of July 2026, prepares you for the reality of flood cleanup in a city that floods."}
         </p>
       </section>
 
@@ -497,7 +501,7 @@ export default async function FloodCleanupHoustonPage({ params }: Props) {
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
             ? "La inundación de bayou y aguas de tormenta en Houston es agua Categoría 3 (agua negra). Esto no es negociable. Contiene E. coli, bacterias fecales, contaminantes industriales, y posiblemente químicos de la escorrentía de las autopistas. Todo material poroso que entre en contacto con agua de inundación debe ser removido, no solo secado."
-            : "Houston bayou and stormwater flooding is Category 3 (black water). This is non-negotiable. It contains E. coli, fecal bacteria, industrial contaminants, and potentially chemicals from highway runoff. Every porous material that contacts flood water must be removed, not just dried."}
+            : "Houston bayou and stormwater flooding is Category 3 (black water). This is non-negotiable. It contains E. coli, fecal bacteria, industrial contaminants, and potentially chemicals from highway runoff. Every porous material that contacts flood water must be removed entirely, not simply dried out."}
         </p>
         <div className="space-y-4">
           {[

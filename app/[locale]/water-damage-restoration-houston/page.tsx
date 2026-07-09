@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEs = locale === "es";
 
   const title = isEs
-    ? "Restauración por Daño de Agua en Houston: Guía Completa 2026"
-    : "Water Damage Restoration Houston: Complete Guide 2026";
+    ? "Daño de Agua Houston: Restauración 2026"
+    : "Water Damage Restoration Houston 2026";
   const description = isEs
     ? "Guía definitiva sobre restauración por daño de agua en Houston. Categorías de daño, costos reales, arcilla expansiva, riesgos de bayou, y cómo manejar reclamos de seguro en Texas."
     : "Complete guide to water damage restoration in Houston. Damage categories, real costs, clay soil risks, bayou flooding, and how to handle Texas insurance claims. Updated 2026.";
@@ -141,6 +141,8 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
     ? "Guía definitiva sobre restauración por daño de agua en Houston. Categorías de daño, costos reales, arcilla expansiva, riesgos de bayou, y cómo manejar reclamos de seguro en Texas."
     : "Complete guide to water damage restoration in Houston. Damage categories, real costs, clay soil risks, bayou flooding, and how to handle Texas insurance claims. Updated 2026.";
 
+  const TODAY = new Date().toISOString().slice(0, 10);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -150,8 +152,8 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
     description,
     author: { "@type": "Person", name: "Marcus Chen" },
     publisher: { "@type": "Organization", name: "HoustonHomeRestore" },
-    datePublished: "2026-04-01",
-    dateModified: "2026-04-04",
+    datePublished: "2025-01-01",
+    dateModified: TODAY,
   };
 
   const faqSchema = {
@@ -211,7 +213,9 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
           : "Water Damage Restoration Houston: The Complete Homeowner Guide"}
       </h1>
       <p className="text-gray-500 text-sm mb-4">
-        {isEs ? "Actualizado: Abril 2026" : "Updated: April 2026"} &middot; Marcus Chen
+        {isEs
+          ? `Actualizado: ${new Date().toLocaleDateString("es-US", { month: "long", year: "numeric" })}`
+          : `Updated: ${new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" })}`} &middot; Marcus Chen
       </p>
 
       <QuickAnswer
@@ -230,7 +234,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
             ? <>Crecí en Houston y perdí $47,000 en daños después del huracán Harvey. La mayor parte no fue el agua en sí, sino los errores que cometí en las primeras 72 horas: no documentar correctamente, esperar demasiado para secar, y no entender qué cubría mi <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">seguro</Link>. Esta guía existe para que usted no cometa los mismos errores.</>
-            : <>I grew up in Houston and lost $47,000 in damages after Hurricane Harvey. Most of it was not the water itself. It was the mistakes I made in the first 72 hours: not documenting correctly, waiting too long to dry, and not understanding what my <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">insurance actually covered</Link>. This guide exists so you do not make the same mistakes.</>}
+            : <>I grew up in Houston and lost $47,000 in damages after Hurricane Harvey. Most of it was not the water itself. It was the mistakes I made in the first 72 hours: not documenting correctly, waiting too long to dry, and not fully understanding what my <Link href={localePath("/insurance-claim-restoration-houston", locale)} className="text-amber-700 underline hover:text-amber-900">insurance actually covered</Link>. This guide exists so you do not repeat those same mistakes.</>}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
@@ -290,12 +294,12 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
             ? <>En Houston, la fase de secado es la más crítica y la más difícil. Con una humedad relativa exterior que frecuentemente supera el 80%, los equipos de secado tienen que trabajar contra el ambiente mismo. Un trabajo de secado que tomaría 3 días en Arizona puede tomar 5 a 7 días en Houston durante el verano. Conozca más sobre los plazos realistas en nuestra guía sobre <Link href={localePath("/blog/how-long-does-water-damage-restoration-take-houston", locale)} className="text-amber-700 underline hover:text-amber-900">cuánto tarda la restauración por daño de agua</Link>.</>
-            : <>In Houston, the drying phase is the most critical and the most difficult. With outdoor relative humidity frequently exceeding 80%, drying equipment is literally fighting the environment. A drying job that would take 3 days in Arizona can take 5 to 7 days in Houston during summer. Learn more about realistic timelines in our guide on <Link href={localePath("/blog/how-long-does-water-damage-restoration-take-houston", locale)} className="text-amber-700 underline hover:text-amber-900">how long water damage restoration takes</Link>.</>}
+            : <>In Houston, the drying phase is both the most critical and the most challenging. With outdoor relative humidity frequently exceeding 80%, drying equipment is working against the environment at every step. A drying job that would take 3 days in Arizona can take 5 to 7 days in Houston during summer. Learn more about realistic timelines in our guide on <Link href={localePath("/blog/how-long-does-water-damage-restoration-take-houston", locale)} className="text-amber-700 underline hover:text-amber-900">how long water damage restoration takes</Link>.</>}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
             ? "El estándar IICRC S500 define los objetivos de humedad para materiales de madera y mampostería. Los técnicos certificados en Restauración por Agua (WRT) y los Técnicos de Secado Aplicado (ASD) son los que debe buscar. Solicite ver las certificaciones antes de permitir que alguien trabaje en su casa."
-            : "The IICRC S500 standard defines moisture targets for wood and masonry materials. Water Restoration Technicians (WRT) and Applied Structural Drying (ASD) certified technicians are what you want. Ask to see certifications before allowing anyone to work on your home."}
+            : "The IICRC S500 standard defines moisture targets for wood and masonry materials. Water Restoration Technicians (WRT) and Applied Structural Drying (ASD) certified technicians are what you need. Always ask to see certifications before allowing anyone to work on your home."}
         </p>
       </section>
 
@@ -562,7 +566,7 @@ export default async function WaterDamageRestorationHoustonPage({ params }: Prop
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
             ? "El seguro de propietario estándar en Texas cubre el daño de agua que es repentino y accidental. Esto incluye tuberías reventadas, calentadores de agua fallidos, desbordamientos de electrodomésticos y fallas de plomería. No cubre daño por inundación de fuentes externas, daño por mantenimiento diferido (goteras lentas que no reportaste durante meses), o respaldo de alcantarilla a menos que tengas un endoso específico."
-            : "Standard Texas homeowners insurance covers water damage that is sudden and accidental. This includes burst pipes, failed water heaters, appliance overflows, and plumbing failures. It does NOT cover flood damage from external sources, maintenance-deferred damage (slow leaks you didn't report for months), or sewer backup unless you have a specific endorsement."}
+            : "Standard Texas homeowners insurance covers water damage that is sudden and accidental. This includes burst pipes, failed water heaters, appliance overflows, and plumbing failures. It does NOT cover flood damage from external sources, maintenance-deferred damage such as slow leaks you did not report for months, or sewer backup unless you have a specific endorsement."}
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs

@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEs = locale === "es";
 
   const title = isEs
-    ? "Acerca de HoustonHomeRestore, Historia de Marcus Chen y Harvey"
-    : "About HoustonHomeRestore, Marcus Chen's Harvey Story";
+    ? "Sobre Nosotros: Marcus Chen y Harvey"
+    : "About Us: Marcus Chen's Harvey Story";
   const description = isEs
     ? "Marcus Chen es un ingeniero de software que perdió $47,000 en el Huracán Harvey. Este sitio es su recurso educativo sobre daño por agua, moho y seguros en Houston."
     : "Marcus Chen is a software engineer who lost $47,000 in Hurricane Harvey. This site is his educational resource on water damage, mold, and insurance in Houston.";
@@ -50,6 +50,25 @@ export default async function AboutPage({ params }: Props) {
   const { locale: rawLocale } = await params;
   const locale: Locale = isValidLocale(rawLocale) ? rawLocale : "en";
   const isEs = locale === "es";
+
+  const TODAY = new Date().toISOString().slice(0, 10);
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: isEs ? "Sobre Nosotros: Marcus Chen y Harvey" : "About Us: Marcus Chen's Harvey Story",
+    url: isEs
+      ? "https://houstonhomerestore.com/es/about"
+      : "https://houstonhomerestore.com/about",
+    datePublished: "2025-01-01",
+    dateModified: TODAY,
+    inLanguage: isEs ? "es" : "en",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "HoustonHomeRestore",
+      url: "https://houstonhomerestore.com",
+    },
+  };
 
   const personSchema = {
     "@context": "https://schema.org",
@@ -98,6 +117,10 @@ export default async function AboutPage({ params }: Props) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}

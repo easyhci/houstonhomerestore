@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEs = locale === "es";
 
   const title = isEs
-    ? "Reclamos de Seguro por Restauración en Houston: Guía Completa 2026"
-    : "Insurance Claim Restoration Houston: Complete Guide 2026";
+    ? "Reclamos de Seguro Houston: Guía 2026"
+    : "Insurance Claim Restoration Houston";
   const description = isEs
     ? "Guía definitiva sobre reclamos de seguro por restauración en Houston. Código de Seguros de Texas, deducibles de huracán, NFIP, ajustadores públicos, denegaciones y el proceso del TDI."
     : "Complete guide to restoration insurance claims in Houston. Texas Insurance Code, hurricane deductibles, NFIP, public adjusters, claim denials, and the TDI complaint process. Updated 2026.";
@@ -141,6 +141,8 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
     ? "Guía definitiva sobre reclamos de seguro por restauración en Houston. Código de Seguros de Texas, deducibles de huracán, NFIP, ajustadores públicos, denegaciones y el proceso del TDI."
     : "Complete guide to restoration insurance claims in Houston. Texas Insurance Code, hurricane deductibles, NFIP, public adjusters, claim denials, and the TDI complaint process. Updated 2026.";
 
+  const TODAY = new Date().toISOString().slice(0, 10);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -150,8 +152,8 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
     description,
     author: { "@type": "Person", name: "Marcus Chen" },
     publisher: { "@type": "Organization", name: "HoustonHomeRestore" },
-    datePublished: "2026-04-01",
-    dateModified: "2026-04-04",
+    datePublished: "2025-01-01",
+    dateModified: TODAY,
   };
 
   const faqSchema = {
@@ -211,7 +213,9 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
           : "Insurance Claims for Restoration in Houston: The Complete Guide"}
       </h1>
       <p className="text-gray-500 text-sm mb-4">
-        {isEs ? "Actualizado: Abril 2026" : "Updated: April 2026"} &middot; Marcus Chen
+        {isEs
+          ? `Actualizado: ${new Date().toLocaleDateString("es-US", { month: "long", year: "numeric" })}`
+          : `Updated: ${new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" })}`} &middot; Marcus Chen
       </p>
 
       <QuickAnswer
@@ -230,12 +234,12 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           {isEs
             ? "El reclamo de seguro después del huracán Harvey me enseñó más sobre el seguro de propietario que 15 años de pagar primas. Descubrí que tenía un deducible de huracán del 2% que no sabía que existía: $7,800 de mi bolsillo antes de que el seguro cubriera un centavo. Descubrí que mi límite de moho era de $5,000 cuando la remediación costó $18,000. Este fue el error más caro de mi vida, y fue completamente prevenible."
-            : "The insurance claim after Hurricane Harvey taught me more about homeowners insurance than 15 years of paying premiums. I discovered I had a 2% hurricane deductible I didn't know existed: $7,800 out of my pocket before insurance paid a cent. I discovered my mold sublimit was $5,000 when remediation cost $18,000. This was the most expensive mistake of my life, and it was entirely preventable."}
+            : "The insurance claim after Hurricane Harvey taught me more about homeowners insurance than 15 years of paying premiums. I discovered I had a 2% hurricane deductible I did not know existed: $7,800 out of my pocket before insurance paid a cent. I discovered my mold sublimit was $5,000 when remediation cost $18,000. This was the most expensive mistake of my life, and it was entirely preventable with the right knowledge."}
         </p>
         <p className="text-gray-700 leading-relaxed">
           {isEs
             ? "Esta guía cubre lo que necesita saber sobre los reclamos de seguros de restauración en Texas: antes de que ocurra el daño, durante el proceso de reclamo, y qué hacer cuando algo sale mal."
-            : "This guide covers what you need to know about restoration insurance claims in Texas before damage occurs, during the claims process, and what to do when something goes wrong."}
+            : "This guide covers what you need to know about restoration insurance claims in Texas: before damage occurs, during the claims process, and what to do when something goes wrong. The information is current as of July 2026."}
         </p>
       </section>
 
@@ -631,7 +635,7 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
         <p className="text-gray-700 leading-relaxed mb-4">
           {isEs
             ? "Si su aseguradora está actuando de mala fe, retrasando su reclamo injustificadamente, o usted cree que le pagaron de menos, el TDI es su primer recurso regulatorio."
-            : "If your insurer is acting in bad faith, unreasonably delaying your claim, or you believe you were underpaid, TDI is your first regulatory resource."}
+            : "If your insurer is acting in bad faith, unreasonably delaying your claim, or you believe you were underpaid, the TDI is your first and most accessible regulatory resource."}
         </p>
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
