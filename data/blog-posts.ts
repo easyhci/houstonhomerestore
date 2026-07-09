@@ -1649,7 +1649,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 min read",
     category: "Emergency Guide",
     author: "Marcus Chen",
-    image: null,
+    image: undefined,
     quickAnswer: "If your pipes burst during a Houston freeze, shut off the main water supply valve immediately, turn off the water heater, open faucets to relieve pressure, and call a licensed plumber. Document everything for your insurance claim. Standard homeowners insurance typically covers sudden pipe bursts but not the pipe repair itself.",
     intro: "February 2021 changed the way Houston thinks about cold weather. Winter Storm Uri sent temperatures into the single digits for days, something our city was never built to handle. Pipes froze and burst in hundreds of thousands of homes across the Houston metro. I watched neighbors in The Heights hauling soaked drywall to the curb for weeks afterward. The problem was not just the cold; it was that Houston homes, Houston plumbing, and Houston infrastructure were designed for heat and humidity, not arctic conditions. Our pipes run through uninsulated attics, exterior walls without adequate protection, and crawlspaces open to the elements. When the temperature drops below 20 degrees Fahrenheit (which happens more often than most Houstonians realize), those pipes are vulnerable. This guide covers exactly what to do when pipes freeze or burst, how to prevent it, what insurance will and will not cover, and which Houston neighborhoods face the greatest risk. Updated for July 2026 with current cost data and lessons learned from multiple freeze events.",
     sections: [
@@ -1807,7 +1807,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
     category: "Guide",
     author: "Marcus Chen",
-    image: null,
+    image: undefined,
     quickAnswer: "A slab leak in Houston occurs when water supply or drain lines beneath your concrete slab foundation crack or corrode. Signs include unexplained water bill increases, warm spots on the floor, the sound of running water when no fixtures are in use, and damp carpet or baseboards. Professional detection costs $200 to $500, and repair ranges from $2,000 to $10,000 depending on the method and extent of damage.",
     intro: "Houston is a slab leak city. That is not a title anyone wants, but it is accurate. Our combination of expansive clay soil, high water tables, copper supply lines in older homes, and seasonal temperature swings creates near-perfect conditions for under-slab pipe failures. I first learned about slab leaks when a neighbor in The Heights noticed her water bill had doubled over two months. She had no visible leaks anywhere. A leak detection specialist found a corroded copper supply line under her slab that had been seeping for weeks, saturating the soil beneath the foundation and causing a soft spot in her living room floor. The repair cost her $4,200, plus another $3,800 in water damage restoration. If she had caught it two weeks earlier, the restoration cost would have been minimal. This guide covers everything Houston homeowners need to know about slab leaks: how to detect them, what they cost, how to get them fixed, and what your insurance will and will not cover. Updated through July 2026 with current pricing.",
     sections: [
@@ -1962,7 +1962,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
     category: "Guide",
     author: "Marcus Chen",
-    image: null,
+    image: undefined,
     quickAnswer: "Water damage and foundation damage in Houston are closely connected because of the city's expansive clay soil. When water saturates the soil beneath or around a foundation, the clay expands unevenly, causing differential movement that cracks walls, shifts door frames, and can compromise the structural integrity of the home. Foundation repair in Houston typically costs $4,000 to $15,000 for pier installation, and homeowners insurance generally does not cover foundation movement.",
     intro: "If you have lived in Houston long enough, you have heard the phrase \"it is just the clay soil\" from someone trying to dismiss a crack in their wall. And yes, Houston's expansive clay soil does cause cosmetic cracks that are harmless. But there is a line where cosmetic becomes structural, and water damage is one of the fastest ways to cross it. I have seen this play out in neighborhoods across Houston: Meyerland homeowners dealing with post-Harvey foundation shifts, families in Bellaire discovering that a slow plumbing leak under the slab had been undermining their foundation for months, Heights homeowners watching pier-and-beam supports settle after repeated flooding saturated the soil beneath their homes. The connection between water damage and foundation damage is direct, well documented, and critically important for Houston homeowners to understand. As of July 2026, foundation repair remains one of the most expensive and least insured repairs a Houston homeowner can face. This guide covers how water damage causes foundation problems, what signs to look for, what it costs to fix, and what your insurance will and will not pay for.",
     sections: [
@@ -2105,7 +2105,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     category: "Prevention",
     author: "Marcus Chen",
-    image: null,
+    image: undefined,
     quickAnswer: "AC condensate leaks are one of the most common causes of water damage in Houston homes because air conditioning systems run 8 to 10 months per year, generating gallons of condensate daily. When the condensate drain line clogs with algae, sludge, or debris, water overflows the drain pan and soaks into ceilings, walls, and flooring, often causing mold within 48 hours. Annual AC maintenance and a $20 condensate overflow sensor are the most effective prevention.",
     intro: "This is the water damage source that nobody talks about until it happens to them. Your AC unit produces water. A lot of water. In Houston's humidity, a residential system can generate 5 to 20 gallons of condensate per day during summer. That water is supposed to flow through a drain line to the outside of your house. When that drain line clogs (and in Houston, it is a question of when, not if), the water has to go somewhere. Usually, it goes into your ceiling, your walls, or your attic. I learned this the hard way in my Heights bungalow. A clogged condensate line in August went unnoticed for three days while I was traveling. By the time I came home, a section of my hallway ceiling had sagged, the carpet in the closet below the air handler was soaked, and there was visible mold on the drywall behind the closet shelving. Total cost: $2,800 in restoration and $450 for the AC repair. The fix that would have prevented it: a $20 sensor and 15 minutes of quarterly maintenance. As of July 2026, AC condensate leaks remain one of the top three sources of residential water damage claims in the Houston metro area.",
     sections: [
@@ -2256,7 +2256,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 min read",
     category: "Guide",
     author: "Marcus Chen",
-    image: null,
+    image: undefined,
     quickAnswer: "If your Houston apartment has water damage, notify your landlord in writing immediately (email or certified letter), document all damage with photos and video, and file a renter's insurance claim if you have coverage. Under the Texas Property Code, your landlord must make repairs within a reasonable time after written notice. If the unit is uninhabitable and the landlord fails to act, Texas law provides remedies including repair-and-deduct, lease termination, and in some cases rent reduction.",
     intro: "Renting in Houston means dealing with water damage risks that you cannot fully control. You do not own the building, you did not choose the plumbing contractor, and you cannot decide when the roof gets replaced. But you do have rights, and Texas law provides more tenant protections than many Houston renters realize. I have heard from dozens of Houston apartment tenants over the years: the upstairs neighbor's washing machine floods your apartment at 2 a.m., the management company takes three weeks to address a mold problem, the complex floods during a tropical storm and the landlord tells you it is your problem. These situations are stressful, but understanding your legal position changes the dynamic. This guide covers the Texas Property Code provisions that protect renters, what your landlord is obligated to do, how renter's insurance works for water damage, what to document, and when you have legal grounds to break your lease. Updated for July 2026 with current Texas law references and Houston-specific information.",
     sections: [
