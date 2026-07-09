@@ -61,6 +61,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.description,
       url: canonical,
       type: "article",
+      ...(post.image && {
+        images: [{ url: `https://houstonhomerestore.com${post.image}`, width: 1280, height: 720 }],
+      }),
     },
   };
 }
@@ -93,7 +96,14 @@ export default async function BlogPostPage({ params }: Props) {
     datePublished: post.publishDate,
     dateModified: post.updatedDate ?? post.publishDate,
     inLanguage: langCode,
-    author: { "@type": "Person", name: "Marcus Chen" },
+    ...(post.image && { image: `https://houstonhomerestore.com${post.image}` }),
+    author: {
+      "@type": "Person",
+      name: "Marcus Chen",
+      url: "https://houstonhomerestore.com/about",
+      jobTitle: "Founder",
+      description: "Hurricane Harvey survivor and software engineer who built HoustonHomeRestore after $47,000 in flood damage.",
+    },
     publisher: {
       "@type": "Organization",
       name: "HoustonHomeRestore",

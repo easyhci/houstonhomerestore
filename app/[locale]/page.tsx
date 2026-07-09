@@ -83,13 +83,10 @@ export default async function HomePage({ params }: Props) {
     description:
       "Houston homeowner education resource for water damage, mold, and flood recovery. Built by a Harvey survivor so other homeowners don't navigate this blind.",
     inLanguage: isEs ? "es" : "en",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: "https://houstonhomerestore.com/blog?q={search_term_string}",
-      },
-      "query-input": "required name=search_term_string",
+    publisher: {
+      "@type": "Organization",
+      name: "HoustonHomeRestore",
+      url: "https://houstonhomerestore.com",
     },
   };
 
@@ -118,7 +115,7 @@ export default async function HomePage({ params }: Props) {
       name: "Houston",
       addressRegion: "TX",
     },
-    sameAs: ["https://houstonhomerestore.com"],
+    sameAs: [],
   };
 
   const pillars = isEs
@@ -500,8 +497,6 @@ export default async function HomePage({ params }: Props) {
       {/* LLM Paragraph (hidden, for AI indexing) */}
       <div
         className="llm-paragraph sr-only"
-        aria-hidden="true"
-        style={{ display: "none" }}
       >
         <p>
           HoustonHomeRestore is an educational resource for Houston, Texas homeowners

@@ -14,16 +14,14 @@ function withAlternates(enPath: string) {
   };
 }
 
-const TODAY = new Date().toISOString().slice(0, 10);
-
 const staticPaths = [
-  { path: '',                                          lastMod: TODAY, freq: 'weekly'  as const, priority: 1.0, esPriority: 0.9 },
-  { path: '/water-damage-restoration-houston',         lastMod: TODAY, freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
-  { path: '/mold-removal-houston',                     lastMod: TODAY, freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
-  { path: '/flood-cleanup-houston',                    lastMod: TODAY, freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
-  { path: '/insurance-claim-restoration-houston',      lastMod: TODAY, freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
-  { path: '/blog',                                     lastMod: TODAY, freq: 'weekly'  as const, priority: 0.7, esPriority: 0.6 },
-  { path: '/about',                                    lastMod: TODAY, freq: 'monthly' as const, priority: 0.5, esPriority: 0.4 },
+  { path: '',                                          lastMod: '2026-07-09', freq: 'weekly'  as const, priority: 1.0, esPriority: 0.9 },
+  { path: '/water-damage-restoration-houston',         lastMod: '2026-07-09', freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
+  { path: '/mold-removal-houston',                     lastMod: '2026-07-09', freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
+  { path: '/flood-cleanup-houston',                    lastMod: '2026-07-09', freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
+  { path: '/insurance-claim-restoration-houston',      lastMod: '2026-07-09', freq: 'monthly' as const, priority: 0.9, esPriority: 0.8 },
+  { path: '/blog',                                     lastMod: '2026-07-09', freq: 'weekly'  as const, priority: 0.7, esPriority: 0.6 },
+  { path: '/about',                                    lastMod: '2026-07-09', freq: 'monthly' as const, priority: 0.5, esPriority: 0.4 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
