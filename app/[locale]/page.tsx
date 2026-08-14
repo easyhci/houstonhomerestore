@@ -315,6 +315,9 @@ export default async function HomePage({ params }: Props) {
                 ? "Leer la Guía de Emergencia por Inundación"
                 : "Read the Emergency Flood Guide"}
             </Link>
+            <time dateTime="2026-08-14" className="block mt-4 text-white/70 text-sm font-medium">
+              {isEs ? "Actualizado: 14 de agosto de 2026" : "Last Updated: August 14, 2026"}
+            </time>
           </div>
         </div>
       </section>

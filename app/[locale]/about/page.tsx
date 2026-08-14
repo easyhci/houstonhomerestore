@@ -151,6 +151,9 @@ export default async function AboutPage({ params }: Props) {
                   ? "Fundador, HoustonHomeRestore. Sobreviviente del Huracán Harvey."
                   : "Founder, HoustonHomeRestore. Hurricane Harvey survivor."}
               </p>
+              <time dateTime="2026-08-14" className="inline-block mt-1.5 bg-amber-700/50 text-amber-100 text-xs font-semibold px-2 py-0.5 rounded">
+                {isEs ? "Actualizado: 14 de agosto de 2026" : "Last Updated: August 14, 2026"}
+              </time>
             </div>
           </div>
           <p className="text-amber-100 text-lg">

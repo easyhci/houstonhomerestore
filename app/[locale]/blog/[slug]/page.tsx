@@ -191,7 +191,7 @@ export default async function BlogPostPage({ params }: Props) {
           <h1 className="text-3xl md:text-4xl font-extrabold mb-3 leading-tight">
             {post.title}
           </h1>
-          <div className="flex items-center gap-3 text-amber-200 text-sm">
+          <div className="flex items-center gap-3 text-amber-200 text-sm flex-wrap">
             <div className="w-8 h-8 bg-amber-700 text-white rounded-full flex items-center justify-center font-bold text-xs flex-shrink-0">MC</div>
             <span>
               {new Date(post.publishDate).toLocaleDateString(
@@ -199,6 +199,18 @@ export default async function BlogPostPage({ params }: Props) {
                 { month: "long", day: "numeric", year: "numeric" }
               )}
             </span>
+            {post.updatedDate && post.updatedDate !== post.publishDate && (
+              <>
+                <span className="text-amber-400">&middot;</span>
+                <time dateTime={post.updatedDate} className="bg-amber-600/40 text-amber-100 font-semibold px-2 py-0.5 rounded text-xs">
+                  {isEs ? "Actualizado: " : "Updated: "}
+                  {new Date(post.updatedDate).toLocaleDateString(
+                    isEs ? "es-US" : "en-US",
+                    { month: "long", day: "numeric", year: "numeric" }
+                  )}
+                </time>
+              </>
+            )}
             <span>&middot;</span>
             <span>{post.readTime}</span>
             <span>&middot;</span>

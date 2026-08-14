@@ -114,6 +114,11 @@ export default async function BlogIndexPage({ params }: Props) {
       />
 
       <h1 className="text-4xl font-extrabold text-gray-900 mb-2">{ui.h1}</h1>
+      <p className="text-sm mb-3">
+        <time dateTime="2026-08-14" className="bg-amber-100 text-amber-800 font-semibold px-2.5 py-1 rounded">
+          {isEs ? "Actualizado: 14 de agosto de 2026" : "Last Updated: August 14, 2026"}
+        </time>
+      </p>
       <p className="text-xl text-gray-600 mb-4">{ui.intro}</p>
       <p className="text-gray-600 mb-10 max-w-3xl">{ui.editorialIntro}</p>
 

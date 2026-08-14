@@ -212,10 +212,12 @@ export default async function InsuranceClaimRestorationHoustonPage({ params }: P
           ? "Reclamos de Seguro por Restauración en Houston: La Guía Completa"
           : "Insurance Claims for Restoration in Houston: The Complete Guide"}
       </h1>
-      <p className="text-gray-500 text-sm mb-4">
-        {isEs
-          ? `Actualizado: ${new Date().toLocaleDateString("es-US", { month: "long", year: "numeric" })}`
-          : `Updated: ${new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" })}`} &middot; Marcus Chen
+      <p className="text-sm mb-4 flex items-center gap-2 flex-wrap">
+        <time dateTime="2026-08-14" className="bg-amber-100 text-amber-800 font-semibold px-2.5 py-1 rounded">
+          {isEs ? "Actualizado: 14 de agosto de 2026" : "Last Updated: August 14, 2026"}
+        </time>
+        <span className="text-gray-400">&middot;</span>
+        <span className="text-gray-500">Marcus Chen</span>
       </p>
 
       <QuickAnswer
